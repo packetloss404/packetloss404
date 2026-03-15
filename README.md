@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  Building <a href="https://github.com/packetloss404/packetcode">Building PacketCode — an AI-assisted development workspace that unifies Claude Code and OpenAI Codex CLI into a multi-pane environment with session management, issue tracking, GitHub integration, persistent memory, configurable agent profiles, MCP server management, project scaffolding, and deployment workflows.<br>
-  Interested in Building in Puiblic? </a>
+  Building <a href="https://github.com/packetloss404/packetcode">Building PacketCode </a>— an AI-assisted development workspace that unifies Claude Code and OpenAI Codex CLI into a multi-pane environment with session management, issue tracking, GitHub integration, persistent memory, configurable agent profiles, MCP server management, project scaffolding, and deployment workflows.<br>
+  Interested in Building in Puiblic?
 </p>
 
 <p align="center">
