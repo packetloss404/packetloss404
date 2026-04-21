@@ -7,12 +7,12 @@
 </p>
 
 <p align="center">
-  Building <a href="https://github.com/packetloss404/packetcode">PacketCode</a> — complete AI coding IDE with tons of features.<br>
-  Interested in Building in Puiblic?
+  Building <a href="https://github.com/packetloss404/packetcode">PacketADE</a> — AI-assisted development workspace that unifies Claude Code and OpenAI Codex CLI into a multi-pane environment with session management, issue tracking, GitHub integration, persistent memory, configurable agent profiles, MCP server management, project scaffolding, and deployment workflows and <a href="https://github.com/packetloss404/packetcode">packetcode - A keyboard-first, multi-provider AI coding agent for the terminal.<br>
+  Focused on agent-driven developer workflows, self-hosted LLM infrastructure, and rapid prototyping of AI productivity tools.
 </p>
 
 <p align="center">
   <a href="https://www.youtube.com/@packetloss404">📺 YouTube</a> ·
   <a href="https://discord.gg/eygyg7pQ">💬 Discord</a> ·
-  <a href="https://www.ianlan.dev">🌐 ianlan.dev</a>
+  <a href="https://creditquest.packetloss404.com">🌐 Credit Quest </a>
 </p>
