@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  Building <a href="https://github.com/packetloss404/packetcode">PacketADE</a> — AI-assisted development workspace that unifies Claude Code and OpenAI Codex CLI into a multi-pane environment with session management, issue tracking, GitHub integration, persistent memory, configurable agent profiles, MCP server management, project scaffolding, and deployment workflows and <a href="https://github.com/packetloss404/packetcode">packetcode - A keyboard-first, multi-provider AI coding agent for the terminal.<br>
+  Building <a href="https://github.com/packetloss404/packetcode">PacketADE</a> — AI-assisted development workspace that unifies Claude Code and OpenAI Codex CLI into a multi-pane environment with session management, issue tracking, GitHub integration, persistent memory, configurable agent profiles, MCP server management, project scaffolding, and deployment workflows and <a href="https://github.com/packetloss404/packetcode">packetcode</a> — a keyboard-first, multi-provider AI coding agent for the terminal.<br>
   Focused on agent-driven developer workflows, self-hosted LLM infrastructure, and rapid prototyping of AI productivity tools.
 </p>
 
