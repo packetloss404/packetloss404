@@ -62,7 +62,7 @@ function formatProjects(projects) {
 
 function formatStatus(s) {
   if (!s || !s.now) return '<sub><em>Status not set.</em></sub>';
-  let out = `> \`${escapeMdText(s.now)}\``;
+  let out = `> ${s.now}`;
   if (Array.isArray(s.links) && s.links.length) {
     const links = s.links.map((l) => `[${l.label}](${l.url})`).join(' · ');
     out += `\n>\n> ${links}`;

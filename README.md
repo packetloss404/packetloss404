@@ -10,7 +10,7 @@ packetloss404@void:~$ whoami
 
 ## currently building
 
-> `PacketADE — stitching Claude Code + Codex CLI into a single multi-pane workspace`
+> Shipping across a stack of agent-driven tools — **PacketADE** stitches Claude Code + Codex CLI into a single multi-pane workspace, **packetcode** is the keyboard-first terminal coding agent behind it, **vibesocial** and **vibebbs** experiment with community infra for the streamer / BBS crowd, **taskloom** is the lightweight task engine holding it all together, and **mc-server-bot** keeps the self-hosted Minecraft fleet running.
 >
 > [PacketADE](https://github.com/packetloss404/packetade) · [packetcode](https://github.com/packetloss404/packetcode) · [vibesocial](https://github.com/packetloss404/vibesocial) · [taskloom](https://github.com/packetloss404/taskloom) · [mc-server-bot](https://github.com/packetloss404/mc-server-bot) · [vibebbs](https://github.com/packetloss404/vibebbs)
 

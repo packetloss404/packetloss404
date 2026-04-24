@@ -1,5 +1,5 @@
 {
-  "now": "PacketADE — stitching Claude Code + Codex CLI into a single multi-pane workspace",
+  "now": "Shipping across a stack of agent-driven tools — **PacketADE** stitches Claude Code + Codex CLI into a single multi-pane workspace, **packetcode** is the keyboard-first terminal coding agent behind it, **vibesocial** and **vibebbs** experiment with community infra for the streamer / BBS crowd, **taskloom** is the lightweight task engine holding it all together, and **mc-server-bot** keeps the self-hosted Minecraft fleet running.",
   "links": [
     { "label": "PacketADE", "url": "https://github.com/packetloss404/packetade" },
     { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
