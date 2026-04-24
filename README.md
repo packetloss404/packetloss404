@@ -12,7 +12,7 @@ packetloss404@void:~$ whoami
 
 > `PacketADE — stitching Claude Code + Codex CLI into a single multi-pane workspace`
 >
-> [PacketADE](https://github.com/packetloss404/packetade) · [packetcode](https://github.com/packetloss404/packetcode)
+> [PacketADE](https://github.com/packetloss404/packetade) · [packetcode](https://github.com/packetloss404/packetcode) · [vibesocial](https://github.com/packetloss404/vibesocial) · [taskloom](https://github.com/packetloss404/taskloom) · [mc-server-bot](https://github.com/packetloss404/mc-server-bot)
 
 ## projects
 

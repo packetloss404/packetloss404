@@ -2,6 +2,9 @@
   "now": "PacketADE — stitching Claude Code + Codex CLI into a single multi-pane workspace",
   "links": [
     { "label": "PacketADE", "url": "https://github.com/packetloss404/packetade" },
-    { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" }
+    { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
+    { "label": "vibesocial", "url": "https://github.com/packetloss404/vibesocial" },
+    { "label": "taskloom", "url": "https://github.com/packetloss404/taskloom" },
+    { "label": "mc-server-bot", "url": "https://github.com/packetloss404/mc-server-bot" }
   ]
 }
