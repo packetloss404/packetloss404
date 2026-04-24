@@ -1,0 +1,37 @@
+[
+  {
+    "repo": "packetloss404/vellum",
+    "message": "readme: drop .md references from hackathon reviewers section",
+    "sha": "8e4f0ad",
+    "date": "2026-04-24T21:49:38Z",
+    "url": "https://github.com/packetloss404/vellum/commit/8e4f0ad5922c75c6764a10f508f9f42f37aa8395"
+  },
+  {
+    "repo": "packetloss404/vellum",
+    "message": "day4: hackathon landing page, stress fixture fixes, working-tree sweep",
+    "sha": "16d4b35",
+    "date": "2026-04-24T21:44:56Z",
+    "url": "https://github.com/packetloss404/vellum/commit/16d4b3559de19ed963ad11bfdd584dd4bcd99a5a"
+  },
+  {
+    "repo": "packetloss404/vibesocial",
+    "message": "Replace favicon with the navbar logo mark",
+    "sha": "2b313be",
+    "date": "2026-04-24T20:40:36Z",
+    "url": "https://github.com/packetloss404/vibesocial/commit/2b313be631e13d4d270fb3deff4346e1dd982a78"
+  },
+  {
+    "repo": "packetloss404/vibesocial",
+    "message": "Make live detection stickier: check top 5 uploads + 5-min grace window",
+    "sha": "3c575ec",
+    "date": "2026-04-24T20:38:00Z",
+    "url": "https://github.com/packetloss404/vibesocial/commit/3c575ec1d9acf608f18d490bd5e99a0a4740b69a"
+  },
+  {
+    "repo": "packetloss404/vibesocial",
+    "message": "Add Tommy Yip to the streamer directory",
+    "sha": "a30819b",
+    "date": "2026-04-24T20:32:55Z",
+    "url": "https://github.com/packetloss404/vibesocial/commit/a30819b262e1d336bd61902cd71cfb45f89aa396"
+  }
+]

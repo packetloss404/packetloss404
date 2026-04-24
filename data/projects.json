@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "packetade",
+    "title": "PacketADE",
+    "subtitle": "AI dev workspace unifying Claude Code + Codex CLI",
+    "tags": ["AGENTIC", "MULTI-PANE", "MCP"],
+    "url": "https://github.com/packetloss404/packetade",
+    "repo": "packetloss404/packetade",
+    "accent": "screenGlow"
+  },
+  {
+    "slug": "packetcode",
+    "title": "packetcode",
+    "subtitle": "Keyboard-first multi-provider AI coding agent",
+    "tags": ["TERMINAL", "MULTI-LLM", "CLI"],
+    "url": "https://github.com/packetloss404/packetcode",
+    "repo": "packetloss404/packetcode",
+    "accent": "screenBlue"
+  },
+  {
+    "slug": "creditquest",
+    "title": "Credit Quest",
+    "subtitle": "Self-hosted credit intelligence playground",
+    "tags": ["WEB", "SELF-HOSTED", "FINTECH"],
+    "url": "https://creditquest.packetloss404.com",
+    "repo": null,
+    "accent": "screenPurple"
+  }
+]
