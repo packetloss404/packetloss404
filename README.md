@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="packetloss404.png" alt="packetloss404 — agentic battle station" width="100%"/>
+  <img src="packetloss404.jpg" alt="packetloss404 — agentic battle station" width="100%"/>
 </p>
 
 ```
