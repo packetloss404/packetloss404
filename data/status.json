@@ -5,6 +5,7 @@
     { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
     { "label": "vibesocial", "url": "https://github.com/packetloss404/vibesocial" },
     { "label": "taskloom", "url": "https://github.com/packetloss404/taskloom" },
-    { "label": "mc-server-bot", "url": "https://github.com/packetloss404/mc-server-bot" }
+    { "label": "mc-server-bot", "url": "https://github.com/packetloss404/mc-server-bot" },
+    { "label": "vibebbs", "url": "https://github.com/packetloss404/vibebbs" }
   ]
 }
