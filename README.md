@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> self-hosted, self-directed
+> tools that make more tools
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `vellum` — [readme: drop .md references from hackathon reviewers section](https://github.com/packetloss404/vellum/commit/8e4f0ad5922c75c6764a10f508f9f42f37aa8395) <sub>· 2026-04-24</sub>
-- `vellum` — [day4: hackathon landing page, stress fixture fixes, working-tree sweep](https://github.com/packetloss404/vellum/commit/16d4b3559de19ed963ad11bfdd584dd4bcd99a5a) <sub>· 2026-04-24</sub>
-- `vibesocial` — [Replace favicon with the navbar logo mark](https://github.com/packetloss404/vibesocial/commit/2b313be631e13d4d270fb3deff4346e1dd982a78) <sub>· 2026-04-24</sub>
-- `vibesocial` — [Make live detection stickier: check top 5 uploads + 5-min grace window](https://github.com/packetloss404/vibesocial/commit/3c575ec1d9acf608f18d490bd5e99a0a4740b69a) <sub>· 2026-04-24</sub>
-- `vibesocial` — [Add Tommy Yip to the streamer directory](https://github.com/packetloss404/vibesocial/commit/a30819b262e1d336bd61902cd71cfb45f89aa396) <sub>· 2026-04-24</sub>
+- `vellum` — [docs: add inline-SVG favicon to landing page](https://github.com/packetloss404/vellum/commit/f854f041cc78b8e3c8fa98708898499ebcee6ac1) <sub>· 2026-04-24</sub>
+- `packetloss404` — [Swap banner to packetloss404.jpg](https://github.com/packetloss404/packetloss404/commit/53def5e83dedfd6263a485903b3ad40de9dad524) <sub>· 2026-04-24</sub>
+- `packetloss404` — [Rework 'currently building' as a paragraph covering the full active stack](https://github.com/packetloss404/packetloss404/commit/e6951e81947ed4fbfb8e022ac89927276bc4a81a) <sub>· 2026-04-24</sub>
+- `packetloss404` — [Add vibebbs to currently building](https://github.com/packetloss404/packetloss404/commit/475f2f18eb0a923314e2ef911b91b2abfc1cb928) <sub>· 2026-04-24</sub>
+- `packetloss404` — [Add vibesocial, taskloom, mc-server-bot to currently building](https://github.com/packetloss404/packetloss404/commit/31b65c106501cf3cca0b0cef073b5f66f55d1d73) <sub>· 2026-04-24</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-04-24</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-04-25</code> · auto-built from <code>templates/README.template.md</code></sub></p>
