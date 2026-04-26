@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> tools that make more tools
+> multi-pane, multi-provider, minimum friction
 ```
 
 ## currently building
@@ -27,16 +27,16 @@ packetloss404@void:~$ whoami
 ## latest from the lab
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=6zTcqVDZe3c"><img src="https://i3.ytimg.com/vi/6zTcqVDZe3c/hqdefault.jpg" alt="Day .5 of Vibe Coding (Enjoying the Vibe, Setting Up)" width="360"/></a><br><sub>Day .5 of Vibe Coding (Enjoying the Vibe, Setting Up)</sub>
+<sub><em>No recent uploads visible.</em></sub>
 </p>
 
 ## recent shipments
 
+- `vibehack` — [Focus Vibehack on contest workflows](https://github.com/packetloss404/vibehack/commit/fd82f07bb93fc6a0b5513dfe9060f5c050b19f9c) <sub>· 2026-04-26</sub>
 - `vellum` — [docs: add inline-SVG favicon to landing page](https://github.com/packetloss404/vellum/commit/f854f041cc78b8e3c8fa98708898499ebcee6ac1) <sub>· 2026-04-24</sub>
 - `packetloss404` — [Swap banner to packetloss404.jpg](https://github.com/packetloss404/packetloss404/commit/53def5e83dedfd6263a485903b3ad40de9dad524) <sub>· 2026-04-24</sub>
 - `packetloss404` — [Rework 'currently building' as a paragraph covering the full active stack](https://github.com/packetloss404/packetloss404/commit/e6951e81947ed4fbfb8e022ac89927276bc4a81a) <sub>· 2026-04-24</sub>
 - `packetloss404` — [Add vibebbs to currently building](https://github.com/packetloss404/packetloss404/commit/475f2f18eb0a923314e2ef911b91b2abfc1cb928) <sub>· 2026-04-24</sub>
-- `packetloss404` — [Add vibesocial, taskloom, mc-server-bot to currently building](https://github.com/packetloss404/packetloss404/commit/31b65c106501cf3cca0b0cef073b5f66f55d1d73) <sub>· 2026-04-24</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-04-25</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-04-26</code> · auto-built from <code>templates/README.template.md</code></sub></p>

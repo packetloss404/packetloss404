@@ -1,5 +1,12 @@
 [
   {
+    "repo": "packetloss404/vibehack",
+    "message": "Focus Vibehack on contest workflows",
+    "sha": "fd82f07",
+    "date": "2026-04-26T06:55:07Z",
+    "url": "https://github.com/packetloss404/vibehack/commit/fd82f07bb93fc6a0b5513dfe9060f5c050b19f9c"
+  },
+  {
     "repo": "packetloss404/vellum",
     "message": "docs: add inline-SVG favicon to landing page",
     "sha": "f854f04",
@@ -26,12 +33,5 @@
     "sha": "475f2f1",
     "date": "2026-04-24T22:36:02Z",
     "url": "https://github.com/packetloss404/packetloss404/commit/475f2f18eb0a923314e2ef911b91b2abfc1cb928"
-  },
-  {
-    "repo": "packetloss404/packetloss404",
-    "message": "Add vibesocial, taskloom, mc-server-bot to currently building",
-    "sha": "31b65c1",
-    "date": "2026-04-24T22:35:23Z",
-    "url": "https://github.com/packetloss404/packetloss404/commit/31b65c106501cf3cca0b0cef073b5f66f55d1d73"
   }
 ]
