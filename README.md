@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> multi-pane, multi-provider, minimum friction
+> LLMs are the new stdin
 ```
 
 ## currently building
@@ -27,16 +27,16 @@ packetloss404@void:~$ whoami
 ## latest from the lab
 
 <p align="center">
-<sub><em>No recent uploads visible.</em></sub>
+<a href="https://www.youtube.com/watch?v=tB2kS0MhOb0"><img src="https://i1.ytimg.com/vi/tB2kS0MhOb0/hqdefault.jpg" alt="Vellum — Built with Claude Opus 4.7 (Cerebral Valley Hackathon 2026)" width="360"/></a><br><sub>Vellum — Built with Claude Opus 4.7 (Cerebral Valley Hackathon 2026)</sub>
 </p>
 
 ## recent shipments
 
-- `vibehack` — [Focus Vibehack on contest workflows](https://github.com/packetloss404/vibehack/commit/fd82f07bb93fc6a0b5513dfe9060f5c050b19f9c) <sub>· 2026-04-26</sub>
-- `vellum` — [docs: add inline-SVG favicon to landing page](https://github.com/packetloss404/vellum/commit/f854f041cc78b8e3c8fa98708898499ebcee6ac1) <sub>· 2026-04-24</sub>
-- `packetloss404` — [Swap banner to packetloss404.jpg](https://github.com/packetloss404/packetloss404/commit/53def5e83dedfd6263a485903b3ad40de9dad524) <sub>· 2026-04-24</sub>
-- `packetloss404` — [Rework 'currently building' as a paragraph covering the full active stack](https://github.com/packetloss404/packetloss404/commit/e6951e81947ed4fbfb8e022ac89927276bc4a81a) <sub>· 2026-04-24</sub>
-- `packetloss404` — [Add vibebbs to currently building](https://github.com/packetloss404/packetloss404/commit/475f2f18eb0a923314e2ef911b91b2abfc1cb928) <sub>· 2026-04-24</sub>
+- `vellum` — [fixtures: add stress2/3/4 routes via shared FixtureHost, prune submission docs](https://github.com/packetloss404/vellum/commit/577c8edaecb1fde42296d8840f3c4e8e2d549733) <sub>· 2026-04-26</sub>
+- `taskloom` — [Add Phase 10 activation signal hardening](https://github.com/packetloss404/taskloom/commit/77ea46704302be29074aad4294a681d23f1e554d) <sub>· 2026-04-26</sub>
+- `taskloom` — [Add Phase 7: route-level RBAC enforcement](https://github.com/packetloss404/taskloom/commit/ddd06ad6156111487c505a4e3b0766c29aec8c34) <sub>· 2026-04-26</sub>
+- `taskloom` — [Add Phase 6: dev and release hygiene](https://github.com/packetloss404/taskloom/commit/84b2d9d783ae0f865b1262efcac9580cf941562a) <sub>· 2026-04-26</sub>
+- `taskloom` — [Add Phase 5: product workflow expansion](https://github.com/packetloss404/taskloom/commit/7d73dc98a3c1f54da635f236bbcac7feea4fcc36) <sub>· 2026-04-26</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-04-26</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-04-27</code> · auto-built from <code>templates/README.template.md</code></sub></p>

@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/vibehack",
-    "message": "Focus Vibehack on contest workflows",
-    "sha": "fd82f07",
-    "date": "2026-04-26T06:55:07Z",
-    "url": "https://github.com/packetloss404/vibehack/commit/fd82f07bb93fc6a0b5513dfe9060f5c050b19f9c"
-  },
-  {
     "repo": "packetloss404/vellum",
-    "message": "docs: add inline-SVG favicon to landing page",
-    "sha": "f854f04",
-    "date": "2026-04-24T23:02:56Z",
-    "url": "https://github.com/packetloss404/vellum/commit/f854f041cc78b8e3c8fa98708898499ebcee6ac1"
+    "message": "fixtures: add stress2/3/4 routes via shared FixtureHost, prune submission docs",
+    "sha": "577c8ed",
+    "date": "2026-04-26T22:45:33Z",
+    "url": "https://github.com/packetloss404/vellum/commit/577c8edaecb1fde42296d8840f3c4e8e2d549733"
   },
   {
-    "repo": "packetloss404/packetloss404",
-    "message": "Swap banner to packetloss404.jpg",
-    "sha": "53def5e",
-    "date": "2026-04-24T22:39:58Z",
-    "url": "https://github.com/packetloss404/packetloss404/commit/53def5e83dedfd6263a485903b3ad40de9dad524"
+    "repo": "packetloss404/taskloom",
+    "message": "Add Phase 10 activation signal hardening",
+    "sha": "77ea467",
+    "date": "2026-04-26T19:13:26Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/77ea46704302be29074aad4294a681d23f1e554d"
   },
   {
-    "repo": "packetloss404/packetloss404",
-    "message": "Rework 'currently building' as a paragraph covering the full active stack",
-    "sha": "e6951e8",
-    "date": "2026-04-24T22:36:52Z",
-    "url": "https://github.com/packetloss404/packetloss404/commit/e6951e81947ed4fbfb8e022ac89927276bc4a81a"
+    "repo": "packetloss404/taskloom",
+    "message": "Add Phase 7: route-level RBAC enforcement",
+    "sha": "ddd06ad",
+    "date": "2026-04-26T16:42:15Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/ddd06ad6156111487c505a4e3b0766c29aec8c34"
   },
   {
-    "repo": "packetloss404/packetloss404",
-    "message": "Add vibebbs to currently building",
-    "sha": "475f2f1",
-    "date": "2026-04-24T22:36:02Z",
-    "url": "https://github.com/packetloss404/packetloss404/commit/475f2f18eb0a923314e2ef911b91b2abfc1cb928"
+    "repo": "packetloss404/taskloom",
+    "message": "Add Phase 6: dev and release hygiene",
+    "sha": "84b2d9d",
+    "date": "2026-04-26T16:28:01Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/84b2d9d783ae0f865b1262efcac9580cf941562a"
+  },
+  {
+    "repo": "packetloss404/taskloom",
+    "message": "Add Phase 5: product workflow expansion",
+    "sha": "7d73dc9",
+    "date": "2026-04-26T16:17:51Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/7d73dc98a3c1f54da635f236bbcac7feea4fcc36"
   }
 ]
