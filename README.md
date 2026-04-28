@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> LLMs are the new stdin
+> agents in, packets out
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
+- `taskloom` — [Retire activation signal SQLite mirror](https://github.com/packetloss404/taskloom/commit/d1ce43792fec2cd723b715a839534715e68f5cbd) <sub>· 2026-04-27</sub>
+- `PacketADE` — [feat(agents): Cursor-style pane redesign + soft Workspace binding](https://github.com/packetloss404/PacketADE/commit/02655fa450bd0060d7a55d9b8c83c3e2be16534a) <sub>· 2026-04-27</sub>
+- `taskloom` — [Add Phase 36 relational repository for invitation email deliveries](https://github.com/packetloss404/taskloom/commit/aae1653229a41e2c5345c50830dfb10b32134681) <sub>· 2026-04-27</sub>
 - `vellum` — [fixtures: add stress2/3/4 routes via shared FixtureHost, prune submission docs](https://github.com/packetloss404/vellum/commit/577c8edaecb1fde42296d8840f3c4e8e2d549733) <sub>· 2026-04-26</sub>
 - `taskloom` — [Add Phase 10 activation signal hardening](https://github.com/packetloss404/taskloom/commit/77ea46704302be29074aad4294a681d23f1e554d) <sub>· 2026-04-26</sub>
-- `taskloom` — [Add Phase 7: route-level RBAC enforcement](https://github.com/packetloss404/taskloom/commit/ddd06ad6156111487c505a4e3b0766c29aec8c34) <sub>· 2026-04-26</sub>
-- `taskloom` — [Add Phase 6: dev and release hygiene](https://github.com/packetloss404/taskloom/commit/84b2d9d783ae0f865b1262efcac9580cf941562a) <sub>· 2026-04-26</sub>
-- `taskloom` — [Add Phase 5: product workflow expansion](https://github.com/packetloss404/taskloom/commit/7d73dc98a3c1f54da635f236bbcac7feea4fcc36) <sub>· 2026-04-26</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-04-27</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-04-28</code> · auto-built from <code>templates/README.template.md</code></sub></p>
