@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> agents in, packets out
+> building the stack that builds the stack
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `taskloom` — [Retire activation signal SQLite mirror](https://github.com/packetloss404/taskloom/commit/d1ce43792fec2cd723b715a839534715e68f5cbd) <sub>· 2026-04-27</sub>
-- `PacketADE` — [feat(agents): Cursor-style pane redesign + soft Workspace binding](https://github.com/packetloss404/PacketADE/commit/02655fa450bd0060d7a55d9b8c83c3e2be16534a) <sub>· 2026-04-27</sub>
-- `taskloom` — [Add Phase 36 relational repository for invitation email deliveries](https://github.com/packetloss404/taskloom/commit/aae1653229a41e2c5345c50830dfb10b32134681) <sub>· 2026-04-27</sub>
-- `vellum` — [fixtures: add stress2/3/4 routes via shared FixtureHost, prune submission docs](https://github.com/packetloss404/vellum/commit/577c8edaecb1fde42296d8840f3c4e8e2d549733) <sub>· 2026-04-26</sub>
-- `taskloom` — [Add Phase 10 activation signal hardening](https://github.com/packetloss404/taskloom/commit/77ea46704302be29074aad4294a681d23f1e554d) <sub>· 2026-04-26</sub>
+- `v0-paperdrive` — [Load library directly from Vercel Blob records](https://github.com/packetloss404/v0-paperdrive/commit/538402b4df646af6796dd673c371599eb6ccdf82) <sub>· 2026-04-28</sub>
+- `v0-paperdrive` — [Keep users on home page while PDF is processed](https://github.com/packetloss404/v0-paperdrive/commit/89e300a44ae48b02edd359f74d7db9ec9e961b62) <sub>· 2026-04-28</sub>
+- `v0-paperdrive` — [Use stable blob keys and private blob reads](https://github.com/packetloss404/v0-paperdrive/commit/99e51f90cd1bcc78cbbc5e919ef565762f13fc23) <sub>· 2026-04-28</sub>
+- `v0-paperdrive` — [Allow overwriting blob-backed JSON records](https://github.com/packetloss404/v0-paperdrive/commit/99455c63f95c3ef23803e0aa66222f9f70887ce0) <sub>· 2026-04-28</sub>
+- `v0-paperdrive` — [Fix AI provider wiring and surface book processing errors](https://github.com/packetloss404/v0-paperdrive/commit/59c22a08cee67a4f07f655186ced0507b0e8e037) <sub>· 2026-04-28</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-04-28</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-04-29</code> · auto-built from <code>templates/README.template.md</code></sub></p>
