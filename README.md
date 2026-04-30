@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> building the stack that builds the stack
+> 404 loss · 200 OK vibes
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `v0-paperdrive` — [Load library directly from Vercel Blob records](https://github.com/packetloss404/v0-paperdrive/commit/538402b4df646af6796dd673c371599eb6ccdf82) <sub>· 2026-04-28</sub>
-- `v0-paperdrive` — [Keep users on home page while PDF is processed](https://github.com/packetloss404/v0-paperdrive/commit/89e300a44ae48b02edd359f74d7db9ec9e961b62) <sub>· 2026-04-28</sub>
-- `v0-paperdrive` — [Use stable blob keys and private blob reads](https://github.com/packetloss404/v0-paperdrive/commit/99e51f90cd1bcc78cbbc5e919ef565762f13fc23) <sub>· 2026-04-28</sub>
-- `v0-paperdrive` — [Allow overwriting blob-backed JSON records](https://github.com/packetloss404/v0-paperdrive/commit/99455c63f95c3ef23803e0aa66222f9f70887ce0) <sub>· 2026-04-28</sub>
-- `v0-paperdrive` — [Fix AI provider wiring and surface book processing errors](https://github.com/packetloss404/v0-paperdrive/commit/59c22a08cee67a4f07f655186ced0507b0e8e037) <sub>· 2026-04-28</sub>
+- `v0-paperdrive` — [Rename to PaperScout and add citation intelligence](https://github.com/packetloss404/v0-paperdrive/commit/f6ff8c72e6f47b68df4fea1a17f9aad86c8586cb) <sub>· 2026-04-30</sub>
+- `v0-paperdrive` — [Pivot PaperDrive to research intelligence with outbound trails](https://github.com/packetloss404/v0-paperdrive/commit/9b4a2180bb694a990a0108cdaf641bf540e4f1d8) <sub>· 2026-04-30</sub>
+- `v0-paperdrive` — [Add study-edition AI output and premium reader design](https://github.com/packetloss404/v0-paperdrive/commit/45e3b8f280e52c091e966732dbe8ace26f321acc) <sub>· 2026-04-29</sub>
+- `v0-paperdrive` — [Remove Vercel Blob dependency and store books locally](https://github.com/packetloss404/v0-paperdrive/commit/4ba81cabe12f83a6bd954f3d5c28989482a8319a) <sub>· 2026-04-29</sub>
+- `v0-paperdrive` — [Add JSON export and import flow](https://github.com/packetloss404/v0-paperdrive/commit/91780eb87793a48884b00b799e0c22a1cb7ed7b7) <sub>· 2026-04-29</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-04-29</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-04-30</code> · auto-built from <code>templates/README.template.md</code></sub></p>

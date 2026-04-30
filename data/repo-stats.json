@@ -3,12 +3,12 @@
     "stars": 0,
     "forks": 0,
     "description": "PacketCode wraps Claude Code, Codex, Gemini, and OpenCode into a native multi-pane workspace with agent profiles, GitHub integration, and persistent memory — so your AI sessions get smarter over time.",
-    "updated": "2026-04-29T07:09:02.355Z"
+    "updated": "2026-04-30T07:11:52.179Z"
   },
   "packetloss404/packetcode": {
     "stars": 0,
     "forks": 0,
     "description": "A keyboard-first, multi-provider AI coding agent for the terminal. Lives in your terminal and talks to five LLM providers behind a single unified interface. It can read, edit, patch, search, and execute against your project",
-    "updated": "2026-04-29T07:09:02.565Z"
+    "updated": "2026-04-30T07:11:52.564Z"
   }
 }
