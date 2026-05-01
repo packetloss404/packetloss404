@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> 404 loss · 200 OK vibes
+> keyboard > mouse > mouse-wheel > touchpad > scream
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
+- `PacketADE` — [feat(ui): apply PacketADE Designs handoff — Graphite theme + new shell](https://github.com/packetloss404/PacketADE/commit/630c6f4fb43b683a0ddac01522dbd36958f02e84) <sub>· 2026-05-01</sub>
+- `v0-paperdrive` — [Add Scout Board investigation workflow](https://github.com/packetloss404/v0-paperdrive/commit/f840c8ea2d0cc9119b41a9eb9fb0c41687a08e4f) <sub>· 2026-04-30</sub>
 - `v0-paperdrive` — [Rename to PaperScout and add citation intelligence](https://github.com/packetloss404/v0-paperdrive/commit/f6ff8c72e6f47b68df4fea1a17f9aad86c8586cb) <sub>· 2026-04-30</sub>
 - `v0-paperdrive` — [Pivot PaperDrive to research intelligence with outbound trails](https://github.com/packetloss404/v0-paperdrive/commit/9b4a2180bb694a990a0108cdaf641bf540e4f1d8) <sub>· 2026-04-30</sub>
 - `v0-paperdrive` — [Add study-edition AI output and premium reader design](https://github.com/packetloss404/v0-paperdrive/commit/45e3b8f280e52c091e966732dbe8ace26f321acc) <sub>· 2026-04-29</sub>
-- `v0-paperdrive` — [Remove Vercel Blob dependency and store books locally](https://github.com/packetloss404/v0-paperdrive/commit/4ba81cabe12f83a6bd954f3d5c28989482a8319a) <sub>· 2026-04-29</sub>
-- `v0-paperdrive` — [Add JSON export and import flow](https://github.com/packetloss404/v0-paperdrive/commit/91780eb87793a48884b00b799e0c22a1cb7ed7b7) <sub>· 2026-04-29</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-04-30</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-01</code> · auto-built from <code>templates/README.template.md</code></sub></p>

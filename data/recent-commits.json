@@ -1,5 +1,19 @@
 [
   {
+    "repo": "packetloss404/PacketADE",
+    "message": "feat(ui): apply PacketADE Designs handoff — Graphite theme + new shell",
+    "sha": "630c6f4",
+    "date": "2026-05-01T04:13:10Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/630c6f4fb43b683a0ddac01522dbd36958f02e84"
+  },
+  {
+    "repo": "packetloss404/v0-paperdrive",
+    "message": "Add Scout Board investigation workflow",
+    "sha": "f840c8e",
+    "date": "2026-04-30T19:35:53Z",
+    "url": "https://github.com/packetloss404/v0-paperdrive/commit/f840c8ea2d0cc9119b41a9eb9fb0c41687a08e4f"
+  },
+  {
     "repo": "packetloss404/v0-paperdrive",
     "message": "Rename to PaperScout and add citation intelligence",
     "sha": "f6ff8c7",
@@ -19,19 +33,5 @@
     "sha": "45e3b8f",
     "date": "2026-04-29T21:38:35Z",
     "url": "https://github.com/packetloss404/v0-paperdrive/commit/45e3b8f280e52c091e966732dbe8ace26f321acc"
-  },
-  {
-    "repo": "packetloss404/v0-paperdrive",
-    "message": "Remove Vercel Blob dependency and store books locally",
-    "sha": "4ba81ca",
-    "date": "2026-04-29T21:12:21Z",
-    "url": "https://github.com/packetloss404/v0-paperdrive/commit/4ba81cabe12f83a6bd954f3d5c28989482a8319a"
-  },
-  {
-    "repo": "packetloss404/v0-paperdrive",
-    "message": "Add JSON export and import flow",
-    "sha": "91780eb",
-    "date": "2026-04-29T21:06:20Z",
-    "url": "https://github.com/packetloss404/v0-paperdrive/commit/91780eb87793a48884b00b799e0c22a1cb7ed7b7"
   }
 ]
