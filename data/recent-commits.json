@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "feat(ui): apply PacketADE Designs handoff — Graphite theme + new shell",
-    "sha": "630c6f4",
-    "date": "2026-05-01T04:13:10Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/630c6f4fb43b683a0ddac01522dbd36958f02e84"
+    "repo": "packetloss404/taskloom",
+    "message": "Complete Phase 63 distributed dependency enforcement",
+    "sha": "0ce9815",
+    "date": "2026-05-01T23:45:00Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/0ce9815ea684dd5350d3f86f33efbff7cb5f9cc0"
   },
   {
-    "repo": "packetloss404/v0-paperdrive",
-    "message": "Add Scout Board investigation workflow",
-    "sha": "f840c8e",
-    "date": "2026-04-30T19:35:53Z",
-    "url": "https://github.com/packetloss404/v0-paperdrive/commit/f840c8ea2d0cc9119b41a9eb9fb0c41687a08e4f"
+    "repo": "packetloss404/taskloom",
+    "message": "Complete Phase 62 horizontal writer hardening",
+    "sha": "b9983f8",
+    "date": "2026-05-01T21:19:04Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/b9983f817571e5097cfc01385abcc46ab2f0a8b7"
   },
   {
-    "repo": "packetloss404/v0-paperdrive",
-    "message": "Rename to PaperScout and add citation intelligence",
-    "sha": "f6ff8c7",
-    "date": "2026-04-30T01:03:22Z",
-    "url": "https://github.com/packetloss404/v0-paperdrive/commit/f6ff8c72e6f47b68df4fea1a17f9aad86c8586cb"
+    "repo": "packetloss404/taskloom",
+    "message": "Complete Phase 61 runtime activation controls",
+    "sha": "0c383c1",
+    "date": "2026-05-01T20:41:53Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/0c383c1439469709b8ee3af47bda9c71254a3127"
   },
   {
-    "repo": "packetloss404/v0-paperdrive",
-    "message": "Pivot PaperDrive to research intelligence with outbound trails",
-    "sha": "9b4a218",
-    "date": "2026-04-30T00:46:14Z",
-    "url": "https://github.com/packetloss404/v0-paperdrive/commit/9b4a2180bb694a990a0108cdaf641bf540e4f1d8"
+    "repo": "packetloss404/taskloom",
+    "message": "Plan final completion phases",
+    "sha": "d5c3f5a",
+    "date": "2026-05-01T18:16:33Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/d5c3f5af72a25dd851339ade06ec28ae8e61fa2b"
   },
   {
-    "repo": "packetloss404/v0-paperdrive",
-    "message": "Add study-edition AI output and premium reader design",
-    "sha": "45e3b8f",
-    "date": "2026-04-29T21:38:35Z",
-    "url": "https://github.com/packetloss404/v0-paperdrive/commit/45e3b8f280e52c091e966732dbe8ace26f321acc"
+    "repo": "packetloss404/taskloom",
+    "message": "Complete Phase 60 runtime support presence gate",
+    "sha": "fe907e7",
+    "date": "2026-05-01T14:18:27Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/fe907e7a3edcce21f063bfe49a424f315360406c"
   }
 ]
