@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/taskloom",
-    "message": "Complete Phase 63 distributed dependency enforcement",
-    "sha": "0ce9815",
-    "date": "2026-05-01T23:45:00Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/0ce9815ea684dd5350d3f86f33efbff7cb5f9cc0"
+    "repo": "packetloss404/tradefarm",
+    "message": "feat(stream): broadcast app — Tauri shell + scene rotator + Web Audio",
+    "sha": "a34676c",
+    "date": "2026-05-02T23:33:08Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/a34676c6bac9f7200848f714f3afbc0ca68360fd"
+  },
+  {
+    "repo": "packetloss404/ChatMax",
+    "message": "Fix startup route and tray icon",
+    "sha": "872ef25",
+    "date": "2026-05-02T23:31:58Z",
+    "url": "https://github.com/packetloss404/ChatMax/commit/872ef254d57857ff7c4e46d26674f096a566654b"
   },
   {
     "repo": "packetloss404/taskloom",
-    "message": "Complete Phase 62 horizontal writer hardening",
-    "sha": "b9983f8",
-    "date": "2026-05-01T21:19:04Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/b9983f817571e5097cfc01385abcc46ab2f0a8b7"
+    "message": "Complete Phase 66 final release closure",
+    "sha": "be6f8c5",
+    "date": "2026-05-02T21:31:37Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/be6f8c57e9095205b0b2ed689212c1e66f83826e"
   },
   {
-    "repo": "packetloss404/taskloom",
-    "message": "Complete Phase 61 runtime activation controls",
-    "sha": "0c383c1",
-    "date": "2026-05-01T20:41:53Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/0c383c1439469709b8ee3af47bda9c71254a3127"
+    "repo": "packetloss404/verdict",
+    "message": "Remove Evaluate/History tabs from footer",
+    "sha": "cea96ee",
+    "date": "2026-05-02T21:19:21Z",
+    "url": "https://github.com/packetloss404/verdict/commit/cea96eed68bff81b3da3cb6ee5d32eb6d167da2a"
   },
   {
-    "repo": "packetloss404/taskloom",
-    "message": "Plan final completion phases",
-    "sha": "d5c3f5a",
-    "date": "2026-05-01T18:16:33Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/d5c3f5af72a25dd851339ade06ec28ae8e61fa2b"
-  },
-  {
-    "repo": "packetloss404/taskloom",
-    "message": "Complete Phase 60 runtime support presence gate",
-    "sha": "fe907e7",
-    "date": "2026-05-01T14:18:27Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/fe907e7a3edcce21f063bfe49a424f315360406c"
+    "repo": "packetloss404/verdict",
+    "message": "Switch from bun to npm",
+    "sha": "133e44e",
+    "date": "2026-05-02T21:12:18Z",
+    "url": "https://github.com/packetloss404/verdict/commit/133e44ecff2532ee34a056c0fc1a5b2670460103"
   }
 ]

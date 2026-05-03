@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> sleepless in /dev/stdout
+> writing code that writes code that writes code
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `taskloom` — [Complete Phase 63 distributed dependency enforcement](https://github.com/packetloss404/taskloom/commit/0ce9815ea684dd5350d3f86f33efbff7cb5f9cc0) <sub>· 2026-05-01</sub>
-- `taskloom` — [Complete Phase 62 horizontal writer hardening](https://github.com/packetloss404/taskloom/commit/b9983f817571e5097cfc01385abcc46ab2f0a8b7) <sub>· 2026-05-01</sub>
-- `taskloom` — [Complete Phase 61 runtime activation controls](https://github.com/packetloss404/taskloom/commit/0c383c1439469709b8ee3af47bda9c71254a3127) <sub>· 2026-05-01</sub>
-- `taskloom` — [Plan final completion phases](https://github.com/packetloss404/taskloom/commit/d5c3f5af72a25dd851339ade06ec28ae8e61fa2b) <sub>· 2026-05-01</sub>
-- `taskloom` — [Complete Phase 60 runtime support presence gate](https://github.com/packetloss404/taskloom/commit/fe907e7a3edcce21f063bfe49a424f315360406c) <sub>· 2026-05-01</sub>
+- `tradefarm` — [feat(stream): broadcast app — Tauri shell + scene rotator + Web Audio](https://github.com/packetloss404/tradefarm/commit/a34676c6bac9f7200848f714f3afbc0ca68360fd) <sub>· 2026-05-02</sub>
+- `ChatMax` — [Fix startup route and tray icon](https://github.com/packetloss404/ChatMax/commit/872ef254d57857ff7c4e46d26674f096a566654b) <sub>· 2026-05-02</sub>
+- `taskloom` — [Complete Phase 66 final release closure](https://github.com/packetloss404/taskloom/commit/be6f8c57e9095205b0b2ed689212c1e66f83826e) <sub>· 2026-05-02</sub>
+- `verdict` — [Remove Evaluate/History tabs from footer](https://github.com/packetloss404/verdict/commit/cea96eed68bff81b3da3cb6ee5d32eb6d167da2a) <sub>· 2026-05-02</sub>
+- `verdict` — [Switch from bun to npm](https://github.com/packetloss404/verdict/commit/133e44ecff2532ee34a056c0fc1a5b2670460103) <sub>· 2026-05-02</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-02</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-03</code> · auto-built from <code>templates/README.template.md</code></sub></p>
