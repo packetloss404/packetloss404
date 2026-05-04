@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> writing code that writes code that writes code
+> rapid prototyping at compiler-warning speed
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `tradefarm` — [feat(stream): broadcast app — Tauri shell + scene rotator + Web Audio](https://github.com/packetloss404/tradefarm/commit/a34676c6bac9f7200848f714f3afbc0ca68360fd) <sub>· 2026-05-02</sub>
-- `ChatMax` — [Fix startup route and tray icon](https://github.com/packetloss404/ChatMax/commit/872ef254d57857ff7c4e46d26674f096a566654b) <sub>· 2026-05-02</sub>
-- `taskloom` — [Complete Phase 66 final release closure](https://github.com/packetloss404/taskloom/commit/be6f8c57e9095205b0b2ed689212c1e66f83826e) <sub>· 2026-05-02</sub>
-- `verdict` — [Remove Evaluate/History tabs from footer](https://github.com/packetloss404/verdict/commit/cea96eed68bff81b3da3cb6ee5d32eb6d167da2a) <sub>· 2026-05-02</sub>
-- `verdict` — [Switch from bun to npm](https://github.com/packetloss404/verdict/commit/133e44ecff2532ee34a056c0fc1a5b2670460103) <sub>· 2026-05-02</sub>
+- `tradefarm` — [docs: add CHANGELOG.md + ROADMAP.md, sync README architecture tree](https://github.com/packetloss404/tradefarm/commit/038e8b625ec6afe6ac55a229b1f0a73ff3e19bdd) <sub>· 2026-05-04</sub>
+- `PacketADE` — [chore(release): v0.5.0](https://github.com/packetloss404/PacketADE/commit/b9085e9896fed03f610939b4e175c417000774df) <sub>· 2026-05-04</sub>
+- `PacketADE` — [docs: refresh CHANGELOG / README / ROADMAP for the Codex absorption + sidecar fixes](https://github.com/packetloss404/PacketADE/commit/d5e54eac68fd241f504588806d6ddee0bb252bc9) <sub>· 2026-05-04</sub>
+- `PacketADE` — [fix(sidecar): build.rs copies per-triple Node next to standalone exe](https://github.com/packetloss404/PacketADE/commit/8f49083032dad5fcc160edaf1a5f70528d28e7a9) <sub>· 2026-05-04</sub>
+- `PacketADE` — [fix(sidecar): grant \`node\` shell:allow-execute capability so release builds can spawn](https://github.com/packetloss404/PacketADE/commit/74e6ba959111772797a5eb9be6a84e2c9dd31957) <sub>· 2026-05-04</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-03</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-04</code> · auto-built from <code>templates/README.template.md</code></sub></p>
