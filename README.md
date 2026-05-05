@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> rapid prototyping at compiler-warning speed
+> self-hosted because vendor lock-in tastes bad
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
+- `tradefarm` — [feat(dashboard): v2 - sticky header, broadcast panel, tabbed lower row, cmd-K palette](https://github.com/packetloss404/tradefarm/commit/31f5803f6be9254e56434d3fcaec51dfaadb89df) <sub>· 2026-05-04</sub>
+- `taskloom` — [Port web UI to workbench design and add sandboxed code-exec](https://github.com/packetloss404/taskloom/commit/9370d12282e6768a8782f5f04dd0b93e18b85569) <sub>· 2026-05-04</sub>
 - `tradefarm` — [docs: add CHANGELOG.md + ROADMAP.md, sync README architecture tree](https://github.com/packetloss404/tradefarm/commit/038e8b625ec6afe6ac55a229b1f0a73ff3e19bdd) <sub>· 2026-05-04</sub>
 - `PacketADE` — [chore(release): v0.5.0](https://github.com/packetloss404/PacketADE/commit/b9085e9896fed03f610939b4e175c417000774df) <sub>· 2026-05-04</sub>
 - `PacketADE` — [docs: refresh CHANGELOG / README / ROADMAP for the Codex absorption + sidecar fixes](https://github.com/packetloss404/PacketADE/commit/d5e54eac68fd241f504588806d6ddee0bb252bc9) <sub>· 2026-05-04</sub>
-- `PacketADE` — [fix(sidecar): build.rs copies per-triple Node next to standalone exe](https://github.com/packetloss404/PacketADE/commit/8f49083032dad5fcc160edaf1a5f70528d28e7a9) <sub>· 2026-05-04</sub>
-- `PacketADE` — [fix(sidecar): grant \`node\` shell:allow-execute capability so release builds can spawn](https://github.com/packetloss404/PacketADE/commit/74e6ba959111772797a5eb9be6a84e2c9dd31957) <sub>· 2026-05-04</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-04</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-05</code> · auto-built from <code>templates/README.template.md</code></sub></p>
