@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> self-hosted, self-directed
+> tools that make more tools
 ```
 
 ## currently building
@@ -27,7 +27,7 @@ packetloss404@void:~$ whoami
 ## latest from the lab
 
 <p align="center">
-<sub><em>No recent uploads visible.</em></sub>
+<a href="https://www.youtube.com/watch?v=tB2kS0MhOb0"><img src="https://i1.ytimg.com/vi/tB2kS0MhOb0/hqdefault.jpg" alt="Vellum — Built with Claude Opus 4.7 (Cerebral Valley Hackathon 2026)" width="360"/></a><br><sub>Vellum — Built with Claude Opus 4.7 (Cerebral Valley Hackathon 2026)</sub>
 </p>
 
 ## recent shipments
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-08</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-09</code> · auto-built from <code>templates/README.template.md</code></sub></p>
