@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> tools that make more tools
+> multi-pane, multi-provider, minimum friction
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `tradefarm` — [feat(dashboard): v2 - sticky header, broadcast panel, tabbed lower row, cmd-K palette](https://github.com/packetloss404/tradefarm/commit/31f5803f6be9254e56434d3fcaec51dfaadb89df) <sub>· 2026-05-04</sub>
-- `taskloom` — [Port web UI to workbench design and add sandboxed code-exec](https://github.com/packetloss404/taskloom/commit/9370d12282e6768a8782f5f04dd0b93e18b85569) <sub>· 2026-05-04</sub>
-- `tradefarm` — [docs: add CHANGELOG.md + ROADMAP.md, sync README architecture tree](https://github.com/packetloss404/tradefarm/commit/038e8b625ec6afe6ac55a229b1f0a73ff3e19bdd) <sub>· 2026-05-04</sub>
-- `PacketADE` — [chore(release): v0.5.0](https://github.com/packetloss404/PacketADE/commit/b9085e9896fed03f610939b4e175c417000774df) <sub>· 2026-05-04</sub>
-- `PacketADE` — [docs: refresh CHANGELOG / README / ROADMAP for the Codex absorption + sidecar fixes](https://github.com/packetloss404/PacketADE/commit/d5e54eac68fd241f504588806d6ddee0bb252bc9) <sub>· 2026-05-04</sub>
+- `taskloom` — [Make /builder feel like twin.so: chat thread + streaming + slim header](https://github.com/packetloss404/taskloom/commit/97acca86e5966e16440e991ebd14e021a99b90f8) <sub>· 2026-05-09</sub>
+- `taskloom` — [Refresh dev/ docs as a current, phase-free engineering set](https://github.com/packetloss404/taskloom/commit/2b01db2572a55f2b6fcc82c533fbb039ec22d6f9) <sub>· 2026-05-09</sub>
+- `taskloom` — [Move dev docs to dev/ and drop obsolete phase artifacts](https://github.com/packetloss404/taskloom/commit/857e605988627480bdfec19cf4a5a248dec9e010) <sub>· 2026-05-09</sub>
+- `taskloom` — [Rewrite README and add GitHub Pages marketing site](https://github.com/packetloss404/taskloom/commit/e030effe79bd04f88910e58bce89ba7634592504) <sub>· 2026-05-09</sub>
+- `taskloom` — [Replace logged-out page with minimal login + dev-server fixes](https://github.com/packetloss404/taskloom/commit/db109d089a004d436fd53cbed34abb7e6338bc8e) <sub>· 2026-05-09</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-09</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-10</code> · auto-built from <code>templates/README.template.md</code></sub></p>

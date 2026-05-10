@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/tradefarm",
-    "message": "feat(dashboard): v2 - sticky header, broadcast panel, tabbed lower row, cmd-K palette",
-    "sha": "31f5803",
-    "date": "2026-05-04T13:29:06Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/31f5803f6be9254e56434d3fcaec51dfaadb89df"
+    "repo": "packetloss404/taskloom",
+    "message": "Make /builder feel like twin.so: chat thread + streaming + slim header",
+    "sha": "97acca8",
+    "date": "2026-05-09T23:33:22Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/97acca86e5966e16440e991ebd14e021a99b90f8"
   },
   {
     "repo": "packetloss404/taskloom",
-    "message": "Port web UI to workbench design and add sandboxed code-exec",
-    "sha": "9370d12",
-    "date": "2026-05-04T13:09:11Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/9370d12282e6768a8782f5f04dd0b93e18b85569"
+    "message": "Refresh dev/ docs as a current, phase-free engineering set",
+    "sha": "2b01db2",
+    "date": "2026-05-09T22:11:10Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/2b01db2572a55f2b6fcc82c533fbb039ec22d6f9"
   },
   {
-    "repo": "packetloss404/tradefarm",
-    "message": "docs: add CHANGELOG.md + ROADMAP.md, sync README architecture tree",
-    "sha": "038e8b6",
-    "date": "2026-05-04T06:25:21Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/038e8b625ec6afe6ac55a229b1f0a73ff3e19bdd"
+    "repo": "packetloss404/taskloom",
+    "message": "Move dev docs to dev/ and drop obsolete phase artifacts",
+    "sha": "857e605",
+    "date": "2026-05-09T21:55:06Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/857e605988627480bdfec19cf4a5a248dec9e010"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "chore(release): v0.5.0",
-    "sha": "b9085e9",
-    "date": "2026-05-04T05:59:30Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/b9085e9896fed03f610939b4e175c417000774df"
+    "repo": "packetloss404/taskloom",
+    "message": "Rewrite README and add GitHub Pages marketing site",
+    "sha": "e030eff",
+    "date": "2026-05-09T20:28:15Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/e030effe79bd04f88910e58bce89ba7634592504"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "docs: refresh CHANGELOG / README / ROADMAP for the Codex absorption + sidecar fixes",
-    "sha": "d5e54ea",
-    "date": "2026-05-04T05:56:43Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/d5e54eac68fd241f504588806d6ddee0bb252bc9"
+    "repo": "packetloss404/taskloom",
+    "message": "Replace logged-out page with minimal login + dev-server fixes",
+    "sha": "db109d0",
+    "date": "2026-05-09T20:13:05Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/db109d089a004d436fd53cbed34abb7e6338bc8e"
   }
 ]
