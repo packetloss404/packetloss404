@@ -1,6 +1,13 @@
 [
   {
     "repo": "packetloss404/taskloom",
+    "message": "Lift three features from agent.minimax.io into /builder",
+    "sha": "16970c8",
+    "date": "2026-05-10T17:20:44Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/16970c8cedf7d0ce2b0e43f9c75026bf8ad8db0e"
+  },
+  {
+    "repo": "packetloss404/taskloom",
     "message": "Make /builder feel like twin.so: chat thread + streaming + slim header",
     "sha": "97acca8",
     "date": "2026-05-09T23:33:22Z",
@@ -26,12 +33,5 @@
     "sha": "e030eff",
     "date": "2026-05-09T20:28:15Z",
     "url": "https://github.com/packetloss404/taskloom/commit/e030effe79bd04f88910e58bce89ba7634592504"
-  },
-  {
-    "repo": "packetloss404/taskloom",
-    "message": "Replace logged-out page with minimal login + dev-server fixes",
-    "sha": "db109d0",
-    "date": "2026-05-09T20:13:05Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/db109d089a004d436fd53cbed34abb7e6338bc8e"
   }
 ]
