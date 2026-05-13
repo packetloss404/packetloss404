@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/taskloom",
-    "message": "Lift three features from agent.minimax.io into /builder",
-    "sha": "16970c8",
-    "date": "2026-05-10T17:20:44Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/16970c8cedf7d0ce2b0e43f9c75026bf8ad8db0e"
+    "repo": "packetloss404/PacketADE",
+    "message": "fix(sidecar): normalize bundled node entry path",
+    "sha": "4863901",
+    "date": "2026-05-13T06:35:09Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/486390152b6fd444a3708b3ec50a2d36ca7c8e43"
+  },
+  {
+    "repo": "packetloss404/packetcode",
+    "message": "Improve agent workflow docs and telemetry",
+    "sha": "98bb340",
+    "date": "2026-05-13T05:59:48Z",
+    "url": "https://github.com/packetloss404/packetcode/commit/98bb3400134a627dcecaf11e302adfa129f3932f"
+  },
+  {
+    "repo": "packetloss404/gzwepspec",
+    "message": "Update project docs and backlog",
+    "sha": "0c2bc31",
+    "date": "2026-05-13T05:59:32Z",
+    "url": "https://github.com/packetloss404/gzwepspec/commit/0c2bc31ef8797a9ac99a164c350135a3002dbdc3"
   },
   {
     "repo": "packetloss404/taskloom",
-    "message": "Make /builder feel like twin.so: chat thread + streaming + slim header",
-    "sha": "97acca8",
-    "date": "2026-05-09T23:33:22Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/97acca86e5966e16440e991ebd14e021a99b90f8"
+    "message": "Update project docs backlog and changelog",
+    "sha": "9b6a2b8",
+    "date": "2026-05-13T05:59:12Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/9b6a2b846815c6e0c06608f3d3dac4f352950aef"
   },
   {
-    "repo": "packetloss404/taskloom",
-    "message": "Refresh dev/ docs as a current, phase-free engineering set",
-    "sha": "2b01db2",
-    "date": "2026-05-09T22:11:10Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/2b01db2572a55f2b6fcc82c533fbb039ec22d6f9"
-  },
-  {
-    "repo": "packetloss404/taskloom",
-    "message": "Move dev docs to dev/ and drop obsolete phase artifacts",
-    "sha": "857e605",
-    "date": "2026-05-09T21:55:06Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/857e605988627480bdfec19cf4a5a248dec9e010"
-  },
-  {
-    "repo": "packetloss404/taskloom",
-    "message": "Rewrite README and add GitHub Pages marketing site",
-    "sha": "e030eff",
-    "date": "2026-05-09T20:28:15Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/e030effe79bd04f88910e58bce89ba7634592504"
+    "repo": "packetloss404/parallax",
+    "message": "docs: refresh README, add CHANGELOG and BACKLOG",
+    "sha": "5225561",
+    "date": "2026-05-13T05:56:50Z",
+    "url": "https://github.com/packetloss404/parallax/commit/52255619cb5bfab25128f8546ae2cc408b84ccb0"
   }
 ]

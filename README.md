@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> agents in, packets out
+> building the stack that builds the stack
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `taskloom` — [Lift three features from agent.minimax.io into /builder](https://github.com/packetloss404/taskloom/commit/16970c8cedf7d0ce2b0e43f9c75026bf8ad8db0e) <sub>· 2026-05-10</sub>
-- `taskloom` — [Make /builder feel like twin.so: chat thread + streaming + slim header](https://github.com/packetloss404/taskloom/commit/97acca86e5966e16440e991ebd14e021a99b90f8) <sub>· 2026-05-09</sub>
-- `taskloom` — [Refresh dev/ docs as a current, phase-free engineering set](https://github.com/packetloss404/taskloom/commit/2b01db2572a55f2b6fcc82c533fbb039ec22d6f9) <sub>· 2026-05-09</sub>
-- `taskloom` — [Move dev docs to dev/ and drop obsolete phase artifacts](https://github.com/packetloss404/taskloom/commit/857e605988627480bdfec19cf4a5a248dec9e010) <sub>· 2026-05-09</sub>
-- `taskloom` — [Rewrite README and add GitHub Pages marketing site](https://github.com/packetloss404/taskloom/commit/e030effe79bd04f88910e58bce89ba7634592504) <sub>· 2026-05-09</sub>
+- `PacketADE` — [fix(sidecar): normalize bundled node entry path](https://github.com/packetloss404/PacketADE/commit/486390152b6fd444a3708b3ec50a2d36ca7c8e43) <sub>· 2026-05-13</sub>
+- `packetcode` — [Improve agent workflow docs and telemetry](https://github.com/packetloss404/packetcode/commit/98bb3400134a627dcecaf11e302adfa129f3932f) <sub>· 2026-05-13</sub>
+- `gzwepspec` — [Update project docs and backlog](https://github.com/packetloss404/gzwepspec/commit/0c2bc31ef8797a9ac99a164c350135a3002dbdc3) <sub>· 2026-05-13</sub>
+- `taskloom` — [Update project docs backlog and changelog](https://github.com/packetloss404/taskloom/commit/9b6a2b846815c6e0c06608f3d3dac4f352950aef) <sub>· 2026-05-13</sub>
+- `parallax` — [docs: refresh README, add CHANGELOG and BACKLOG](https://github.com/packetloss404/parallax/commit/52255619cb5bfab25128f8546ae2cc408b84ccb0) <sub>· 2026-05-13</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-12</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-13</code> · auto-built from <code>templates/README.template.md</code></sub></p>
