@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> 404 loss · 200 OK vibes
+> keyboard > mouse > mouse-wheel > touchpad > scream
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `PacketADE` — [fix(sidecar): normalize bundled node entry path](https://github.com/packetloss404/PacketADE/commit/486390152b6fd444a3708b3ec50a2d36ca7c8e43) <sub>· 2026-05-13</sub>
-- `packetcode` — [Improve agent workflow docs and telemetry](https://github.com/packetloss404/packetcode/commit/98bb3400134a627dcecaf11e302adfa129f3932f) <sub>· 2026-05-13</sub>
-- `gzwepspec` — [Update project docs and backlog](https://github.com/packetloss404/gzwepspec/commit/0c2bc31ef8797a9ac99a164c350135a3002dbdc3) <sub>· 2026-05-13</sub>
-- `taskloom` — [Update project docs backlog and changelog](https://github.com/packetloss404/taskloom/commit/9b6a2b846815c6e0c06608f3d3dac4f352950aef) <sub>· 2026-05-13</sub>
-- `parallax` — [docs: refresh README, add CHANGELOG and BACKLOG](https://github.com/packetloss404/parallax/commit/52255619cb5bfab25128f8546ae2cc408b84ccb0) <sub>· 2026-05-13</sub>
+- `mc-server-bot` — [Dashboard Phase 5 (small): stats refetch dedup, activity-grouped persistence](https://github.com/packetloss404/mc-server-bot/commit/3a94e9e17471aeb6a0c3af3390d427c6ba198d7e) <sub>· 2026-05-15</sub>
+- `mc-server-bot` — [Dashboard Phase 4: tuning + observability](https://github.com/packetloss404/mc-server-bot/commit/03dfcaf87b66f77dd219d2f2cfe4d8d4722bad85) <sub>· 2026-05-15</sub>
+- `tradefarm` — [feat(stream): recap v2 — 30-second auto-built highlight reel at close](https://github.com/packetloss404/tradefarm/commit/87b39dea9f1998d72476bd9a7f09024bfd9581b8) <sub>· 2026-05-15</sub>
+- `mc-server-bot` — [Dashboard Phase 3: Overview tab, palette a11y, primitive consolidation](https://github.com/packetloss404/mc-server-bot/commit/e2efb8a865e221085a61aba1c141f3dddec366d2) <sub>· 2026-05-15</sub>
+- `tradefarm` — [feat(stream): audience interactivity — chat commands + predictions board](https://github.com/packetloss404/tradefarm/commit/56f2387390dab6c2429905a307cd616c66245c05) <sub>· 2026-05-15</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-14</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-15</code> · auto-built from <code>templates/README.template.md</code></sub></p>
