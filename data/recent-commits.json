@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "Dashboard Phase 5 (small): stats refetch dedup, activity-grouped persistence",
-    "sha": "3a94e9e",
-    "date": "2026-05-15T05:24:05Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/3a94e9e17471aeb6a0c3af3390d427c6ba198d7e"
+    "repo": "packetloss404/PacketADE",
+    "message": "polish(toolbar): move Theme toggle to its own slot at the far right",
+    "sha": "a6299df",
+    "date": "2026-05-16T06:36:20Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/a6299df03c70f40525625eeea07d23b8a75c8823"
   },
   {
     "repo": "packetloss404/mc-server-bot",
-    "message": "Dashboard Phase 4: tuning + observability",
-    "sha": "03dfcaf",
-    "date": "2026-05-15T05:21:35Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/03dfcaf87b66f77dd219d2f2cfe4d8d4722bad85"
-  },
-  {
-    "repo": "packetloss404/tradefarm",
-    "message": "feat(stream): recap v2 — 30-second auto-built highlight reel at close",
-    "sha": "87b39de",
-    "date": "2026-05-15T04:58:53Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/87b39dea9f1998d72476bd9a7f09024bfd9581b8"
+    "message": "Fix migration ordering: indexes run after migrations, not before",
+    "sha": "b62659a",
+    "date": "2026-05-16T06:20:54Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/b62659a61f55a5b8a498f597bc454f150eb7a4f5"
   },
   {
     "repo": "packetloss404/mc-server-bot",
-    "message": "Dashboard Phase 3: Overview tab, palette a11y, primitive consolidation",
-    "sha": "e2efb8a",
-    "date": "2026-05-15T04:53:17Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/e2efb8a865e221085a61aba1c141f3dddec366d2"
+    "message": "Merge followups/small: 5 small followups closed",
+    "sha": "e286a01",
+    "date": "2026-05-16T06:17:20Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/e286a01c96cb56dda3e3e3847e867bb51aa8bc3e"
   },
   {
-    "repo": "packetloss404/tradefarm",
-    "message": "feat(stream): audience interactivity — chat commands + predictions board",
-    "sha": "56f2387",
-    "date": "2026-05-15T04:38:45Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/56f2387390dab6c2429905a307cd616c66245c05"
+    "repo": "packetloss404/PacketADE",
+    "message": "chore(v0.8.3): version bump + CHANGELOG",
+    "sha": "aeb1839",
+    "date": "2026-05-16T06:05:27Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/aeb183987ed58ae1452f771f7dea1affa8e859ca"
+  },
+  {
+    "repo": "packetloss404/mc-server-bot",
+    "message": "Merge feature/town-builder: 8-phase Autonomous Town Builder + followups",
+    "sha": "d571c76",
+    "date": "2026-05-16T06:01:08Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/d571c765f3df8195e6161047475af01fa109bd22"
   }
 ]

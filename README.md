@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> keyboard > mouse > mouse-wheel > touchpad > scream
+> sleepless in /dev/stdout
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `mc-server-bot` — [Dashboard Phase 5 (small): stats refetch dedup, activity-grouped persistence](https://github.com/packetloss404/mc-server-bot/commit/3a94e9e17471aeb6a0c3af3390d427c6ba198d7e) <sub>· 2026-05-15</sub>
-- `mc-server-bot` — [Dashboard Phase 4: tuning + observability](https://github.com/packetloss404/mc-server-bot/commit/03dfcaf87b66f77dd219d2f2cfe4d8d4722bad85) <sub>· 2026-05-15</sub>
-- `tradefarm` — [feat(stream): recap v2 — 30-second auto-built highlight reel at close](https://github.com/packetloss404/tradefarm/commit/87b39dea9f1998d72476bd9a7f09024bfd9581b8) <sub>· 2026-05-15</sub>
-- `mc-server-bot` — [Dashboard Phase 3: Overview tab, palette a11y, primitive consolidation](https://github.com/packetloss404/mc-server-bot/commit/e2efb8a865e221085a61aba1c141f3dddec366d2) <sub>· 2026-05-15</sub>
-- `tradefarm` — [feat(stream): audience interactivity — chat commands + predictions board](https://github.com/packetloss404/tradefarm/commit/56f2387390dab6c2429905a307cd616c66245c05) <sub>· 2026-05-15</sub>
+- `PacketADE` — [polish(toolbar): move Theme toggle to its own slot at the far right](https://github.com/packetloss404/PacketADE/commit/a6299df03c70f40525625eeea07d23b8a75c8823) <sub>· 2026-05-16</sub>
+- `mc-server-bot` — [Fix migration ordering: indexes run after migrations, not before](https://github.com/packetloss404/mc-server-bot/commit/b62659a61f55a5b8a498f597bc454f150eb7a4f5) <sub>· 2026-05-16</sub>
+- `mc-server-bot` — [Merge followups/small: 5 small followups closed](https://github.com/packetloss404/mc-server-bot/commit/e286a01c96cb56dda3e3e3847e867bb51aa8bc3e) <sub>· 2026-05-16</sub>
+- `PacketADE` — [chore(v0.8.3): version bump + CHANGELOG](https://github.com/packetloss404/PacketADE/commit/aeb183987ed58ae1452f771f7dea1affa8e859ca) <sub>· 2026-05-16</sub>
+- `mc-server-bot` — [Merge feature/town-builder: 8-phase Autonomous Town Builder + followups](https://github.com/packetloss404/mc-server-bot/commit/d571c765f3df8195e6161047475af01fa109bd22) <sub>· 2026-05-16</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-15</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-16</code> · auto-built from <code>templates/README.template.md</code></sub></p>
