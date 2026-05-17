@@ -1,37 +1,37 @@
 [
   {
     "repo": "packetloss404/PacketADE",
-    "message": "polish(toolbar): move Theme toggle to its own slot at the far right",
-    "sha": "a6299df",
-    "date": "2026-05-16T06:36:20Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/a6299df03c70f40525625eeea07d23b8a75c8823"
-  },
-  {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "Fix migration ordering: indexes run after migrations, not before",
-    "sha": "b62659a",
-    "date": "2026-05-16T06:20:54Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/b62659a61f55a5b8a498f597bc454f150eb7a4f5"
-  },
-  {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "Merge followups/small: 5 small followups closed",
-    "sha": "e286a01",
-    "date": "2026-05-16T06:17:20Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/e286a01c96cb56dda3e3e3847e867bb51aa8bc3e"
+    "message": "docs(site): full website refresh — v0.8.8 alignment + PacketCode promo",
+    "sha": "3a432aa",
+    "date": "2026-05-16T19:52:26Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/3a432aa1b81cb4bf13f3eefe7eaecbda4af019fa"
   },
   {
     "repo": "packetloss404/PacketADE",
-    "message": "chore(v0.8.3): version bump + CHANGELOG",
-    "sha": "aeb1839",
-    "date": "2026-05-16T06:05:27Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/aeb183987ed58ae1452f771f7dea1affa8e859ca"
+    "message": "docs(site): elevate the four user modes as secondary focus",
+    "sha": "ff88677",
+    "date": "2026-05-16T19:16:49Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/ff8867776fdc5aad521c58f7c8f6958216bc2b64"
   },
   {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "Merge feature/town-builder: 8-phase Autonomous Town Builder + followups",
-    "sha": "d571c76",
-    "date": "2026-05-16T06:01:08Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/d571c765f3df8195e6161047475af01fa109bd22"
+    "repo": "packetloss404/PacketADE",
+    "message": "feat(v0.8.8): projectPath single source of truth",
+    "sha": "f8da1f2",
+    "date": "2026-05-16T18:54:18Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/f8da1f26ebf9d64c15ca33ce919d4909c4b94961"
+  },
+  {
+    "repo": "packetloss404/PacketADE",
+    "message": "feat(v0.8.6): demote Deploy + Prompts from Toolbar",
+    "sha": "a567c0c",
+    "date": "2026-05-16T17:16:06Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/a567c0c1d5fefbba5d9d75d08415ab703e606c54"
+  },
+  {
+    "repo": "packetloss404/PacketADE",
+    "message": "feat(v0.8.5): Issues pane rebuild — spec import + workspace close-loop",
+    "sha": "6bc7c88",
+    "date": "2026-05-16T16:38:15Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/6bc7c88139e3dd54cee9cbed1ccced1c5c242d03"
   }
 ]

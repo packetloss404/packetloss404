@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> sleepless in /dev/stdout
+> writing code that writes code that writes code
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `PacketADE` — [polish(toolbar): move Theme toggle to its own slot at the far right](https://github.com/packetloss404/PacketADE/commit/a6299df03c70f40525625eeea07d23b8a75c8823) <sub>· 2026-05-16</sub>
-- `mc-server-bot` — [Fix migration ordering: indexes run after migrations, not before](https://github.com/packetloss404/mc-server-bot/commit/b62659a61f55a5b8a498f597bc454f150eb7a4f5) <sub>· 2026-05-16</sub>
-- `mc-server-bot` — [Merge followups/small: 5 small followups closed](https://github.com/packetloss404/mc-server-bot/commit/e286a01c96cb56dda3e3e3847e867bb51aa8bc3e) <sub>· 2026-05-16</sub>
-- `PacketADE` — [chore(v0.8.3): version bump + CHANGELOG](https://github.com/packetloss404/PacketADE/commit/aeb183987ed58ae1452f771f7dea1affa8e859ca) <sub>· 2026-05-16</sub>
-- `mc-server-bot` — [Merge feature/town-builder: 8-phase Autonomous Town Builder + followups](https://github.com/packetloss404/mc-server-bot/commit/d571c765f3df8195e6161047475af01fa109bd22) <sub>· 2026-05-16</sub>
+- `PacketADE` — [docs(site): full website refresh — v0.8.8 alignment + PacketCode promo](https://github.com/packetloss404/PacketADE/commit/3a432aa1b81cb4bf13f3eefe7eaecbda4af019fa) <sub>· 2026-05-16</sub>
+- `PacketADE` — [docs(site): elevate the four user modes as secondary focus](https://github.com/packetloss404/PacketADE/commit/ff8867776fdc5aad521c58f7c8f6958216bc2b64) <sub>· 2026-05-16</sub>
+- `PacketADE` — [feat(v0.8.8): projectPath single source of truth](https://github.com/packetloss404/PacketADE/commit/f8da1f26ebf9d64c15ca33ce919d4909c4b94961) <sub>· 2026-05-16</sub>
+- `PacketADE` — [feat(v0.8.6): demote Deploy + Prompts from Toolbar](https://github.com/packetloss404/PacketADE/commit/a567c0c1d5fefbba5d9d75d08415ab703e606c54) <sub>· 2026-05-16</sub>
+- `PacketADE` — [feat(v0.8.5): Issues pane rebuild — spec import + workspace close-loop](https://github.com/packetloss404/PacketADE/commit/6bc7c88139e3dd54cee9cbed1ccced1c5c242d03) <sub>· 2026-05-16</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-16</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-17</code> · auto-built from <code>templates/README.template.md</code></sub></p>
