@@ -1,37 +1,37 @@
 [
   {
     "repo": "packetloss404/PacketADE",
-    "message": "docs(site): full website refresh — v0.8.8 alignment + PacketCode promo",
-    "sha": "3a432aa",
-    "date": "2026-05-16T19:52:26Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/3a432aa1b81cb4bf13f3eefe7eaecbda4af019fa"
+    "message": "docs: backfill 0.9.0-0.9.3 changelog entries + README protocol version + audit follow-ups",
+    "sha": "0fd0bb8",
+    "date": "2026-05-18T02:25:13Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/0fd0bb87962b1537caf3148ba5b142e7a79f8ff6"
   },
   {
     "repo": "packetloss404/PacketADE",
-    "message": "docs(site): elevate the four user modes as secondary focus",
-    "sha": "ff88677",
-    "date": "2026-05-16T19:16:49Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/ff8867776fdc5aad521c58f7c8f6958216bc2b64"
+    "message": "chore(v0.9.3): core/ library audit (41 files) + Phase D high-priority fixes",
+    "sha": "fc932c5",
+    "date": "2026-05-18T02:08:18Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/fc932c5f729c48106e27ec5ef9cf5fc4637b03a6"
   },
   {
     "repo": "packetloss404/PacketADE",
-    "message": "feat(v0.8.8): projectPath single source of truth",
-    "sha": "f8da1f2",
-    "date": "2026-05-16T18:54:18Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/f8da1f26ebf9d64c15ca33ce919d4909c4b94961"
+    "message": "chore(v0.9.2): rust commands audit complete — silent-error sweep + state.rs race fix",
+    "sha": "e30f46d",
+    "date": "2026-05-18T01:35:24Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/e30f46dc6eb08858fba7ec2dd12b2e6aeb0454d9"
   },
   {
     "repo": "packetloss404/PacketADE",
-    "message": "feat(v0.8.6): demote Deploy + Prompts from Toolbar",
-    "sha": "a567c0c",
-    "date": "2026-05-16T17:16:06Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/a567c0c1d5fefbba5d9d75d08415ab703e606c54"
+    "message": "chore(v0.9.1): bump version for GitHubView extracts + polish",
+    "sha": "75947b1",
+    "date": "2026-05-18T00:54:12Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/75947b1f498b7e5662721a57d5c27c2d1769597c"
   },
   {
     "repo": "packetloss404/PacketADE",
-    "message": "feat(v0.8.5): Issues pane rebuild — spec import + workspace close-loop",
-    "sha": "6bc7c88",
-    "date": "2026-05-16T16:38:15Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/6bc7c88139e3dd54cee9cbed1ccced1c5c242d03"
+    "message": "merge: T2b — 21 unit tests for the 5 new github/ sub-components",
+    "sha": "8403f1a",
+    "date": "2026-05-18T00:48:51Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/8403f1a67339ff37136fb6be09f3888e9fc70ab7"
   }
 ]

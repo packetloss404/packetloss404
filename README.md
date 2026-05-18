@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> writing code that writes code that writes code
+> rapid prototyping at compiler-warning speed
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `PacketADE` — [docs(site): full website refresh — v0.8.8 alignment + PacketCode promo](https://github.com/packetloss404/PacketADE/commit/3a432aa1b81cb4bf13f3eefe7eaecbda4af019fa) <sub>· 2026-05-16</sub>
-- `PacketADE` — [docs(site): elevate the four user modes as secondary focus](https://github.com/packetloss404/PacketADE/commit/ff8867776fdc5aad521c58f7c8f6958216bc2b64) <sub>· 2026-05-16</sub>
-- `PacketADE` — [feat(v0.8.8): projectPath single source of truth](https://github.com/packetloss404/PacketADE/commit/f8da1f26ebf9d64c15ca33ce919d4909c4b94961) <sub>· 2026-05-16</sub>
-- `PacketADE` — [feat(v0.8.6): demote Deploy + Prompts from Toolbar](https://github.com/packetloss404/PacketADE/commit/a567c0c1d5fefbba5d9d75d08415ab703e606c54) <sub>· 2026-05-16</sub>
-- `PacketADE` — [feat(v0.8.5): Issues pane rebuild — spec import + workspace close-loop](https://github.com/packetloss404/PacketADE/commit/6bc7c88139e3dd54cee9cbed1ccced1c5c242d03) <sub>· 2026-05-16</sub>
+- `PacketADE` — [docs: backfill 0.9.0-0.9.3 changelog entries + README protocol version + audit follow-ups](https://github.com/packetloss404/PacketADE/commit/0fd0bb87962b1537caf3148ba5b142e7a79f8ff6) <sub>· 2026-05-18</sub>
+- `PacketADE` — [chore(v0.9.3): core/ library audit (41 files) + Phase D high-priority fixes](https://github.com/packetloss404/PacketADE/commit/fc932c5f729c48106e27ec5ef9cf5fc4637b03a6) <sub>· 2026-05-18</sub>
+- `PacketADE` — [chore(v0.9.2): rust commands audit complete — silent-error sweep + state.rs race fix](https://github.com/packetloss404/PacketADE/commit/e30f46dc6eb08858fba7ec2dd12b2e6aeb0454d9) <sub>· 2026-05-18</sub>
+- `PacketADE` — [chore(v0.9.1): bump version for GitHubView extracts + polish](https://github.com/packetloss404/PacketADE/commit/75947b1f498b7e5662721a57d5c27c2d1769597c) <sub>· 2026-05-18</sub>
+- `PacketADE` — [merge: T2b — 21 unit tests for the 5 new github/ sub-components](https://github.com/packetloss404/PacketADE/commit/8403f1a67339ff37136fb6be09f3888e9fc70ab7) <sub>· 2026-05-18</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-17</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-18</code> · auto-built from <code>templates/README.template.md</code></sub></p>
