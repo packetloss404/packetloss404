@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "docs: backfill 0.9.0-0.9.3 changelog entries + README protocol version + audit follow-ups",
-    "sha": "0fd0bb8",
-    "date": "2026-05-18T02:25:13Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/0fd0bb87962b1537caf3148ba5b142e7a79f8ff6"
+    "repo": "packetloss404/tradefarm",
+    "message": "fix(pipeline): final-review hardening across all 10 stages",
+    "sha": "bc940bc",
+    "date": "2026-05-21T05:37:58Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/bc940bcccc1bea393229f52f9cabde55e7020013"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "chore(v0.9.3): core/ library audit (41 files) + Phase D high-priority fixes",
-    "sha": "fc932c5",
-    "date": "2026-05-18T02:08:18Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/fc932c5f729c48106e27ec5ef9cf5fc4637b03a6"
+    "repo": "packetloss404/tradefarm",
+    "message": "feat(yt): Phase 3 Session 10 — episode metadata + YouTube upload",
+    "sha": "742b5b5",
+    "date": "2026-05-21T05:29:18Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/742b5b52cfe07f158c151a90462aad2976dbd818"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "chore(v0.9.2): rust commands audit complete — silent-error sweep + state.rs race fix",
-    "sha": "e30f46d",
-    "date": "2026-05-18T01:35:24Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/e30f46dc6eb08858fba7ec2dd12b2e6aeb0454d9"
+    "repo": "packetloss404/tradefarm",
+    "message": "feat(thumb): Phase 3 Session 9 — thumbnail generator",
+    "sha": "34a903f",
+    "date": "2026-05-21T05:25:04Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/34a903f0f36a5b7d76556d55b15d135d8d8c5792"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "chore(v0.9.1): bump version for GitHubView extracts + polish",
-    "sha": "75947b1",
-    "date": "2026-05-18T00:54:12Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/75947b1f498b7e5662721a57d5c27c2d1769597c"
+    "repo": "packetloss404/tradefarm",
+    "message": "feat(render): Phase 2 Session 8 — audio mixer",
+    "sha": "ac59ac7",
+    "date": "2026-05-21T05:22:04Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/ac59ac78030c9e6a5f96a57971fd7e54ff6adb19"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "merge: T2b — 21 unit tests for the 5 new github/ sub-components",
-    "sha": "8403f1a",
-    "date": "2026-05-18T00:48:51Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/8403f1a67339ff37136fb6be09f3888e9fc70ab7"
+    "repo": "packetloss404/tradefarm",
+    "message": "feat(tts): Phase 2 Session 7 — per-line TTS synthesis",
+    "sha": "397880d",
+    "date": "2026-05-21T05:18:51Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/397880d1066264ae6453f900c000f1a49ffd5fa9"
   }
 ]
