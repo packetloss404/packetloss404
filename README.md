@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> terminal-first by choice
+> self-hosted, self-directed
 ```
 
 ## currently building
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-21</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-22</code> · auto-built from <code>templates/README.template.md</code></sub></p>
