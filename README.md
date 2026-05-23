@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> self-hosted, self-directed
+> tools that make more tools
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `tradefarm` — [fix(pipeline): final-review hardening across all 10 stages](https://github.com/packetloss404/tradefarm/commit/bc940bcccc1bea393229f52f9cabde55e7020013) <sub>· 2026-05-21</sub>
-- `tradefarm` — [feat(yt): Phase 3 Session 10 — episode metadata + YouTube upload](https://github.com/packetloss404/tradefarm/commit/742b5b52cfe07f158c151a90462aad2976dbd818) <sub>· 2026-05-21</sub>
-- `tradefarm` — [feat(thumb): Phase 3 Session 9 — thumbnail generator](https://github.com/packetloss404/tradefarm/commit/34a903f0f36a5b7d76556d55b15d135d8d8c5792) <sub>· 2026-05-21</sub>
-- `tradefarm` — [feat(render): Phase 2 Session 8 — audio mixer](https://github.com/packetloss404/tradefarm/commit/ac59ac78030c9e6a5f96a57971fd7e54ff6adb19) <sub>· 2026-05-21</sub>
-- `tradefarm` — [feat(tts): Phase 2 Session 7 — per-line TTS synthesis](https://github.com/packetloss404/tradefarm/commit/397880d1066264ae6453f900c000f1a49ffd5fa9) <sub>· 2026-05-21</sub>
+- `PacketADE` — [Stabilize agent launch and persistence flows](https://github.com/packetloss404/PacketADE/commit/3fc30be5981f743457706fd0f6dbd7132b0fd475) <sub>· 2026-05-22</sub>
+- `mc-server-bot` — [townbrain: filter to connected residents before startBuild](https://github.com/packetloss404/mc-server-bot/commit/fe8ca3a1bb8e5d0080313b39c84fc9f41c184561) <sub>· 2026-05-22</sub>
+- `mc-server-bot` — [blackboard: +30 score boost for 'town:' tasks when bot is a resident](https://github.com/packetloss404/mc-server-bot/commit/f06d76e15692d511e811796cecd8063985f8498b) <sub>· 2026-05-22</sub>
+- `tradefarm` — [preflight: 5/26 live-day setup](https://github.com/packetloss404/tradefarm/commit/2f2c5631498341569816ee452434148196d7b9ef) <sub>· 2026-05-22</sub>
+- `tradefarm` — [ship: round 5 — production polish + runbook](https://github.com/packetloss404/tradefarm/commit/1031652a8ce7a8252b7008a056e70656814b0bab) <sub>· 2026-05-22</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-22</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-23</code> · auto-built from <code>templates/README.template.md</code></sub></p>

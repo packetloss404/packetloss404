@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/tradefarm",
-    "message": "fix(pipeline): final-review hardening across all 10 stages",
-    "sha": "bc940bc",
-    "date": "2026-05-21T05:37:58Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/bc940bcccc1bea393229f52f9cabde55e7020013"
+    "repo": "packetloss404/PacketADE",
+    "message": "Stabilize agent launch and persistence flows",
+    "sha": "3fc30be",
+    "date": "2026-05-22T23:54:34Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/3fc30be5981f743457706fd0f6dbd7132b0fd475"
+  },
+  {
+    "repo": "packetloss404/mc-server-bot",
+    "message": "townbrain: filter to connected residents before startBuild",
+    "sha": "fe8ca3a",
+    "date": "2026-05-22T22:54:04Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/fe8ca3a1bb8e5d0080313b39c84fc9f41c184561"
+  },
+  {
+    "repo": "packetloss404/mc-server-bot",
+    "message": "blackboard: +30 score boost for 'town:' tasks when bot is a resident",
+    "sha": "f06d76e",
+    "date": "2026-05-22T22:38:58Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/f06d76e15692d511e811796cecd8063985f8498b"
   },
   {
     "repo": "packetloss404/tradefarm",
-    "message": "feat(yt): Phase 3 Session 10 — episode metadata + YouTube upload",
-    "sha": "742b5b5",
-    "date": "2026-05-21T05:29:18Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/742b5b52cfe07f158c151a90462aad2976dbd818"
+    "message": "preflight: 5/26 live-day setup",
+    "sha": "2f2c563",
+    "date": "2026-05-22T22:27:20Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/2f2c5631498341569816ee452434148196d7b9ef"
   },
   {
     "repo": "packetloss404/tradefarm",
-    "message": "feat(thumb): Phase 3 Session 9 — thumbnail generator",
-    "sha": "34a903f",
-    "date": "2026-05-21T05:25:04Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/34a903f0f36a5b7d76556d55b15d135d8d8c5792"
-  },
-  {
-    "repo": "packetloss404/tradefarm",
-    "message": "feat(render): Phase 2 Session 8 — audio mixer",
-    "sha": "ac59ac7",
-    "date": "2026-05-21T05:22:04Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/ac59ac78030c9e6a5f96a57971fd7e54ff6adb19"
-  },
-  {
-    "repo": "packetloss404/tradefarm",
-    "message": "feat(tts): Phase 2 Session 7 — per-line TTS synthesis",
-    "sha": "397880d",
-    "date": "2026-05-21T05:18:51Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/397880d1066264ae6453f900c000f1a49ffd5fa9"
+    "message": "ship: round 5 — production polish + runbook",
+    "sha": "1031652",
+    "date": "2026-05-22T22:15:13Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/1031652a8ce7a8252b7008a056e70656814b0bab"
   }
 ]
