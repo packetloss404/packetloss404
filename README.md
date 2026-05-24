@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> tools that make more tools
+> multi-pane, multi-provider, minimum friction
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `PacketADE` — [Stabilize agent launch and persistence flows](https://github.com/packetloss404/PacketADE/commit/3fc30be5981f743457706fd0f6dbd7132b0fd475) <sub>· 2026-05-22</sub>
-- `mc-server-bot` — [townbrain: filter to connected residents before startBuild](https://github.com/packetloss404/mc-server-bot/commit/fe8ca3a1bb8e5d0080313b39c84fc9f41c184561) <sub>· 2026-05-22</sub>
-- `mc-server-bot` — [blackboard: +30 score boost for 'town:' tasks when bot is a resident](https://github.com/packetloss404/mc-server-bot/commit/f06d76e15692d511e811796cecd8063985f8498b) <sub>· 2026-05-22</sub>
-- `tradefarm` — [preflight: 5/26 live-day setup](https://github.com/packetloss404/tradefarm/commit/2f2c5631498341569816ee452434148196d7b9ef) <sub>· 2026-05-22</sub>
-- `tradefarm` — [ship: round 5 — production polish + runbook](https://github.com/packetloss404/tradefarm/commit/1031652a8ce7a8252b7008a056e70656814b0bab) <sub>· 2026-05-22</sub>
+- `mc-server-bot` — [docs: update README/CHANGELOG/AGENTS for security + Project Sid](https://github.com/packetloss404/mc-server-bot/commit/c785ea30e0395ef881a23cb3bc447b9156378699) <sub>· 2026-05-24</sub>
+- `mc-server-bot` — [skills: snapshot learned skill library + town hall schematic](https://github.com/packetloss404/mc-server-bot/commit/38dd28fa13b4d17d807e24f19c9f638976692fbc) <sub>· 2026-05-24</sub>
+- `mc-server-bot` — [Project Sid: final senior-review fixes (P1–P4)](https://github.com/packetloss404/mc-server-bot/commit/882a12ff9e2ba3b97e877c57233bc15a7534cc2c) <sub>· 2026-05-24</sub>
+- `mc-server-bot` — [security: detect bot impersonation, quarantine + alert on duplicate-login](https://github.com/packetloss404/mc-server-bot/commit/326eaa9af9a465c358b10ad1fdafbe38e762feb3) <sub>· 2026-05-24</sub>
+- `vellum` — [readme: document proxy-injected API token and frontend types regen](https://github.com/packetloss404/vellum/commit/0c8bd25a6aca6cfbfa78484fc18c008aa25e3b2c) <sub>· 2026-05-23</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-23</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-24</code> · auto-built from <code>templates/README.template.md</code></sub></p>

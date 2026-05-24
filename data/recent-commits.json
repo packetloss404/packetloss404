@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "Stabilize agent launch and persistence flows",
-    "sha": "3fc30be",
-    "date": "2026-05-22T23:54:34Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/3fc30be5981f743457706fd0f6dbd7132b0fd475"
+    "repo": "packetloss404/mc-server-bot",
+    "message": "docs: update README/CHANGELOG/AGENTS for security + Project Sid",
+    "sha": "c785ea3",
+    "date": "2026-05-24T06:17:00Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/c785ea30e0395ef881a23cb3bc447b9156378699"
   },
   {
     "repo": "packetloss404/mc-server-bot",
-    "message": "townbrain: filter to connected residents before startBuild",
-    "sha": "fe8ca3a",
-    "date": "2026-05-22T22:54:04Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/fe8ca3a1bb8e5d0080313b39c84fc9f41c184561"
+    "message": "skills: snapshot learned skill library + town hall schematic",
+    "sha": "38dd28f",
+    "date": "2026-05-24T06:11:34Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/38dd28fa13b4d17d807e24f19c9f638976692fbc"
   },
   {
     "repo": "packetloss404/mc-server-bot",
-    "message": "blackboard: +30 score boost for 'town:' tasks when bot is a resident",
-    "sha": "f06d76e",
-    "date": "2026-05-22T22:38:58Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/f06d76e15692d511e811796cecd8063985f8498b"
+    "message": "Project Sid: final senior-review fixes (P1–P4)",
+    "sha": "882a12f",
+    "date": "2026-05-24T06:06:09Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/882a12ff9e2ba3b97e877c57233bc15a7534cc2c"
   },
   {
-    "repo": "packetloss404/tradefarm",
-    "message": "preflight: 5/26 live-day setup",
-    "sha": "2f2c563",
-    "date": "2026-05-22T22:27:20Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/2f2c5631498341569816ee452434148196d7b9ef"
+    "repo": "packetloss404/mc-server-bot",
+    "message": "security: detect bot impersonation, quarantine + alert on duplicate-login",
+    "sha": "326eaa9",
+    "date": "2026-05-24T03:24:04Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/326eaa9af9a465c358b10ad1fdafbe38e762feb3"
   },
   {
-    "repo": "packetloss404/tradefarm",
-    "message": "ship: round 5 — production polish + runbook",
-    "sha": "1031652",
-    "date": "2026-05-22T22:15:13Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/1031652a8ce7a8252b7008a056e70656814b0bab"
+    "repo": "packetloss404/vellum",
+    "message": "readme: document proxy-injected API token and frontend types regen",
+    "sha": "0c8bd25",
+    "date": "2026-05-23T16:41:02Z",
+    "url": "https://github.com/packetloss404/vellum/commit/0c8bd25a6aca6cfbfa78484fc18c008aa25e3b2c"
   }
 ]
