@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> multi-pane, multi-provider, minimum friction
+> LLMs are the new stdin
 ```
 
 ## currently building
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-24</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-25</code> · auto-built from <code>templates/README.template.md</code></sub></p>
