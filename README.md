@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> agents in, packets out
+> building the stack that builds the stack
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
+- `PacketADE` — [Plan remote agents and fix sidecar session cleanup](https://github.com/packetloss404/PacketADE/commit/dee8cb64504dbf5dc9dbe85b649add81a50c2211) <sub>· 2026-05-26</sub>
 - `mc-server-bot` — [chore: update learned skills index](https://github.com/packetloss404/mc-server-bot/commit/81a73bf1ec41551966f82332f1e07c5359fbdba2) <sub>· 2026-05-26</sub>
 - `mc-server-bot` — [fix(stability): bump maxReconnectAttempts 30->1000 for unattended overnight uptime](https://github.com/packetloss404/mc-server-bot/commit/8aa6ca08cced7074007161c8dfa08d572a20e33b) <sub>· 2026-05-26</sub>
 - `mc-server-bot` — [fix(stability): disable always-on cognition timers to stop keepalive bounce](https://github.com/packetloss404/mc-server-bot/commit/a3a5b1e66e9264255e096d26b63f6b6f97032830) <sub>· 2026-05-26</sub>
 - `mc-server-bot` — [chore: update learned skills index](https://github.com/packetloss404/mc-server-bot/commit/23b674cab4dc5749aa4558dab6340f1f51113933) <sub>· 2026-05-26</sub>
-- `mc-server-bot` — [fix(town): reconcile building row on build:completed so linkage survives restart](https://github.com/packetloss404/mc-server-bot/commit/315782f9e02157ddd00ed8cb60217a9c154fe091) <sub>· 2026-05-26</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-26</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-27</code> · auto-built from <code>templates/README.template.md</code></sub></p>

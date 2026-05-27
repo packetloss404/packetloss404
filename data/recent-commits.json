@@ -1,5 +1,12 @@
 [
   {
+    "repo": "packetloss404/PacketADE",
+    "message": "Plan remote agents and fix sidecar session cleanup",
+    "sha": "dee8cb6",
+    "date": "2026-05-26T23:07:41Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/dee8cb64504dbf5dc9dbe85b649add81a50c2211"
+  },
+  {
     "repo": "packetloss404/mc-server-bot",
     "message": "chore: update learned skills index",
     "sha": "81a73bf",
@@ -26,12 +33,5 @@
     "sha": "23b674c",
     "date": "2026-05-26T02:10:17Z",
     "url": "https://github.com/packetloss404/mc-server-bot/commit/23b674cab4dc5749aa4558dab6340f1f51113933"
-  },
-  {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "fix(town): reconcile building row on build:completed so linkage survives restart",
-    "sha": "315782f",
-    "date": "2026-05-26T01:43:47Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/315782f9e02157ddd00ed8cb60217a9c154fe091"
   }
 ]
