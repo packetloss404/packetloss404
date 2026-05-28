@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> building the stack that builds the stack
+> 404 loss · 200 OK vibes
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
+- `PacketADE` — [Shore up roadmap and public docs](https://github.com/packetloss404/PacketADE/commit/06ea595617a60fc524bda3f9430323df0b7377b7) <sub>· 2026-05-27</sub>
+- `packetcode` — [Open provider/model picker on autocomplete accept](https://github.com/packetloss404/packetcode/commit/9d5e53b1fa2c337823f494564e82bcd6724a927a) <sub>· 2026-05-27</sub>
 - `PacketADE` — [Plan remote agents and fix sidecar session cleanup](https://github.com/packetloss404/PacketADE/commit/dee8cb64504dbf5dc9dbe85b649add81a50c2211) <sub>· 2026-05-26</sub>
 - `mc-server-bot` — [chore: update learned skills index](https://github.com/packetloss404/mc-server-bot/commit/81a73bf1ec41551966f82332f1e07c5359fbdba2) <sub>· 2026-05-26</sub>
 - `mc-server-bot` — [fix(stability): bump maxReconnectAttempts 30->1000 for unattended overnight uptime](https://github.com/packetloss404/mc-server-bot/commit/8aa6ca08cced7074007161c8dfa08d572a20e33b) <sub>· 2026-05-26</sub>
-- `mc-server-bot` — [fix(stability): disable always-on cognition timers to stop keepalive bounce](https://github.com/packetloss404/mc-server-bot/commit/a3a5b1e66e9264255e096d26b63f6b6f97032830) <sub>· 2026-05-26</sub>
-- `mc-server-bot` — [chore: update learned skills index](https://github.com/packetloss404/mc-server-bot/commit/23b674cab4dc5749aa4558dab6340f1f51113933) <sub>· 2026-05-26</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-27</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-28</code> · auto-built from <code>templates/README.template.md</code></sub></p>
