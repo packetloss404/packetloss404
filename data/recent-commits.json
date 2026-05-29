@@ -1,37 +1,37 @@
 [
   {
     "repo": "packetloss404/PacketADE",
-    "message": "Shore up roadmap and public docs",
-    "sha": "06ea595",
-    "date": "2026-05-27T14:36:17Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/06ea595617a60fc524bda3f9430323df0b7377b7"
-  },
-  {
-    "repo": "packetloss404/packetcode",
-    "message": "Open provider/model picker on autocomplete accept",
-    "sha": "9d5e53b",
-    "date": "2026-05-27T11:50:39Z",
-    "url": "https://github.com/packetloss404/packetcode/commit/9d5e53b1fa2c337823f494564e82bcd6724a927a"
-  },
-  {
-    "repo": "packetloss404/PacketADE",
-    "message": "Plan remote agents and fix sidecar session cleanup",
-    "sha": "dee8cb6",
-    "date": "2026-05-26T23:07:41Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/dee8cb64504dbf5dc9dbe85b649add81a50c2211"
+    "message": "Harden mission planner continuity",
+    "sha": "410a314",
+    "date": "2026-05-29T00:24:04Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/410a314c4754feb42755c24ac71b17fc0f257b55"
   },
   {
     "repo": "packetloss404/mc-server-bot",
-    "message": "chore: update learned skills index",
-    "sha": "81a73bf",
-    "date": "2026-05-26T05:54:42Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/81a73bf1ec41551966f82332f1e07c5359fbdba2"
+    "message": "fix(build): relax SiteSelector flatness + enable clearSite/snapToGround for town builds",
+    "sha": "d5d1667",
+    "date": "2026-05-28T23:10:37Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/d5d1667eecd3eb4c92d58a5538ea727326c1383e"
   },
   {
     "repo": "packetloss404/mc-server-bot",
-    "message": "fix(stability): bump maxReconnectAttempts 30->1000 for unattended overnight uptime",
-    "sha": "8aa6ca0",
-    "date": "2026-05-26T05:03:48Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/8aa6ca08cced7074007161c8dfa08d572a20e33b"
+    "message": "fix(town): cascade delete style_observations on deleteBuilding",
+    "sha": "3583b41",
+    "date": "2026-05-28T22:50:28Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/3583b41f123b60ba2c78eb0303599f23f305ba1a"
+  },
+  {
+    "repo": "packetloss404/mc-server-bot",
+    "message": "fix(build): raise SiteSelector budgets to fit town-scale schematics",
+    "sha": "51ada1e",
+    "date": "2026-05-28T22:35:20Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/51ada1eb94f510bc035d37c4d92b927aac1f348a"
+  },
+  {
+    "repo": "packetloss404/mc-server-bot",
+    "message": "fix(build): pick closest connected bot as SiteSelector probe",
+    "sha": "2f42ef6",
+    "date": "2026-05-28T22:14:01Z",
+    "url": "https://github.com/packetloss404/mc-server-bot/commit/2f42ef67f298859cf4fdf3a8a2fb6c8fc6313a30"
   }
 ]

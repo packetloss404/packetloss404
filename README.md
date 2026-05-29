@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> 404 loss · 200 OK vibes
+> keyboard > mouse > mouse-wheel > touchpad > scream
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `PacketADE` — [Shore up roadmap and public docs](https://github.com/packetloss404/PacketADE/commit/06ea595617a60fc524bda3f9430323df0b7377b7) <sub>· 2026-05-27</sub>
-- `packetcode` — [Open provider/model picker on autocomplete accept](https://github.com/packetloss404/packetcode/commit/9d5e53b1fa2c337823f494564e82bcd6724a927a) <sub>· 2026-05-27</sub>
-- `PacketADE` — [Plan remote agents and fix sidecar session cleanup](https://github.com/packetloss404/PacketADE/commit/dee8cb64504dbf5dc9dbe85b649add81a50c2211) <sub>· 2026-05-26</sub>
-- `mc-server-bot` — [chore: update learned skills index](https://github.com/packetloss404/mc-server-bot/commit/81a73bf1ec41551966f82332f1e07c5359fbdba2) <sub>· 2026-05-26</sub>
-- `mc-server-bot` — [fix(stability): bump maxReconnectAttempts 30->1000 for unattended overnight uptime](https://github.com/packetloss404/mc-server-bot/commit/8aa6ca08cced7074007161c8dfa08d572a20e33b) <sub>· 2026-05-26</sub>
+- `PacketADE` — [Harden mission planner continuity](https://github.com/packetloss404/PacketADE/commit/410a314c4754feb42755c24ac71b17fc0f257b55) <sub>· 2026-05-29</sub>
+- `mc-server-bot` — [fix(build): relax SiteSelector flatness + enable clearSite/snapToGround for town builds](https://github.com/packetloss404/mc-server-bot/commit/d5d1667eecd3eb4c92d58a5538ea727326c1383e) <sub>· 2026-05-28</sub>
+- `mc-server-bot` — [fix(town): cascade delete style_observations on deleteBuilding](https://github.com/packetloss404/mc-server-bot/commit/3583b41f123b60ba2c78eb0303599f23f305ba1a) <sub>· 2026-05-28</sub>
+- `mc-server-bot` — [fix(build): raise SiteSelector budgets to fit town-scale schematics](https://github.com/packetloss404/mc-server-bot/commit/51ada1eb94f510bc035d37c4d92b927aac1f348a) <sub>· 2026-05-28</sub>
+- `mc-server-bot` — [fix(build): pick closest connected bot as SiteSelector probe](https://github.com/packetloss404/mc-server-bot/commit/2f42ef67f298859cf4fdf3a8a2fb6c8fc6313a30) <sub>· 2026-05-28</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-28</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-29</code> · auto-built from <code>templates/README.template.md</code></sub></p>
