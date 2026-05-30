@@ -1,37 +1,37 @@
 [
   {
     "repo": "packetloss404/PacketADE",
-    "message": "Harden mission planner continuity",
-    "sha": "410a314",
-    "date": "2026-05-29T00:24:04Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/410a314c4754feb42755c24ac71b17fc0f257b55"
+    "message": "Document Send to Monitor plan",
+    "sha": "3caf479",
+    "date": "2026-05-29T15:19:31Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/3caf47986a6970ed87c0f871c8ced285893d1f87"
   },
   {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "fix(build): relax SiteSelector flatness + enable clearSite/snapToGround for town builds",
-    "sha": "d5d1667",
-    "date": "2026-05-28T23:10:37Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/d5d1667eecd3eb4c92d58a5538ea727326c1383e"
+    "repo": "packetloss404/packetcode",
+    "message": "Cut 0.5.0: section the changelog and tag first release",
+    "sha": "58e687a",
+    "date": "2026-05-29T15:15:29Z",
+    "url": "https://github.com/packetloss404/packetcode/commit/58e687ab967bf7b284c78bde0a9679b81c2a3407"
   },
   {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "fix(town): cascade delete style_observations on deleteBuilding",
-    "sha": "3583b41",
-    "date": "2026-05-28T22:50:28Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/3583b41f123b60ba2c78eb0303599f23f305ba1a"
+    "repo": "packetloss404/paperscout",
+    "message": "Clean up PaperScout repo",
+    "sha": "4267e36",
+    "date": "2026-05-29T15:12:46Z",
+    "url": "https://github.com/packetloss404/paperscout/commit/4267e368d1d3f2f838c1854185cfa1cfa2d18397"
   },
   {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "fix(build): raise SiteSelector budgets to fit town-scale schematics",
-    "sha": "51ada1e",
-    "date": "2026-05-28T22:35:20Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/51ada1eb94f510bc035d37c4d92b927aac1f348a"
+    "repo": "packetloss404/verdict",
+    "message": "Bump Anthropic SDK, patch postcss advisory, document Vibe Jam origin (#1)",
+    "sha": "91ec51a",
+    "date": "2026-05-29T14:54:07Z",
+    "url": "https://github.com/packetloss404/verdict/commit/91ec51aa420f8d8d264f13efd092afa9a8f1ac87"
   },
   {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "fix(build): pick closest connected bot as SiteSelector probe",
-    "sha": "2f42ef6",
-    "date": "2026-05-28T22:14:01Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/2f42ef67f298859cf4fdf3a8a2fb6c8fc6313a30"
+    "repo": "packetloss404/PacketADE",
+    "message": "Fix agent approval queue render loop",
+    "sha": "7e92871",
+    "date": "2026-05-29T13:39:23Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/7e928717006ec4d50a9efc2a1e87e6cf03b19325"
   }
 ]

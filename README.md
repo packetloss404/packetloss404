@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> keyboard > mouse > mouse-wheel > touchpad > scream
+> sleepless in /dev/stdout
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
-- `PacketADE` — [Harden mission planner continuity](https://github.com/packetloss404/PacketADE/commit/410a314c4754feb42755c24ac71b17fc0f257b55) <sub>· 2026-05-29</sub>
-- `mc-server-bot` — [fix(build): relax SiteSelector flatness + enable clearSite/snapToGround for town builds](https://github.com/packetloss404/mc-server-bot/commit/d5d1667eecd3eb4c92d58a5538ea727326c1383e) <sub>· 2026-05-28</sub>
-- `mc-server-bot` — [fix(town): cascade delete style_observations on deleteBuilding](https://github.com/packetloss404/mc-server-bot/commit/3583b41f123b60ba2c78eb0303599f23f305ba1a) <sub>· 2026-05-28</sub>
-- `mc-server-bot` — [fix(build): raise SiteSelector budgets to fit town-scale schematics](https://github.com/packetloss404/mc-server-bot/commit/51ada1eb94f510bc035d37c4d92b927aac1f348a) <sub>· 2026-05-28</sub>
-- `mc-server-bot` — [fix(build): pick closest connected bot as SiteSelector probe](https://github.com/packetloss404/mc-server-bot/commit/2f42ef67f298859cf4fdf3a8a2fb6c8fc6313a30) <sub>· 2026-05-28</sub>
+- `PacketADE` — [Document Send to Monitor plan](https://github.com/packetloss404/PacketADE/commit/3caf47986a6970ed87c0f871c8ced285893d1f87) <sub>· 2026-05-29</sub>
+- `packetcode` — [Cut 0.5.0: section the changelog and tag first release](https://github.com/packetloss404/packetcode/commit/58e687ab967bf7b284c78bde0a9679b81c2a3407) <sub>· 2026-05-29</sub>
+- `paperscout` — [Clean up PaperScout repo](https://github.com/packetloss404/paperscout/commit/4267e368d1d3f2f838c1854185cfa1cfa2d18397) <sub>· 2026-05-29</sub>
+- `verdict` — [Bump Anthropic SDK, patch postcss advisory, document Vibe Jam origin (#1)](https://github.com/packetloss404/verdict/commit/91ec51aa420f8d8d264f13efd092afa9a8f1ac87) <sub>· 2026-05-29</sub>
+- `PacketADE` — [Fix agent approval queue render loop](https://github.com/packetloss404/PacketADE/commit/7e928717006ec4d50a9efc2a1e87e6cf03b19325) <sub>· 2026-05-29</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-29</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-30</code> · auto-built from <code>templates/README.template.md</code></sub></p>
