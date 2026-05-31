@@ -1,37 +1,37 @@
 [
   {
+    "repo": "packetloss404/vibehack",
+    "message": "Make server bind address configurable via HOST env",
+    "sha": "98eb1ce",
+    "date": "2026-05-30T20:10:09Z",
+    "url": "https://github.com/packetloss404/vibehack/commit/98eb1ced56a4abab76ba2decd479fb1e5735cdcd"
+  },
+  {
+    "repo": "packetloss404/packetcode",
+    "message": "Cut 0.5.1: section the changelog",
+    "sha": "a29f311",
+    "date": "2026-05-30T19:33:57Z",
+    "url": "https://github.com/packetloss404/packetcode/commit/a29f3118ec5353894a689bfda6e7fe66845f444d"
+  },
+  {
+    "repo": "packetloss404/vibe-architect",
+    "message": "fix: load packaged UI via net.fetch so the desktop app starts",
+    "sha": "2b1ad7b",
+    "date": "2026-05-30T19:01:42Z",
+    "url": "https://github.com/packetloss404/vibe-architect/commit/2b1ad7ba4fd8c624dcccc990fa10831adfd95dcf"
+  },
+  {
+    "repo": "packetloss404/packetcode",
+    "message": "Document provider_max_retries in README and config example",
+    "sha": "a2524e6",
+    "date": "2026-05-30T11:47:13Z",
+    "url": "https://github.com/packetloss404/packetcode/commit/a2524e630eab6e27102febc3fda6b868a57f513c"
+  },
+  {
     "repo": "packetloss404/PacketADE",
     "message": "Document Send to Monitor plan",
     "sha": "3caf479",
     "date": "2026-05-29T15:19:31Z",
     "url": "https://github.com/packetloss404/PacketADE/commit/3caf47986a6970ed87c0f871c8ced285893d1f87"
-  },
-  {
-    "repo": "packetloss404/packetcode",
-    "message": "Cut 0.5.0: section the changelog and tag first release",
-    "sha": "58e687a",
-    "date": "2026-05-29T15:15:29Z",
-    "url": "https://github.com/packetloss404/packetcode/commit/58e687ab967bf7b284c78bde0a9679b81c2a3407"
-  },
-  {
-    "repo": "packetloss404/paperscout",
-    "message": "Clean up PaperScout repo",
-    "sha": "4267e36",
-    "date": "2026-05-29T15:12:46Z",
-    "url": "https://github.com/packetloss404/paperscout/commit/4267e368d1d3f2f838c1854185cfa1cfa2d18397"
-  },
-  {
-    "repo": "packetloss404/verdict",
-    "message": "Bump Anthropic SDK, patch postcss advisory, document Vibe Jam origin (#1)",
-    "sha": "91ec51a",
-    "date": "2026-05-29T14:54:07Z",
-    "url": "https://github.com/packetloss404/verdict/commit/91ec51aa420f8d8d264f13efd092afa9a8f1ac87"
-  },
-  {
-    "repo": "packetloss404/PacketADE",
-    "message": "Fix agent approval queue render loop",
-    "sha": "7e92871",
-    "date": "2026-05-29T13:39:23Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/7e928717006ec4d50a9efc2a1e87e6cf03b19325"
   }
 ]

@@ -5,7 +5,7 @@
 ```
 packetloss404@void:~$ whoami
 > Ian Walmsley — Agentic Engineer
-> sleepless in /dev/stdout
+> writing code that writes code that writes code
 ```
 
 ## currently building
@@ -32,11 +32,11 @@ packetloss404@void:~$ whoami
 
 ## recent shipments
 
+- `vibehack` — [Make server bind address configurable via HOST env](https://github.com/packetloss404/vibehack/commit/98eb1ced56a4abab76ba2decd479fb1e5735cdcd) <sub>· 2026-05-30</sub>
+- `packetcode` — [Cut 0.5.1: section the changelog](https://github.com/packetloss404/packetcode/commit/a29f3118ec5353894a689bfda6e7fe66845f444d) <sub>· 2026-05-30</sub>
+- `vibe-architect` — [fix: load packaged UI via net.fetch so the desktop app starts](https://github.com/packetloss404/vibe-architect/commit/2b1ad7ba4fd8c624dcccc990fa10831adfd95dcf) <sub>· 2026-05-30</sub>
+- `packetcode` — [Document provider_max_retries in README and config example](https://github.com/packetloss404/packetcode/commit/a2524e630eab6e27102febc3fda6b868a57f513c) <sub>· 2026-05-30</sub>
 - `PacketADE` — [Document Send to Monitor plan](https://github.com/packetloss404/PacketADE/commit/3caf47986a6970ed87c0f871c8ced285893d1f87) <sub>· 2026-05-29</sub>
-- `packetcode` — [Cut 0.5.0: section the changelog and tag first release](https://github.com/packetloss404/packetcode/commit/58e687ab967bf7b284c78bde0a9679b81c2a3407) <sub>· 2026-05-29</sub>
-- `paperscout` — [Clean up PaperScout repo](https://github.com/packetloss404/paperscout/commit/4267e368d1d3f2f838c1854185cfa1cfa2d18397) <sub>· 2026-05-29</sub>
-- `verdict` — [Bump Anthropic SDK, patch postcss advisory, document Vibe Jam origin (#1)](https://github.com/packetloss404/verdict/commit/91ec51aa420f8d8d264f13efd092afa9a8f1ac87) <sub>· 2026-05-29</sub>
-- `PacketADE` — [Fix agent approval queue render loop](https://github.com/packetloss404/PacketADE/commit/7e928717006ec4d50a9efc2a1e87e6cf03b19325) <sub>· 2026-05-29</sub>
 
 ---
 
@@ -46,4 +46,4 @@ packetloss404@void:~$ whoami
   <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-05-30</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-05-31</code> · auto-built from <code>templates/README.template.md</code></sub></p>
