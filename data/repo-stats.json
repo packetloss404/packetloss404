@@ -3,12 +3,12 @@
     "stars": 0,
     "forks": 0,
     "description": "PacketADE is a Tauri v2 desktop app that brings AI coding agents, planning, issue tracking, memory, deployment tooling, and workspace management into a single native environment. It is built for running real development workflows across multiple agent CLIs without leaving the app.",
-    "updated": "2026-06-02T07:59:18.585Z"
+    "updated": "2026-06-03T08:03:36.126Z"
   },
   "packetloss404/packetcode": {
     "stars": 0,
     "forks": 0,
     "description": "A keyboard-first, multi-provider AI coding agent for the terminal. Lives in your terminal and talks to five LLM providers behind a single unified interface. It can read, edit, patch, search, and execute against your project",
-    "updated": "2026-06-02T07:59:18.820Z"
+    "updated": "2026-06-03T08:03:36.361Z"
   }
 }

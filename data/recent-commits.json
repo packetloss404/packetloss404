@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/vibebbs",
-    "message": "docs: rewrite README to reflect actual implemented features (code-grounded audit)",
-    "sha": "0dfd387",
-    "date": "2026-06-02T02:23:00Z",
-    "url": "https://github.com/packetloss404/vibebbs/commit/0dfd3879ef434568014e02c5a776ddde18c3c314"
+    "repo": "packetloss404/packetcraft",
+    "message": "Persist chat history, events & media services (Batch 3)",
+    "sha": "e152eaf",
+    "date": "2026-06-02T20:47:46Z",
+    "url": "https://github.com/packetloss404/packetcraft/commit/e152eaf2cb948b7d0c90d5d15cffbf7f29554361"
   },
   {
-    "repo": "packetloss404/Defcoin",
-    "message": "docs: rewrite README to reflect actual implemented features (code-grounded audit)",
-    "sha": "1f67d27",
-    "date": "2026-06-02T02:09:09Z",
-    "url": "https://github.com/packetloss404/Defcoin/commit/1f67d2705935c71a66e127b27710009547d7d93d"
+    "repo": "packetloss404/packetcraft",
+    "message": "Retire the Godot native client; revert to Paper + Fabric over the REST sidecar",
+    "sha": "9842de1",
+    "date": "2026-06-02T19:43:45Z",
+    "url": "https://github.com/packetloss404/packetcraft/commit/9842de111583f83a1e68aacb37170339643e5d0c"
   },
   {
-    "repo": "packetloss404/vellum",
-    "message": "docs: rewrite README to reflect actual implemented features (code-grounded audit)",
-    "sha": "4efdea9",
-    "date": "2026-06-02T01:35:41Z",
-    "url": "https://github.com/packetloss404/vellum/commit/4efdea9d866f2308ec4af9dbaaf2ca6ebb7f8cc0"
+    "repo": "packetloss404/vibetotext",
+    "message": "Repo hygiene + scrub original-author attribution (takeover cleanup)",
+    "sha": "6de2158",
+    "date": "2026-06-02T16:46:43Z",
+    "url": "https://github.com/packetloss404/vibetotext/commit/6de2158b58fa8c17fd1f9c712135b7f99f976865"
   },
   {
-    "repo": "packetloss404/mc-server-bot",
-    "message": "docs: rewrite README to reflect actual implemented features (code-grounded audit)",
-    "sha": "180eaf5",
-    "date": "2026-06-02T01:06:43Z",
-    "url": "https://github.com/packetloss404/mc-server-bot/commit/180eaf50453183a18449a5a03ccc2d50206436c5"
+    "repo": "packetloss404/vibetotext",
+    "message": "Remove the \"Don't Anger the AI\" game; extracted to packetloss404/vibegalaxy",
+    "sha": "a4a72c0",
+    "date": "2026-06-02T16:28:27Z",
+    "url": "https://github.com/packetloss404/vibetotext/commit/a4a72c0c54e75b6fdbe1b2009a0d6e055ef04287"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "Make the two live sidecar smokes gate-safe and wire them in",
-    "sha": "6d653ff",
-    "date": "2026-06-02T00:53:42Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/6d653ff51572ce7522665496115470a7f7c6f678"
+    "repo": "packetloss404/vibetotext",
+    "message": "Remove byte-identical duplicate source trees",
+    "sha": "b69fe1f",
+    "date": "2026-06-02T16:04:36Z",
+    "url": "https://github.com/packetloss404/vibetotext/commit/b69fe1f42009b9a3cff336200a3af2055ecfc7e5"
   }
 ]
