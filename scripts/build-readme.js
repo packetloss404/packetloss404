@@ -54,10 +54,13 @@ function formatCommits(cs) {
 
 function formatProjects(projects) {
   if (!Array.isArray(projects) || projects.length === 0) return '';
-  const cells = projects.map((p) => (
-    `  <td width="33%" align="center"><a href="${p.url}"><img src="cards/${p.slug}.svg" alt="${escapeHtml(p.title)}" width="100%"/></a></td>`
-  ));
-  return `<table>\n<tr>\n${cells.join('\n')}\n</tr>\n</table>`;
+  const cell = (p) =>
+    `  <td width="33%" align="center"><a href="${p.url}"><img src="cards/${p.slug}.svg" alt="${escapeHtml(p.title)}" width="100%"/></a></td>`;
+  const rows = [];
+  for (let i = 0; i < projects.length; i += 3) {
+    rows.push(`<tr>\n${projects.slice(i, i + 3).map(cell).join('\n')}\n</tr>`);
+  }
+  return `<table>\n${rows.join('\n')}\n</table>`;
 }
 
 function formatStatus(s) {

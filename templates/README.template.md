@@ -4,34 +4,29 @@
 
 ```
 packetloss404@void:~$ whoami
-> Ian Walmsley — Agentic Engineer
-> {{tagline}}
+> Ian Walmsley — AI / Agent Engineer
+> Iowa · Remote
 ```
 
-## currently building
+## what I build
 
-{{status}}
+Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider LLM routers (hand-rolled, no SDKs), MCP clients & servers from scratch, Voyager-style agent loops, sandboxed tool runtimes, RAG, and agent-evaluation harnesses. Production-minded: real test suites, security (SSRF defense, credential vaults, hash-chained audit logs), and durable persistence.
 
-## projects
+`TypeScript` · `Rust` · `Python` · `Go` · LLM orchestration · MCP · agents · evals
+
+## featured
 
 {{projects}}
 
-## latest from the lab
+## currently
 
-<p align="center">
-{{youtube}}
-</p>
-
-## recent shipments
-
-{{commits}}
+{{status}}
 
 ---
 
 <p align="center">
-  <a href="https://www.youtube.com/@packetloss404"><code>[ y ] youtube</code></a> ·
-  <a href="https://discord.gg/eygyg7pQ"><code>[ d ] discord</code></a> ·
-  <a href="https://creditquest.packetloss404.com"><code>[ c ] credit quest</code></a>
+  <a href="https://www.linkedin.com/in/Iwalmsley"><code>[ in ] linkedin</code></a> ·
+  <a href="https://github.com/packetloss404"><code>[ gh ] github</code></a>
 </p>
 
 <p align="center"><sub>last refresh: <code>{{updated}}</code> · auto-built from <code>templates/README.template.md</code></sub></p>

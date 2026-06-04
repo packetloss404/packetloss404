@@ -1,11 +1,8 @@
 {
-  "now": "Shipping across a stack of agent-driven tools — **PacketADE** stitches Claude Code + Codex CLI into a single multi-pane workspace, **packetcode** is the keyboard-first terminal coding agent behind it, **vibesocial** and **vibebbs** experiment with community infra for the streamer / BBS crowd, **taskloom** is the lightweight task engine holding it all together, and **mc-server-bot** keeps the self-hosted Minecraft fleet running.",
+  "now": "Maturing the agent stack — packetcode (terminal coding agent), PacketChat, and a synthetic-world agent-evaluation engine — plus packetphone (real-time AI telephony) and unifying my Minecraft-agent and agent-evaluation platforms into one simulation framework.",
   "links": [
-    { "label": "PacketADE", "url": "https://github.com/packetloss404/packetade" },
     { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
-    { "label": "vibesocial", "url": "https://github.com/packetloss404/vibesocial" },
-    { "label": "taskloom", "url": "https://github.com/packetloss404/taskloom" },
-    { "label": "mc-server-bot", "url": "https://github.com/packetloss404/mc-server-bot" },
-    { "label": "vibebbs", "url": "https://github.com/packetloss404/vibebbs" }
+    { "label": "tradefarm", "url": "https://github.com/packetloss404/tradefarm" },
+    { "label": "mc-server-bot", "url": "https://github.com/packetloss404/mc-server-bot" }
   ]
 }

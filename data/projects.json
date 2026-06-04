@@ -2,8 +2,8 @@
   {
     "slug": "packetade",
     "title": "PacketADE",
-    "subtitle": "AI dev workspace unifying Claude Code + Codex CLI",
-    "tags": ["AGENTIC", "MULTI-PANE", "MCP"],
+    "subtitle": "Autonomous agentic dev environment (Tauri + Rust)",
+    "tags": ["AGENTIC", "MISSION-PLANNER", "MCP"],
     "url": "https://github.com/packetloss404/packetade",
     "repo": "packetloss404/packetade",
     "accent": "screenGlow"
@@ -11,19 +11,46 @@
   {
     "slug": "packetcode",
     "title": "packetcode",
-    "subtitle": "Keyboard-first multi-provider AI coding agent",
-    "tags": ["TERMINAL", "MULTI-LLM", "CLI"],
+    "subtitle": "Keyboard-first multi-provider AI coding agent (Go)",
+    "tags": ["TERMINAL", "MULTI-LLM", "SANDBOXED"],
     "url": "https://github.com/packetloss404/packetcode",
     "repo": "packetloss404/packetcode",
     "accent": "screenBlue"
   },
   {
-    "slug": "creditquest",
-    "title": "Credit Quest",
-    "subtitle": "Self-hosted credit intelligence playground",
-    "tags": ["WEB", "SELF-HOSTED", "FINTECH"],
-    "url": "https://creditquest.packetloss404.com",
-    "repo": null,
+    "slug": "vellum",
+    "title": "vellum",
+    "subtitle": "Durable multi-agent investigation engine",
+    "tags": ["AGENTS", "DURABLE", "RECOVERY"],
+    "url": "https://github.com/packetloss404/vellum",
+    "repo": "packetloss404/vellum",
+    "accent": "screenPurple"
+  },
+  {
+    "slug": "taskloom",
+    "title": "taskloom",
+    "subtitle": "Prompt-to-app agent platform at scale",
+    "tags": ["PLATFORM", "AGENTS", "TESTED"],
+    "url": "https://github.com/packetloss404/taskloom",
+    "repo": "packetloss404/taskloom",
+    "accent": "screenGlow"
+  },
+  {
+    "slug": "tradefarm",
+    "title": "tradefarm",
+    "subtitle": "100-agent LSTM+LLM trading + autonomous VOD studio",
+    "tags": ["TRADING", "MULTI-AGENT", "LLM"],
+    "url": "https://github.com/packetloss404/tradefarm",
+    "repo": "packetloss404/tradefarm",
+    "accent": "screenBlue"
+  },
+  {
+    "slug": "mc-server-bot",
+    "title": "mc-server-bot",
+    "subtitle": "Multi-agent Minecraft AI civilization (Voyager)",
+    "tags": ["AGENTS", "VOYAGER", "MULTI-LLM"],
+    "url": "https://github.com/packetloss404/mc-server-bot",
+    "repo": "packetloss404/mc-server-bot",
     "accent": "screenPurple"
   }
 ]

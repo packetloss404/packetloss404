@@ -51,7 +51,6 @@ function main() {
   const theme = themes[Math.floor(doy / 4) % themes.length];
   console.log(`=== day ${doy}: scene=${scene}  theme=${theme} ===`);
 
-  trySoftly(`node scripts/fetch-youtube.js`);
   trySoftly(`node scripts/fetch-commits.js`);
   trySoftly(`node scripts/fetch-stars.js`);
 
