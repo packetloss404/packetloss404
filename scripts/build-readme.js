@@ -2,7 +2,7 @@
 /**
  * Build README.md from templates/README.template.md by substituting {{tokens}}
  * with dynamic content from data/. Safe to run repeatedly — deterministic
- * given the same inputs (except {{tagline}} which rotates by day-of-year).
+ * given the same inputs.
  */
 
 const fs = require('fs');
@@ -29,27 +29,6 @@ function escapeHtml(s) {
 function escapeMdText(s) {
   // Protect square brackets / backticks from breaking markdown link syntax
   return String(s).replace(/[\[\]`]/g, (c) => '\\' + c);
-}
-
-function formatYoutube(y) {
-  if (!y || y.error || !y.url) {
-    return '<sub><em>No recent uploads visible.</em></sub>';
-  }
-  const thumb = y.thumbnail
-    ? `<img src="${y.thumbnail}" alt="${escapeHtml(y.title)}" width="360"/>`
-    : '';
-  return `<a href="${y.url}">${thumb}</a><br><sub>${escapeHtml(y.title)}</sub>`;
-}
-
-function formatCommits(cs) {
-  if (!Array.isArray(cs) || cs.length === 0) {
-    return '<sub><em>No recent shipments visible.</em></sub>';
-  }
-  return cs.map((c) => {
-    const date = (c.date || '').slice(0, 10);
-    const repoShort = c.repo.split('/').pop();
-    return `- \`${repoShort}\` — [${escapeMdText(c.message)}](${c.url}) <sub>· ${date}</sub>`;
-  }).join('\n');
 }
 
 function formatProjects(projects) {
@@ -80,21 +59,11 @@ function main() {
   }
 
   const template = fs.readFileSync(TEMPLATE, 'utf8');
-  const taglines = loadJson(path.join(ROOT, 'data/taglines.json'), ['terminal-first by choice']);
   const status   = loadJson(path.join(ROOT, 'data/status.json'), {});
-  const youtube  = loadJson(path.join(ROOT, 'data/youtube.json'), null);
-  const commits  = loadJson(path.join(ROOT, 'data/recent-commits.json'), []);
   const projects = loadJson(path.join(ROOT, 'data/projects.json'), []);
 
-  const tagline = Array.isArray(taglines) && taglines.length
-    ? taglines[dayOfYear() % taglines.length]
-    : 'terminal-first by choice';
-
   const ctx = {
-    tagline,
     status:   formatStatus(status),
-    youtube:  formatYoutube(youtube),
-    commits:  formatCommits(commits),
     projects: formatProjects(projects),
     year:     String(new Date().getFullYear()),
     updated:  new Date().toISOString().slice(0, 10),
