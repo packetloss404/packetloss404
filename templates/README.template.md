@@ -10,9 +10,9 @@ packetloss404@void:~$ whoami
 
 ## what I build
 
-Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider LLM routers (hand-rolled, no SDKs), MCP clients & servers from scratch, Voyager-style agent loops, sandboxed tool runtimes, RAG, and agent-evaluation harnesses. Production-minded: real test suites, security (SSRF defense, credential vaults, hash-chained audit logs), and durable persistence.
+Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider LLM routers (hand-rolled, no SDKs), MCP clients & servers from scratch, Voyager-style agent loops, sandboxed tool runtimes, RAG, and agent evaluation inside synthetic worlds: closed-sandbox internets, simulated enterprise networks, and autonomous Minecraft civilizations. Production-minded: real test suites, security (SSRF defense, credential vaults, hash-chained audit logs), and durable persistence.
 
-`TypeScript` · `Rust` · `Python` · `Go` · LLM orchestration · MCP · agents · evals
+`TypeScript` · `Rust` · `Python` · `Go` · LLM orchestration · MCP · agents · evals · simulation
 
 ## featured
 
