@@ -31,9 +31,9 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 
 ## currently
 
-> Maturing the agent stack — packetcode (terminal coding agent), PacketChat, and a synthetic-world agent-evaluation engine — plus packetphone (real-time AI telephony) and unifying my Minecraft-agent and agent-evaluation platforms into one simulation framework.
+> Building out the packet stack — PacketADE (agentic dev environment), packetcode (terminal coding agent), PacketChat (self-hosted multi-user AI workspace), and packetphone (real-time AI telephony) — plus fun stuff like mc-fleet-bot's autonomous Minecraft civilization, and private R&D: blackboxai (closed-sandbox agent-evaluation worlds) and synapse (closed-loop endpoint ops + XLA reporting).
 >
-> [packetcode](https://github.com/packetloss404/packetcode) · [jarvis](https://github.com/packetloss404/jarvis) · [mc-fleet-bot](https://github.com/packetloss404/mc-fleet-bot)
+> [PacketADE](https://github.com/packetloss404/packetade) · [packetcode](https://github.com/packetloss404/packetcode) · [mc-fleet-bot](https://github.com/packetloss404/mc-fleet-bot)
 
 ---
 

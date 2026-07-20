@@ -1,8 +1,8 @@
 {
-  "now": "Maturing the agent stack — packetcode (terminal coding agent), PacketChat, and a synthetic-world agent-evaluation engine — plus packetphone (real-time AI telephony) and unifying my Minecraft-agent and agent-evaluation platforms into one simulation framework.",
+  "now": "Building out the packet stack — PacketADE (agentic dev environment), packetcode (terminal coding agent), PacketChat (self-hosted multi-user AI workspace), and packetphone (real-time AI telephony) — plus fun stuff like mc-fleet-bot's autonomous Minecraft civilization, and private R&D: blackboxai (closed-sandbox agent-evaluation worlds) and synapse (closed-loop endpoint ops + XLA reporting).",
   "links": [
+    { "label": "PacketADE", "url": "https://github.com/packetloss404/packetade" },
     { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
-    { "label": "jarvis", "url": "https://github.com/packetloss404/jarvis" },
     { "label": "mc-fleet-bot", "url": "https://github.com/packetloss404/mc-fleet-bot" }
   ]
 }
