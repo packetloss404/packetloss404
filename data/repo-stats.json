@@ -3,12 +3,36 @@
     "stars": 0,
     "forks": 0,
     "description": "PacketADE is a Tauri v2 desktop app that brings AI coding agents, planning, issue tracking, memory, deployment tooling, and workspace management into a single native environment. It is built for running real development workflows across multiple agent CLIs without leaving the app.",
-    "updated": "2026-06-04T07:57:42.013Z"
+    "updated": "2026-07-20T02:47:37.986Z"
   },
   "packetloss404/packetcode": {
     "stars": 0,
     "forks": 0,
     "description": "A keyboard-first, multi-provider AI coding agent for the terminal. Lives in your terminal and talks to five LLM providers behind a single unified interface. It can read, edit, patch, search, and execute against your project",
-    "updated": "2026-06-04T07:57:42.342Z"
+    "updated": "2026-07-20T02:47:38.357Z"
+  },
+  "packetloss404/vellum": {
+    "stars": 1,
+    "forks": 0,
+    "description": "A durable investigation system where the dossier is the primary surface, not chat.",
+    "updated": "2026-07-20T02:47:38.749Z"
+  },
+  "packetloss404/taskloom": {
+    "stars": 0,
+    "forks": 0,
+    "description": "open-source agent creation, management, and run application. BYOK and supports Claude Agent SDK",
+    "updated": "2026-07-20T02:47:39.154Z"
+  },
+  "packetloss404/tradefarm": {
+    "stars": 1,
+    "forks": 1,
+    "description": "100 AI agents paper-trading US stocks & ETFs. LSTM + LLM (Claude or MiniMax) decisions, Alpaca -- paper fills, IMMT-style live dashboard.",
+    "updated": "2026-07-20T02:47:39.549Z"
+  },
+  "packetloss404/mc-server-bot": {
+    "stars": 0,
+    "forks": 0,
+    "description": "AI-powered Minecraft bot with LLM-driven behavior and skill system",
+    "updated": "2026-07-20T02:47:39.989Z"
   }
 }

@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/packetcraft",
-    "message": "Persist chat history, events & media services (Batch 3)",
-    "sha": "e152eaf",
-    "date": "2026-06-02T20:47:46Z",
-    "url": "https://github.com/packetloss404/packetcraft/commit/e152eaf2cb948b7d0c90d5d15cffbf7f29554361"
+    "repo": "packetloss404/PacketADE",
+    "message": "fix(flights): harden attempt lifecycle and refresh plans",
+    "sha": "510461a",
+    "date": "2026-07-20T02:35:00Z",
+    "url": "https://github.com/packetloss404/PacketADE/commit/510461aaf51010d40262224b5dcad6bde9e6d5b0"
+  },
+  {
+    "repo": "packetloss404/tradefarm",
+    "message": "docs: add repo review notes + archived docs",
+    "sha": "9c51d45",
+    "date": "2026-07-20T02:28:53Z",
+    "url": "https://github.com/packetloss404/tradefarm/commit/9c51d45ecbd186b69d734ce358f24aa456e96b67"
+  },
+  {
+    "repo": "packetloss404/taskloom",
+    "message": "docs: add repo review notes",
+    "sha": "81de332",
+    "date": "2026-07-20T02:28:49Z",
+    "url": "https://github.com/packetloss404/taskloom/commit/81de33276d044e26f1c4136fb35e13cbfc5aa513"
+  },
+  {
+    "repo": "packetloss404/mc-fleet-bot",
+    "message": "docs: settle on mc-fleet-bot as the final name",
+    "sha": "e2b587a",
+    "date": "2026-07-20T02:23:11Z",
+    "url": "https://github.com/packetloss404/mc-fleet-bot/commit/e2b587a42323f3cf099565e706b034e0e0411d60"
   },
   {
     "repo": "packetloss404/packetcraft",
-    "message": "Retire the Godot native client; revert to Paper + Fabric over the REST sidecar",
-    "sha": "9842de1",
-    "date": "2026-06-02T19:43:45Z",
-    "url": "https://github.com/packetloss404/packetcraft/commit/9842de111583f83a1e68aacb37170339643e5d0c"
-  },
-  {
-    "repo": "packetloss404/vibetotext",
-    "message": "Repo hygiene + scrub original-author attribution (takeover cleanup)",
-    "sha": "6de2158",
-    "date": "2026-06-02T16:46:43Z",
-    "url": "https://github.com/packetloss404/vibetotext/commit/6de2158b58fa8c17fd1f9c712135b7f99f976865"
-  },
-  {
-    "repo": "packetloss404/vibetotext",
-    "message": "Remove the \"Don't Anger the AI\" game; extracted to packetloss404/vibegalaxy",
-    "sha": "a4a72c0",
-    "date": "2026-06-02T16:28:27Z",
-    "url": "https://github.com/packetloss404/vibetotext/commit/a4a72c0c54e75b6fdbe1b2009a0d6e055ef04287"
-  },
-  {
-    "repo": "packetloss404/vibetotext",
-    "message": "Remove byte-identical duplicate source trees",
-    "sha": "b69fe1f",
-    "date": "2026-06-02T16:04:36Z",
-    "url": "https://github.com/packetloss404/vibetotext/commit/b69fe1f42009b9a3cff336200a3af2055ecfc7e5"
+    "message": "Merge docs/audit-backlog",
+    "sha": "7241d56",
+    "date": "2026-07-18T01:53:45Z",
+    "url": "https://github.com/packetloss404/packetcraft/commit/7241d5664c466cb3b49a250865cb60b8762f49fa"
   }
 ]

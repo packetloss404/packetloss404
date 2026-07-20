@@ -42,4 +42,4 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
   <a href="https://github.com/packetloss404"><code>[ gh ] github</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-06-04</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-07-20</code> · auto-built from <code>templates/README.template.md</code></sub></p>
