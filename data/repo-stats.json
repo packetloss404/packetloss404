@@ -3,25 +3,25 @@
     "stars": 0,
     "forks": 0,
     "description": "PacketADE is a Tauri v2 desktop app that brings AI coding agents, planning, issue tracking, memory, deployment tooling, and workspace management into a single native environment. It is built for running real development workflows across multiple agent CLIs without leaving the app.",
-    "updated": "2026-07-20T02:47:37.986Z"
+    "updated": "2026-07-20T02:53:41.131Z"
   },
   "packetloss404/packetcode": {
     "stars": 0,
     "forks": 0,
     "description": "A keyboard-first, multi-provider AI coding agent for the terminal. Lives in your terminal and talks to five LLM providers behind a single unified interface. It can read, edit, patch, search, and execute against your project",
-    "updated": "2026-07-20T02:47:38.357Z"
+    "updated": "2026-07-20T02:53:41.538Z"
   },
   "packetloss404/vellum": {
     "stars": 1,
     "forks": 0,
     "description": "A durable investigation system where the dossier is the primary surface, not chat.",
-    "updated": "2026-07-20T02:47:38.749Z"
+    "updated": "2026-07-20T02:53:41.953Z"
   },
   "packetloss404/taskloom": {
     "stars": 0,
     "forks": 0,
     "description": "open-source agent creation, management, and run application. BYOK and supports Claude Agent SDK",
-    "updated": "2026-07-20T02:47:39.154Z"
+    "updated": "2026-07-20T02:53:42.356Z"
   },
   "packetloss404/tradefarm": {
     "stars": 1,
@@ -34,5 +34,17 @@
     "forks": 0,
     "description": "AI-powered Minecraft bot with LLM-driven behavior and skill system",
     "updated": "2026-07-20T02:47:39.989Z"
+  },
+  "packetloss404/jarvis": {
+    "stars": 0,
+    "forks": 0,
+    "description": "A programmable, GPU-rendered tiling desktop shell for vibe coding — an agentic multi-provider AI assistant, self-hosted chat & presence, collaborative terminals, and a jarvis:// plugin system, all in one cross-platform Rust binary.",
+    "updated": "2026-07-20T02:53:42.786Z"
+  },
+  "packetloss404/mc-fleet-bot": {
+    "stars": 0,
+    "forks": 0,
+    "description": "",
+    "updated": "2026-07-20T02:53:43.196Z"
   }
 }

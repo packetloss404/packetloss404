@@ -1,5 +1,19 @@
 [
   {
+    "repo": "packetloss404/packetloss404",
+    "message": "feat: feature jarvis + mc-fleet-bot in place of tradefarm + mc-server-bot",
+    "sha": "45dbf6f",
+    "date": "2026-07-20T02:53:18Z",
+    "url": "https://github.com/packetloss404/packetloss404/commit/45dbf6f2cc248868757175e05949a1f94e13aa76"
+  },
+  {
+    "repo": "packetloss404/packetbbs",
+    "message": "Merge wip/windows-2026-07-19: Door 5 — Dungeon of the Vibe Lords (Claude-DM MUD)",
+    "sha": "a36cc6b",
+    "date": "2026-07-20T02:49:54Z",
+    "url": "https://github.com/packetloss404/packetbbs/commit/a36cc6b6e76c1a3b92621858c5e4e5dcd9b26609"
+  },
+  {
     "repo": "packetloss404/PacketADE",
     "message": "fix(flights): harden attempt lifecycle and refresh plans",
     "sha": "510461a",
@@ -19,19 +33,5 @@
     "sha": "81de332",
     "date": "2026-07-20T02:28:49Z",
     "url": "https://github.com/packetloss404/taskloom/commit/81de33276d044e26f1c4136fb35e13cbfc5aa513"
-  },
-  {
-    "repo": "packetloss404/mc-fleet-bot",
-    "message": "docs: settle on mc-fleet-bot as the final name",
-    "sha": "e2b587a",
-    "date": "2026-07-20T02:23:11Z",
-    "url": "https://github.com/packetloss404/mc-fleet-bot/commit/e2b587a42323f3cf099565e706b034e0e0411d60"
-  },
-  {
-    "repo": "packetloss404/packetcraft",
-    "message": "Merge docs/audit-backlog",
-    "sha": "7241d56",
-    "date": "2026-07-18T01:53:45Z",
-    "url": "https://github.com/packetloss404/packetcraft/commit/7241d5664c466cb3b49a250865cb60b8762f49fa"
   }
 ]

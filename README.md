@@ -24,8 +24,8 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 </tr>
 <tr>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/taskloom"><img src="cards/taskloom.svg" alt="taskloom" width="100%"/></a></td>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/tradefarm"><img src="cards/tradefarm.svg" alt="tradefarm" width="100%"/></a></td>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/mc-server-bot"><img src="cards/mc-server-bot.svg" alt="mc-server-bot" width="100%"/></a></td>
+  <td width="33%" align="center"><a href="https://github.com/packetloss404/jarvis"><img src="cards/jarvis.svg" alt="jarvis" width="100%"/></a></td>
+  <td width="33%" align="center"><a href="https://github.com/packetloss404/mc-fleet-bot"><img src="cards/mc-fleet-bot.svg" alt="mc-fleet-bot" width="100%"/></a></td>
 </tr>
 </table>
 
@@ -33,7 +33,7 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 
 > Maturing the agent stack — packetcode (terminal coding agent), PacketChat, and a synthetic-world agent-evaluation engine — plus packetphone (real-time AI telephony) and unifying my Minecraft-agent and agent-evaluation platforms into one simulation framework.
 >
-> [packetcode](https://github.com/packetloss404/packetcode) · [tradefarm](https://github.com/packetloss404/tradefarm) · [mc-server-bot](https://github.com/packetloss404/mc-server-bot)
+> [packetcode](https://github.com/packetloss404/packetcode) · [jarvis](https://github.com/packetloss404/jarvis) · [mc-fleet-bot](https://github.com/packetloss404/mc-fleet-bot)
 
 ---
 
