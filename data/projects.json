@@ -36,21 +36,21 @@
     "accent": "screenGlow"
   },
   {
-    "slug": "tradefarm",
-    "title": "tradefarm",
-    "subtitle": "100-agent LSTM+LLM trading + autonomous VOD studio",
-    "tags": ["TRADING", "MULTI-AGENT", "LLM"],
-    "url": "https://github.com/packetloss404/tradefarm",
-    "repo": "packetloss404/tradefarm",
+    "slug": "jarvis",
+    "title": "jarvis",
+    "subtitle": "GPU-rendered tiling desktop shell + agentic AI (Rust)",
+    "tags": ["SHELL", "AGENTIC", "MULTI-LLM"],
+    "url": "https://github.com/packetloss404/jarvis",
+    "repo": "packetloss404/jarvis",
     "accent": "screenBlue"
   },
   {
-    "slug": "mc-server-bot",
-    "title": "mc-server-bot",
-    "subtitle": "Multi-agent Minecraft AI civilization (Voyager)",
-    "tags": ["AGENTS", "VOYAGER", "MULTI-LLM"],
-    "url": "https://github.com/packetloss404/mc-server-bot",
-    "repo": "packetloss404/mc-server-bot",
+    "slug": "mc-fleet-bot",
+    "title": "mc-fleet-bot",
+    "subtitle": "Autonomous Minecraft bot fleet & AI civilization",
+    "tags": ["AGENTS", "VOYAGER", "FLEET"],
+    "url": "https://github.com/packetloss404/mc-fleet-bot",
+    "repo": "packetloss404/mc-fleet-bot",
     "accent": "screenPurple"
   }
 ]

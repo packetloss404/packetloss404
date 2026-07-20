@@ -2,7 +2,7 @@
   "now": "Maturing the agent stack — packetcode (terminal coding agent), PacketChat, and a synthetic-world agent-evaluation engine — plus packetphone (real-time AI telephony) and unifying my Minecraft-agent and agent-evaluation platforms into one simulation framework.",
   "links": [
     { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
-    { "label": "tradefarm", "url": "https://github.com/packetloss404/tradefarm" },
-    { "label": "mc-server-bot", "url": "https://github.com/packetloss404/mc-server-bot" }
+    { "label": "jarvis", "url": "https://github.com/packetloss404/jarvis" },
+    { "label": "mc-fleet-bot", "url": "https://github.com/packetloss404/mc-fleet-bot" }
   ]
 }
