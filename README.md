@@ -22,10 +22,10 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 <tr>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/PacketADE"><img src="cards/packetade.svg" alt="PacketADE" width="100%"/></a></td>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/packetcode"><img src="cards/packetcode.svg" alt="packetcode" width="100%"/></a></td>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/vellum"><img src="cards/vellum.svg" alt="vellum" width="100%"/></a></td>
+  <td width="33%" align="center"><a href="https://github.com/packetloss404/PacketAgent"><img src="cards/packetagent.svg" alt="PacketAgent" width="100%"/></a></td>
 </tr>
 <tr>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/PacketAgent"><img src="cards/packetagent.svg" alt="PacketAgent" width="100%"/></a></td>
+  <td width="33%" align="center"><a href="https://github.com/packetloss404/vellum"><img src="cards/vellum.svg" alt="vellum" width="100%"/></a></td>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/jarvis"><img src="cards/jarvis.svg" alt="jarvis" width="100%"/></a></td>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/mc-fleet-bot"><img src="cards/mc-fleet-bot.svg" alt="mc-fleet-bot" width="100%"/></a></td>
 </tr>

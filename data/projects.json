@@ -18,21 +18,21 @@
     "accent": "screenBlue"
   },
   {
-    "slug": "vellum",
-    "title": "vellum",
-    "subtitle": "Durable multi-agent investigation engine",
-    "tags": ["AGENTS", "DURABLE", "RECOVERY"],
-    "url": "https://github.com/packetloss404/vellum",
-    "repo": "packetloss404/vellum",
-    "accent": "screenPurple"
-  },
-  {
     "slug": "packetagent",
     "title": "PacketAgent",
     "subtitle": "Autonomous LLM worker runtime — bounded, budgeted, checkpointed",
     "tags": ["WORKERS", "SANDBOXED", "RECOVERY"],
     "url": "https://github.com/packetloss404/PacketAgent",
     "repo": "packetloss404/PacketAgent",
+    "accent": "screenPurple"
+  },
+  {
+    "slug": "vellum",
+    "title": "vellum",
+    "subtitle": "Durable multi-agent investigation engine",
+    "tags": ["AGENTS", "DURABLE", "RECOVERY"],
+    "url": "https://github.com/packetloss404/vellum",
+    "repo": "packetloss404/vellum",
     "accent": "screenGlow"
   },
   {
