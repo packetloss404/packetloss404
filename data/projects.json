@@ -4,8 +4,8 @@
     "title": "PacketADE",
     "subtitle": "Autonomous agentic dev environment (Tauri + Rust)",
     "tags": ["AGENTIC", "MISSION-PLANNER", "MCP"],
-    "url": "https://github.com/packetloss404/packetade",
-    "repo": "packetloss404/packetade",
+    "url": "https://github.com/packetloss404/PacketADE",
+    "repo": "packetloss404/PacketADE",
     "accent": "screenGlow"
   },
   {
@@ -27,12 +27,12 @@
     "accent": "screenPurple"
   },
   {
-    "slug": "taskloom",
-    "title": "taskloom",
-    "subtitle": "Prompt-to-app agent platform at scale",
-    "tags": ["PLATFORM", "AGENTS", "TESTED"],
-    "url": "https://github.com/packetloss404/taskloom",
-    "repo": "packetloss404/taskloom",
+    "slug": "packetagent",
+    "title": "PacketAgent",
+    "subtitle": "Autonomous LLM worker runtime — bounded, budgeted, checkpointed",
+    "tags": ["WORKERS", "SANDBOXED", "RECOVERY"],
+    "url": "https://github.com/packetloss404/PacketAgent",
+    "repo": "packetloss404/PacketAgent",
     "accent": "screenGlow"
   },
   {

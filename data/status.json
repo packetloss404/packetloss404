@@ -1,7 +1,9 @@
 {
-  "now": "Building out the packet stack — PacketADE (agentic dev environment), packetcode (terminal coding agent), PacketChat (self-hosted multi-user AI workspace), and packetphone (real-time AI telephony) — plus fun stuff like mc-fleet-bot's autonomous Minecraft civilization, and private R&D: blackboxai (closed-sandbox agent-evaluation worlds) and synapse (closed-loop endpoint ops + XLA reporting).",
+  "now": "Building the Packet suite end-to-end — PacketADE (agentic dev environment, v0.10.2), packetcode (terminal coding agent), and PacketAgent, the worker runtime behind them: bounded, budgeted, checkpointed LLM workers running in a network-isolated sandbox with effect receipts and digest-chained crash recovery. Alongside it, mc-fleet-bot's autonomous Minecraft civilization — and private R&D on closed-sandbox agent-evaluation worlds, a multi-agent fleet orchestrator, and an evidence-first investigation workspace with chain-of-custody and deterministic archive export.",
   "links": [
-    { "label": "PacketADE", "url": "https://github.com/packetloss404/packetade" },
+    { "label": "packetloss404.com", "url": "https://www.packetloss404.com" },
+    { "label": "PacketADE", "url": "https://github.com/packetloss404/PacketADE" },
+    { "label": "PacketAgent", "url": "https://github.com/packetloss404/PacketAgent" },
     { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
     { "label": "mc-fleet-bot", "url": "https://github.com/packetloss404/mc-fleet-bot" }
   ]
