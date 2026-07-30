@@ -6,6 +6,8 @@
 packetloss404@void:~$ whoami
 > Ian Walmsley — AI / Agent Engineer
 > Iowa · Remote
+packetloss404@void:~$ cat ~/.site
+> https://www.packetloss404.com  # agentic AI — what I build, and why
 ```
 
 ## what I build
@@ -25,6 +27,7 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 ---
 
 <p align="center">
+  <a href="https://www.packetloss404.com"><code>[ www ] packetloss404.com</code></a> ·
   <a href="https://www.linkedin.com/in/Iwalmsley"><code>[ in ] linkedin</code></a> ·
   <a href="https://github.com/packetloss404"><code>[ gh ] github</code></a>
 </p>

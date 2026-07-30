@@ -6,6 +6,8 @@
 packetloss404@void:~$ whoami
 > Ian Walmsley — AI / Agent Engineer
 > Iowa · Remote
+packetloss404@void:~$ cat ~/.site
+> https://www.packetloss404.com  # agentic AI — what I build, and why
 ```
 
 ## what I build
@@ -18,12 +20,12 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 
 <table>
 <tr>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/packetade"><img src="cards/packetade.svg" alt="PacketADE" width="100%"/></a></td>
+  <td width="33%" align="center"><a href="https://github.com/packetloss404/PacketADE"><img src="cards/packetade.svg" alt="PacketADE" width="100%"/></a></td>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/packetcode"><img src="cards/packetcode.svg" alt="packetcode" width="100%"/></a></td>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/vellum"><img src="cards/vellum.svg" alt="vellum" width="100%"/></a></td>
 </tr>
 <tr>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/taskloom"><img src="cards/taskloom.svg" alt="taskloom" width="100%"/></a></td>
+  <td width="33%" align="center"><a href="https://github.com/packetloss404/PacketAgent"><img src="cards/packetagent.svg" alt="PacketAgent" width="100%"/></a></td>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/jarvis"><img src="cards/jarvis.svg" alt="jarvis" width="100%"/></a></td>
   <td width="33%" align="center"><a href="https://github.com/packetloss404/mc-fleet-bot"><img src="cards/mc-fleet-bot.svg" alt="mc-fleet-bot" width="100%"/></a></td>
 </tr>
@@ -31,15 +33,16 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 
 ## currently
 
-> Building out the packet stack — PacketADE (agentic dev environment), packetcode (terminal coding agent), PacketChat (self-hosted multi-user AI workspace), and packetphone (real-time AI telephony) — plus fun stuff like mc-fleet-bot's autonomous Minecraft civilization, and private R&D: blackboxai (closed-sandbox agent-evaluation worlds) and synapse (closed-loop endpoint ops + XLA reporting).
+> Building the Packet suite end-to-end — PacketADE (agentic dev environment, v0.10.2), packetcode (terminal coding agent), and PacketAgent, the worker runtime behind them: bounded, budgeted, checkpointed LLM workers running in a network-isolated sandbox with effect receipts and digest-chained crash recovery. Alongside it, mc-fleet-bot's autonomous Minecraft civilization — and private R&D on closed-sandbox agent-evaluation worlds, a multi-agent fleet orchestrator, and an evidence-first investigation workspace with chain-of-custody and deterministic archive export.
 >
-> [PacketADE](https://github.com/packetloss404/packetade) · [packetcode](https://github.com/packetloss404/packetcode) · [mc-fleet-bot](https://github.com/packetloss404/mc-fleet-bot)
+> [packetloss404.com](https://www.packetloss404.com) · [PacketADE](https://github.com/packetloss404/PacketADE) · [PacketAgent](https://github.com/packetloss404/PacketAgent) · [packetcode](https://github.com/packetloss404/packetcode) · [mc-fleet-bot](https://github.com/packetloss404/mc-fleet-bot)
 
 ---
 
 <p align="center">
+  <a href="https://www.packetloss404.com"><code>[ www ] packetloss404.com</code></a> ·
   <a href="https://www.linkedin.com/in/Iwalmsley"><code>[ in ] linkedin</code></a> ·
   <a href="https://github.com/packetloss404"><code>[ gh ] github</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-07-20</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-07-30</code> · auto-built from <code>templates/README.template.md</code></sub></p>
