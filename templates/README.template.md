@@ -4,17 +4,21 @@
 
 ```
 packetloss404@void:~$ whoami
-> Ian Walmsley — AI / Agent Engineer
+> Ian Walmsley — Platform Engineer
+> Enterprise infrastructure · AI platforms · developer tooling
 > Iowa · Remote
 packetloss404@void:~$ cat ~/.site
-> https://www.packetloss404.com  # agentic AI — what I build, and why
+> https://www.packetloss404.com  # what I build, and why
+> https://ianwalmsley.me         # the career side
 ```
 
 ## what I build
 
-Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider LLM routers (hand-rolled, no SDKs), MCP clients & servers from scratch, Voyager-style agent loops, sandboxed tool runtimes, RAG, and agent evaluation inside synthetic worlds: closed-sandbox internets, simulated enterprise networks, and autonomous Minecraft civilizations. Production-minded: real test suites, security (SSRF defense, credential vaults, hash-chained audit logs), and durable persistence.
+Agent infrastructure, end-to-end — multi-provider LLM routers (hand-rolled, no SDKs), MCP clients & servers from scratch, Voyager-style agent loops, sandboxed tool runtimes, RAG, and agent evaluation inside synthetic worlds: closed-sandbox internets, simulated enterprise networks, and autonomous Minecraft civilizations. Production-minded: real test suites, security (SSRF defense, credential vaults, hash-chained audit logs), and durable persistence.
 
-`TypeScript` · `Rust` · `Python` · `Go` · LLM orchestration · MCP · agents · evals · simulation
+Two decades of enterprise infrastructure underneath it — VMware/Omnissa, Azure, identity, storage, networking, and the automation that replaced the manual version of all of it. That's why these ship with permission engines, audit logs, and sandboxes instead of a shell call and optimism.
+
+`TypeScript` · `Rust` · `Python` · `Go` · `PowerShell` · LLM orchestration · MCP · agents · evals · simulation
 
 ## featured
 
@@ -28,6 +32,7 @@ Applied-AI engineer shipping agent infrastructure end-to-end — multi-provider 
 
 <p align="center">
   <a href="https://www.packetloss404.com"><code>[ www ] packetloss404.com</code></a> ·
+  <a href="https://ianwalmsley.me"><code>[ cv ] ianwalmsley.me</code></a> ·
   <a href="https://www.linkedin.com/in/Iwalmsley"><code>[ in ] linkedin</code></a> ·
   <a href="https://github.com/packetloss404"><code>[ gh ] github</code></a>
 </p>
