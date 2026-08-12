@@ -1,5 +1,5 @@
 {
-  "now": "Building the Packet suite end-to-end — PacketADE (agentic dev environment, v0.10.2), packetcode (terminal coding agent), and PacketAgent, the worker runtime behind them: bounded, budgeted, checkpointed LLM workers running in a network-isolated sandbox with effect receipts and digest-chained crash recovery. Alongside it, mc-fleet-bot's autonomous Minecraft civilization — and private R&D on closed-sandbox agent-evaluation worlds, a multi-agent fleet orchestrator, and an evidence-first investigation workspace with chain-of-custody and deterministic archive export.",
+  "now": "Building and deploying the Packet suite end-to-end — PacketADE (agent development environment), packetcode (terminal coding agent), and PacketAgent, the worker runtime behind them: bounded, budgeted, checkpointed LLM workers running in a network-isolated sandbox with effect receipts and digest-chained crash recovery. Open to remote-first Platform Engineering and Forward Deployed AI roles, with onsite work considered for the right team and location.",
   "links": [
     { "label": "packetloss404.com", "url": "https://www.packetloss404.com" },
     { "label": "PacketADE", "url": "https://github.com/packetloss404/PacketADE" },

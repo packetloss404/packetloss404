@@ -36,12 +36,12 @@
     "accent": "screenGlow"
   },
   {
-    "slug": "jarvis",
-    "title": "jarvis",
-    "subtitle": "GPU-rendered tiling desktop shell + agentic AI (Rust)",
-    "tags": ["SHELL", "AGENTIC", "MULTI-LLM"],
-    "url": "https://github.com/packetloss404/jarvis",
-    "repo": "packetloss404/jarvis",
+    "slug": "docvault",
+    "title": "docvault",
+    "subtitle": "Enterprise document management with RAG and legal hold",
+    "tags": ["DMS", "RAG", "ENTERPRISE"],
+    "url": "https://github.com/packetloss404/docvault",
+    "repo": "packetloss404/docvault",
     "accent": "screenBlue"
   },
   {

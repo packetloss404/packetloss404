@@ -4,8 +4,8 @@
 
 ```
 packetloss404@void:~$ whoami
-> Ian Walmsley — Platform Engineer
-> Enterprise infrastructure · AI platforms · developer tooling
+> Ian Walmsley — Platform Engineer · Forward Deployed AI Engineer
+> Enterprise infrastructure · customer implementation · AI platforms
 > Iowa · Remote
 packetloss404@void:~$ cat ~/.site
 > https://www.packetloss404.com  # what I build, and why
@@ -14,9 +14,9 @@ packetloss404@void:~$ cat ~/.site
 
 ## what I build
 
-Agent infrastructure, end-to-end — multi-provider LLM routers (hand-rolled, no SDKs), MCP clients & servers from scratch, Voyager-style agent loops, sandboxed tool runtimes, RAG, and agent evaluation inside synthetic worlds: closed-sandbox internets, simulated enterprise networks, and autonomous Minecraft civilizations. Production-minded: real test suites, security (SSRF defense, credential vaults, hash-chained audit logs), and durable persistence.
+Customer-ready AI platforms, end-to-end — multi-provider LLM routers (hand-rolled, no SDKs), MCP clients & servers from scratch, Voyager-style agent loops, sandboxed tool runtimes, RAG, and agent evaluation inside synthetic worlds: closed-sandbox internets, simulated enterprise networks, and autonomous Minecraft civilizations. Production-minded: real test suites, security (SSRF defense, credential vaults, hash-chained audit logs), and durable persistence.
 
-Two decades of enterprise infrastructure underneath it — VMware/Omnissa, Azure, identity, storage, networking, and the automation that replaced the manual version of all of it. That's why these ship with permission engines, audit logs, and sandboxes instead of a shell call and optimism.
+A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, identity, storage, networking, and the automation that replaced the manual version of all of it. I work from customer constraints through architecture, implementation, and production support. That's why these systems ship with permission engines, audit logs, and sandboxes instead of a shell call and optimism.
 
 `TypeScript` · `Rust` · `Python` · `Go` · `PowerShell` · LLM orchestration · MCP · agents · evals · simulation
 
