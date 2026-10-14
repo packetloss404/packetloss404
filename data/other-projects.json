@@ -1,0 +1,23 @@
+[
+  {
+    "title": "docvault",
+    "description": "Document management with ingestion, RAG search, e-signatures, and legal hold.",
+    "url": "https://github.com/packetloss404/docvault"
+  },
+  {
+    "title": "synapse",
+    "description": "Enterprise workspace and endpoint operations with policy-bounded remediation and XLA reporting."
+  },
+  {
+    "title": "blackboxai",
+    "description": "Structured, simulated environments for testing AI agents."
+  },
+  {
+    "title": "Continuum",
+    "description": "A personal finance workspace for bank accounts, brokerage portfolios, and AI insights."
+  },
+  {
+    "title": "lumaflow",
+    "description": "Studio operations for photographers, from bookings and contracts to payments and client galleries."
+  }
+]

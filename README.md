@@ -35,6 +35,16 @@ Deployment, model routing, and agent development. Midnight's source is coming so
 </tr>
 </table>
 
+## more of the work
+
+Beyond the featured four, these projects show the range of systems I build. DocVault has public source; the others have private source and are described on the [workbench](https://www.packetloss404.com/#private).
+
+- **[docvault](https://github.com/packetloss404/docvault)** — Document management with ingestion, RAG search, e-signatures, and legal hold.
+- **synapse** — Enterprise workspace and endpoint operations with policy-bounded remediation and XLA reporting.
+- **blackboxai** — Structured, simulated environments for testing AI agents.
+- **Continuum** — A personal finance workspace for bank accounts, brokerage portfolios, and AI insights.
+- **lumaflow** — Studio operations for photographers, from bookings and contracts to payments and client galleries.
+
 ## currently
 
 > Building deployment and model-routing systems with Midnight and Sugar, alongside connected coding tools in PacketBench and packetcode. Open to remote-first Platform Engineering and Forward Deployed AI roles, with onsite work considered for the right team and location.

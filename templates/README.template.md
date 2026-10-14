@@ -26,6 +26,12 @@ Deployment, model routing, and agent development. Midnight's source is coming so
 
 {{projects}}
 
+## more of the work
+
+Beyond the featured four, these projects show the range of systems I build. DocVault has public source; the others have private source and are described on the [workbench](https://www.packetloss404.com/#private).
+
+{{otherProjects}}
+
 ## currently
 
 {{status}}

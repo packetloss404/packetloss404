@@ -150,7 +150,7 @@ function escapeXml(s) {
   }[c]));
 }
 
-function renderPreview(projects) {
+function renderPreview(projects, otherProjects) {
   const columns = projects.length <= 5 ? 2 : 3;
   const centerLast = columns === 2 && projects.length > 1 && projects.length % 2 === 1;
   const cards = projects.map((p) =>
@@ -158,6 +158,10 @@ function renderPreview(projects) {
         <img src="./${escapeXml(p.slug)}.svg" alt="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
       </a>`
   ).join('\n');
+  const others = otherProjects.map((p) => {
+    const title = p.url ? `<a href="${escapeXml(p.url)}">${escapeXml(p.title)}</a>` : escapeXml(p.title);
+    return `      <li><strong>${title}</strong> — ${escapeXml(p.description)}</li>`;
+  }).join('\n');
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -174,6 +178,9 @@ ${centerLast ? '    .grid a:last-child { grid-column: 1 / -1; width: calc((100% 
     .grid a { display: block; min-width: 0; }
     .grid img { display: block; width: 100%; height: auto; }
     .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
+    h2 { margin: 40px 0 8px; font-size: 20px; }
+    ul { margin: 0; padding-left: 22px; line-height: 1.7; }
+    li a, .more a { color: #79c0ff; }
     @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .grid a:last-child { grid-column: auto; width: 100%; } }
   </style>
@@ -185,6 +192,11 @@ ${centerLast ? '    .grid a:last-child { grid-column: 1 / -1; width: calc((100% 
     <div class="grid">
 ${cards}
     </div>
+    <h2>More of the work</h2>
+    <p class="more">DocVault has public source. The other projects have private source and are described on the <a href="https://www.packetloss404.com/#private">workbench</a>.</p>
+    <ul>
+${others}
+    </ul>
   </main>
 </body>
 </html>
@@ -205,6 +217,7 @@ function main() {
   }
 
   const projects = loadProjects();
+  const otherProjects = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/other-projects.json'), 'utf8'));
   const stats = loadStats();
 
   for (let i = 0; i < projects.length; i++) {
@@ -221,7 +234,7 @@ function main() {
   }
 
   const previewPath = path.join(ROOT, 'cards/preview.html');
-  fs.writeFileSync(previewPath, renderPreview(projects));
+  fs.writeFileSync(previewPath, renderPreview(projects, otherProjects));
   console.log(`Wrote ${previewPath}`);
 }
 
