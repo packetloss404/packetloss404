@@ -66,7 +66,7 @@ Customer-facing software, creative operations, and an AI game world.
 <table>
 <tr>
   <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/demarc.svg" alt="Demarc — AI voice and SMS operations" width="100%"/></a></td>
-  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/continuum.svg" alt="Continuum — Personal finance workspace" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.continuumfinance.io/"><img src="cards/continuum.svg" alt="Continuum — Personal finance workspace" width="100%"/></a></td>
 </tr>
 <tr>
   <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/lumaflow.svg" alt="lumaflow — Studio management platform" width="100%"/></a></td>
