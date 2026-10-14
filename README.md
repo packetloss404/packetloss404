@@ -22,24 +22,24 @@ A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, i
 
 ## featured
 
+Deployment, model routing, and agent development. Midnight's source is coming soon; Sugar's remains private. For now, their cards link to public product pages.
+
 <table>
 <tr>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/PacketADE"><img src="cards/packetade.svg" alt="PacketADE" width="100%"/></a></td>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/packetcode"><img src="cards/packetcode.svg" alt="packetcode" width="100%"/></a></td>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/PacketAgent"><img src="cards/packetagent.svg" alt="PacketAgent" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://deployatmidnight.com/"><img src="cards/midnight.svg" alt="Midnight — Self-hosted Go deployment platform" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://usesugar.dev/"><img src="cards/sugar.svg" alt="Sugar — Private model gateway for coding agents" width="100%"/></a></td>
 </tr>
 <tr>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/vellum"><img src="cards/vellum.svg" alt="vellum" width="100%"/></a></td>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/docvault"><img src="cards/docvault.svg" alt="docvault" width="100%"/></a></td>
-  <td width="33%" align="center"><a href="https://github.com/packetloss404/mc-fleet-bot"><img src="cards/mc-fleet-bot.svg" alt="mc-fleet-bot" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://github.com/packetloss404/PacketBench"><img src="cards/packetbench.svg" alt="PacketBench — Desktop workspace for coding agents" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://github.com/packetloss404/packetcode"><img src="cards/packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools" width="100%"/></a></td>
 </tr>
 </table>
 
 ## currently
 
-> Building and deploying the Packet suite end-to-end — PacketADE (agent development environment), packetcode (terminal coding agent), and PacketAgent, the worker runtime behind them: bounded, budgeted, checkpointed LLM workers running in a network-isolated sandbox with effect receipts and digest-chained crash recovery. Open to remote-first Platform Engineering and Forward Deployed AI roles, with onsite work considered for the right team and location.
+> Building deployment and model-routing systems with Midnight and Sugar, alongside connected coding tools in PacketBench and packetcode. Open to remote-first Platform Engineering and Forward Deployed AI roles, with onsite work considered for the right team and location.
 >
-> [packetloss404.com](https://www.packetloss404.com) · [PacketADE](https://github.com/packetloss404/PacketADE) · [PacketAgent](https://github.com/packetloss404/PacketAgent) · [packetcode](https://github.com/packetloss404/packetcode) · [mc-fleet-bot](https://github.com/packetloss404/mc-fleet-bot)
+> [packetloss404.com](https://www.packetloss404.com) · [Midnight](https://deployatmidnight.com/) · [Sugar](https://usesugar.dev/) · [PacketBench](https://github.com/packetloss404/PacketBench) · [packetcode](https://github.com/packetloss404/packetcode)
 
 ---
 
@@ -50,4 +50,4 @@ A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, i
   <a href="https://github.com/packetloss404"><code>[ gh ] github</code></a>
 </p>
 
-<p align="center"><sub>last refresh: <code>2026-08-12</code> · auto-built from <code>templates/README.template.md</code></sub></p>
+<p align="center"><sub>last refresh: <code>2026-10-14</code> · auto-built from <code>templates/README.template.md</code></sub></p>

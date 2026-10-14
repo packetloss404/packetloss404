@@ -28,7 +28,8 @@ function main() {
     return;
   }
 
-  const stats = loadJson(OUT_PATH, {});
+  const previousStats = loadJson(OUT_PATH, {});
+  const stats = {};
   let updated = 0;
   for (const p of projects) {
     if (!p.repo) continue;
@@ -46,6 +47,7 @@ function main() {
       updated++;
     } catch (e) {
       console.error(`failed ${p.repo}: ${e.message.split('\n')[0]}`);
+      if (previousStats[p.repo]) stats[p.repo] = previousStats[p.repo];
     }
   }
 

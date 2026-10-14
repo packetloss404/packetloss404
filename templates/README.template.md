@@ -22,6 +22,8 @@ A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, i
 
 ## featured
 
+Deployment, model routing, and agent development. Midnight's source is coming soon; Sugar's remains private. For now, their cards link to public product pages.
+
 {{projects}}
 
 ## currently

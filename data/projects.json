@@ -1,56 +1,38 @@
 [
   {
-    "slug": "packetade",
-    "title": "PacketADE",
-    "subtitle": "Autonomous agentic dev environment (Tauri + Rust)",
-    "tags": ["AGENTIC", "MISSION-PLANNER", "MCP"],
-    "url": "https://github.com/packetloss404/PacketADE",
-    "repo": "packetloss404/PacketADE",
+    "slug": "midnight",
+    "title": "Midnight",
+    "subtitle": "Self-hosted Go deployment platform",
+    "tags": ["MVP", "DEPLOYMENTS", "SOURCE SOON"],
+    "url": "https://deployatmidnight.com/",
+    "repo": null,
+    "accent": "screenPurple"
+  },
+  {
+    "slug": "sugar",
+    "title": "Sugar",
+    "subtitle": "Private model gateway for coding agents",
+    "tags": ["INVITE-ONLY", "ROUTING", "PRIVATE SOURCE"],
+    "url": "https://usesugar.dev/",
+    "repo": null,
+    "accent": "screenGlow"
+  },
+  {
+    "slug": "packetbench",
+    "title": "PacketBench",
+    "subtitle": "Desktop workspace for coding agents",
+    "tags": ["DESKTOP", "AGENT CLIS", "MCP"],
+    "url": "https://github.com/packetloss404/PacketBench",
+    "repo": "packetloss404/PacketBench",
     "accent": "screenGlow"
   },
   {
     "slug": "packetcode",
     "title": "packetcode",
-    "subtitle": "Keyboard-first multi-provider AI coding agent (Go)",
-    "tags": ["TERMINAL", "MULTI-LLM", "SANDBOXED"],
+    "subtitle": "Terminal coding agent with approval-gated tools",
+    "tags": ["GO CLI", "APPROVALS", "MCP"],
     "url": "https://github.com/packetloss404/packetcode",
     "repo": "packetloss404/packetcode",
     "accent": "screenBlue"
-  },
-  {
-    "slug": "packetagent",
-    "title": "PacketAgent",
-    "subtitle": "Autonomous LLM worker runtime — bounded, budgeted, checkpointed",
-    "tags": ["WORKERS", "SANDBOXED", "RECOVERY"],
-    "url": "https://github.com/packetloss404/PacketAgent",
-    "repo": "packetloss404/PacketAgent",
-    "accent": "screenPurple"
-  },
-  {
-    "slug": "vellum",
-    "title": "vellum",
-    "subtitle": "Durable multi-agent investigation engine",
-    "tags": ["AGENTS", "DURABLE", "RECOVERY"],
-    "url": "https://github.com/packetloss404/vellum",
-    "repo": "packetloss404/vellum",
-    "accent": "screenGlow"
-  },
-  {
-    "slug": "docvault",
-    "title": "docvault",
-    "subtitle": "Enterprise document management with RAG and legal hold",
-    "tags": ["DMS", "RAG", "ENTERPRISE"],
-    "url": "https://github.com/packetloss404/docvault",
-    "repo": "packetloss404/docvault",
-    "accent": "screenBlue"
-  },
-  {
-    "slug": "mc-fleet-bot",
-    "title": "mc-fleet-bot",
-    "subtitle": "Autonomous Minecraft bot fleet & AI civilization",
-    "tags": ["AGENTS", "VOYAGER", "FLEET"],
-    "url": "https://github.com/packetloss404/mc-fleet-bot",
-    "repo": "packetloss404/mc-fleet-bot",
-    "accent": "screenPurple"
   }
 ]

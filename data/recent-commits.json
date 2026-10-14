@@ -1,37 +1,37 @@
 [
   {
-    "repo": "packetloss404/packetloss404",
-    "message": "feat: feature jarvis + mc-fleet-bot in place of tradefarm + mc-server-bot",
-    "sha": "45dbf6f",
-    "date": "2026-07-20T02:53:18Z",
-    "url": "https://github.com/packetloss404/packetloss404/commit/45dbf6f2cc248868757175e05949a1f94e13aa76"
+    "repo": "packetloss404/PacketBench",
+    "message": "docs: record verified 0.14.9 desktop release and installation",
+    "sha": "78b86a1",
+    "date": "2026-10-07T03:36:56Z",
+    "url": "https://github.com/packetloss404/PacketBench/commit/78b86a126a2996643eda37630f91d95f5b6a5b36"
   },
   {
-    "repo": "packetloss404/packetbbs",
-    "message": "Merge wip/windows-2026-07-19: Door 5 — Dungeon of the Vibe Lords (Claude-DM MUD)",
-    "sha": "a36cc6b",
-    "date": "2026-07-20T02:49:54Z",
-    "url": "https://github.com/packetloss404/packetbbs/commit/a36cc6b6e76c1a3b92621858c5e4e5dcd9b26609"
+    "repo": "packetloss404/PacketBench",
+    "message": "feat: add live provider integrations and release 0.14.9",
+    "sha": "83bd312",
+    "date": "2026-10-07T03:19:13Z",
+    "url": "https://github.com/packetloss404/PacketBench/commit/83bd31251ef3069c283b310b1f809f393715774f"
   },
   {
-    "repo": "packetloss404/PacketADE",
-    "message": "fix(flights): harden attempt lifecycle and refresh plans",
-    "sha": "510461a",
-    "date": "2026-07-20T02:35:00Z",
-    "url": "https://github.com/packetloss404/PacketADE/commit/510461aaf51010d40262224b5dcad6bde9e6d5b0"
+    "repo": "packetloss404/PacketBench",
+    "message": "fix: reject misleading release artifacts and record pre-tag checks",
+    "sha": "25a0b71",
+    "date": "2026-10-07T02:02:22Z",
+    "url": "https://github.com/packetloss404/PacketBench/commit/25a0b71f020bab5bec66a57cd639a91b955886ac"
   },
   {
-    "repo": "packetloss404/tradefarm",
-    "message": "docs: add repo review notes + archived docs",
-    "sha": "9c51d45",
-    "date": "2026-07-20T02:28:53Z",
-    "url": "https://github.com/packetloss404/tradefarm/commit/9c51d45ecbd186b69d734ce358f24aa456e96b67"
+    "repo": "packetloss404/PacketChat",
+    "message": "feat: harden agent runs and polish private workspace",
+    "sha": "ccd63db",
+    "date": "2026-10-07T01:48:47Z",
+    "url": "https://github.com/packetloss404/PacketChat/commit/ccd63db5016616e38a789f6ba5e66ab08d7c1150"
   },
   {
-    "repo": "packetloss404/taskloom",
-    "message": "docs: add repo review notes",
-    "sha": "81de332",
-    "date": "2026-07-20T02:28:49Z",
-    "url": "https://github.com/packetloss404/taskloom/commit/81de33276d044e26f1c4136fb35e13cbfc5aa513"
+    "repo": "packetloss404/PacketBench",
+    "message": "docs: record 0.14.8 installation and dogfood handoff",
+    "sha": "44d81b1",
+    "date": "2026-09-24T18:57:10Z",
+    "url": "https://github.com/packetloss404/PacketBench/commit/44d81b13055a6ff06311f2404064658a77bfa0dc"
   }
 ]

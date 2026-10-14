@@ -1,10 +1,10 @@
 {
-  "now": "Building and deploying the Packet suite end-to-end — PacketADE (agent development environment), packetcode (terminal coding agent), and PacketAgent, the worker runtime behind them: bounded, budgeted, checkpointed LLM workers running in a network-isolated sandbox with effect receipts and digest-chained crash recovery. Open to remote-first Platform Engineering and Forward Deployed AI roles, with onsite work considered for the right team and location.",
+  "now": "Building deployment and model-routing systems with Midnight and Sugar, alongside connected coding tools in PacketBench and packetcode. Open to remote-first Platform Engineering and Forward Deployed AI roles, with onsite work considered for the right team and location.",
   "links": [
     { "label": "packetloss404.com", "url": "https://www.packetloss404.com" },
-    { "label": "PacketADE", "url": "https://github.com/packetloss404/PacketADE" },
-    { "label": "PacketAgent", "url": "https://github.com/packetloss404/PacketAgent" },
-    { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" },
-    { "label": "mc-fleet-bot", "url": "https://github.com/packetloss404/mc-fleet-bot" }
+    { "label": "Midnight", "url": "https://deployatmidnight.com/" },
+    { "label": "Sugar", "url": "https://usesugar.dev/" },
+    { "label": "PacketBench", "url": "https://github.com/packetloss404/PacketBench" },
+    { "label": "packetcode", "url": "https://github.com/packetloss404/packetcode" }
   ]
 }

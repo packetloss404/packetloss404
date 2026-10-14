@@ -39,7 +39,6 @@ function main() {
     events = JSON.parse(raw);
   } catch (e) {
     console.error(`gh api failed: ${e.message}`);
-    fs.writeFileSync(OUT_PATH, JSON.stringify({ error: e.message }, null, 2));
     return;
   }
 
@@ -47,7 +46,7 @@ function main() {
   // fetch each PushEvent's head commit separately.
   const commits = [];
   const seen = new Set();
-  for (const ev of events) {
+  for (const ev of events.sort((a, b) => Date.parse(b.created_at) - Date.parse(a.created_at))) {
     if (ev.type !== 'PushEvent') continue;
     const sha = ev.payload && ev.payload.head;
     if (!sha || seen.has(sha)) continue;

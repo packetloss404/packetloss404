@@ -2,12 +2,12 @@
 /**
  * Generate project showcase SVG cards matching the banner's particle aesthetic.
  *
- * Reads card definitions from data/projects.json (or falls back to defaults
- * below), optionally enriches each with a star count from data/repo-stats.json,
- * and writes one SVG per project into cards/.
+ * Reads card definitions from data/projects.json, optionally enriches each
+ * with a positive star count from data/repo-stats.json,
+ * and writes one SVG per project plus cards/preview.html.
  *
  * Each card has: particle frame + corner accents, SVG <text> for title /
- * subtitle / tags (legibility > purism), star count top-right, tech-tag pills.
+ * subtitle / tags (legibility > purism), optional star count, tech-tag pills.
  */
 
 const fs = require('fs');
@@ -21,37 +21,11 @@ const ROOT = path.resolve(__dirname, '..');
 
 function loadProjects() {
   const p = path.join(ROOT, 'data/projects.json');
-  if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, 'utf8'));
-  // Default set — edit data/projects.json to customize without touching code.
-  return [
-    {
-      slug: 'packetade',
-      title: 'PacketADE',
-      subtitle: 'AI dev workspace unifying Claude Code + Codex CLI',
-      tags: ['AGENTIC', 'MULTI-PANE', 'MCP'],
-      url: 'https://github.com/packetloss404/packetade',
-      repo: 'packetloss404/packetade',
-      accent: 'screenGlow',
-    },
-    {
-      slug: 'packetcode',
-      title: 'packetcode',
-      subtitle: 'Keyboard-first multi-provider AI coding agent',
-      tags: ['TERMINAL', 'MULTI-LLM', 'CLI'],
-      url: 'https://github.com/packetloss404/packetcode',
-      repo: 'packetloss404/packetcode',
-      accent: 'screenBlue',
-    },
-    {
-      slug: 'creditquest',
-      title: 'Credit Quest',
-      subtitle: 'Self-hosted credit intelligence playground',
-      tags: ['WEB', 'SELF-HOSTED', 'FINTECH'],
-      url: 'https://creditquest.packetloss404.com',
-      repo: null,
-      accent: 'screenPurple',
-    },
-  ];
+  const projects = JSON.parse(fs.readFileSync(p, 'utf8'));
+  if (!Array.isArray(projects) || projects.length === 0) {
+    throw new Error('data/projects.json must contain at least one project');
+  }
+  return projects;
 }
 
 function loadStats() {
@@ -94,10 +68,12 @@ function renderCard(project, theme, rng) {
   };
   tagRange(all, mark, accentZoneByKey[project.accent] || 'code0');
 
-  // Decorative dot cluster upper-right (star area backing)
-  mark = all.length;
-  all.push(...ellipsePoints(rng, W - 40, 22, 28, 10, 50));
-  tagRange(all, mark, 'glow');
+  if (project.stars > 0) {
+    // Decorative dot cluster behind a positive star count.
+    mark = all.length;
+    all.push(...ellipsePoints(rng, W - 40, 22, 28, 10, 50));
+    tagRange(all, mark, 'glow');
+  }
 
   // Tech tag pill backings
   mark = all.length;
@@ -105,7 +81,7 @@ function renderCard(project, theme, rng) {
   let tagX = 20;
   const pillMeta = [];
   for (const tag of project.tags) {
-    const pillW = tag.length * 7 + 14;
+    const pillW = tag.length * 8 + 16;
     all.push(...rectPoints(rng, tagX, tagY, pillW, 18, Math.floor(pillW * 1.2)));
     pillMeta.push({ x: tagX, y: tagY, w: pillW, text: tag });
     tagX += pillW + 8;
@@ -131,25 +107,24 @@ function renderCard(project, theme, rng) {
 
   // Pick text colors from theme
   const titleColor = theme.screenGlow[0];
-  const subtitleColor = theme.linenum;
+  const subtitleColor = '#B4B8C8';
   const accentColor = theme[project.accent] ? theme[project.accent][0] : theme.screenGlow[0];
-  const tagBgColor = theme.monitorFrame[0];
   const tagTextColor = theme.screenBlue[0];
   const starColor = theme.screenGlow[0];
 
   // Build text overlays
   let textOverlay = '';
   textOverlay += `    <text x="22" y="46" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="22" font-weight="700" fill="${titleColor}" letter-spacing="0.5">${escapeXml(project.title)}</text>\n`;
-  textOverlay += `    <text x="22" y="74" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="11" fill="${subtitleColor}">${escapeXml(project.subtitle)}</text>\n`;
+  textOverlay += `    <text x="22" y="74" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="12" fill="${subtitleColor}">${escapeXml(project.subtitle)}</text>\n`;
   // Star count
-  if (typeof project.stars === 'number') {
+  if (project.stars > 0) {
     textOverlay += `    <text x="${W - 14}" y="26" text-anchor="end" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="13" fill="${starColor}" font-weight="700">★ ${project.stars}</text>\n`;
   }
   // Prompt-style URL
-  textOverlay += `    <text x="22" y="96" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="10" fill="${accentColor}">${escapeXml(promptFromUrl(project.url))}</text>\n`;
+  textOverlay += `    <text x="22" y="96" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="11" fill="${accentColor}">${escapeXml(promptFromUrl(project.url))}</text>\n`;
   // Tags
   for (const p of pillMeta) {
-    textOverlay += `    <text x="${p.x + p.w / 2}" y="${p.y + 12}" text-anchor="middle" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="9" font-weight="700" letter-spacing="1" fill="${tagTextColor}">${escapeXml(p.text)}</text>\n`;
+    textOverlay += `    <text x="${p.x + p.w / 2}" y="${p.y + 12}" text-anchor="middle" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="11" font-weight="700" letter-spacing="0.5" fill="${tagTextColor}">${escapeXml(p.text)}</text>\n`;
   }
 
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}">
@@ -173,6 +148,47 @@ function escapeXml(s) {
   return String(s).replace(/[<>&"']/g, (c) => ({
     '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;'
   }[c]));
+}
+
+function renderPreview(projects) {
+  const columns = projects.length <= 5 ? 2 : 3;
+  const centerLast = columns === 2 && projects.length > 1 && projects.length % 2 === 1;
+  const cards = projects.map((p) =>
+    `      <a href="${escapeXml(p.url)}" aria-label="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
+        <img src="./${escapeXml(p.slug)}.svg" alt="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
+      </a>`
+  ).join('\n');
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Featured projects preview</title>
+  <style>
+    body { margin: 0; min-height: 100vh; background: #0d1117; color: #c9d1d9; font: 16px system-ui, sans-serif; }
+    main { max-width: 1120px; margin: 0 auto; padding: 32px 24px; }
+    h1 { margin: 0 0 8px; font-size: 24px; }
+    p { margin: 0 0 24px; color: #8b949e; }
+    .grid { display: grid; grid-template-columns: repeat(${columns}, minmax(0, 1fr)); gap: 16px; }
+${centerLast ? '    .grid a:last-child { grid-column: 1 / -1; width: calc((100% - 16px) / 2); justify-self: center; }\n' : ''}
+    .grid a { display: block; min-width: 0; }
+    .grid img { display: block; width: 100%; height: auto; }
+    .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
+    @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .grid a:last-child { grid-column: auto; width: 100%; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Featured projects</h1>
+    <p>Preview of the featured cards in the profile README.</p>
+    <div class="grid">
+${cards}
+    </div>
+  </main>
+</body>
+</html>
+`;
 }
 
 function main() {
@@ -203,6 +219,10 @@ function main() {
     fs.writeFileSync(out, svg);
     console.log(`Wrote ${out}`);
   }
+
+  const previewPath = path.join(ROOT, 'cards/preview.html');
+  fs.writeFileSync(previewPath, renderPreview(projects));
+  console.log(`Wrote ${previewPath}`);
 }
 
 main();

@@ -26,18 +26,16 @@ function escapeHtml(s) {
   return String(s).replace(/[<>&"]/g, (c) => ({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]));
 }
 
-function escapeMdText(s) {
-  // Protect square brackets / backticks from breaking markdown link syntax
-  return String(s).replace(/[\[\]`]/g, (c) => '\\' + c);
-}
-
 function formatProjects(projects) {
   if (!Array.isArray(projects) || projects.length === 0) return '';
-  const cell = (p) =>
-    `  <td width="33%" align="center"><a href="${p.url}"><img src="cards/${p.slug}.svg" alt="${escapeHtml(p.title)}" width="100%"/></a></td>`;
+  const columns = projects.length <= 5 ? 2 : 3;
+  const width = `${Math.floor(100 / columns)}%`;
+  const cell = (p, centered = false) =>
+    `  <td ${centered ? 'colspan="2" width="100%"' : `width="${width}"`} align="center"><a href="${p.url}"><img src="cards/${p.slug}.svg" alt="${escapeHtml(p.title)} — ${escapeHtml(p.subtitle)}" width="${centered ? '50%' : '100%'}"/></a></td>`;
   const rows = [];
-  for (let i = 0; i < projects.length; i += 3) {
-    rows.push(`<tr>\n${projects.slice(i, i + 3).map(cell).join('\n')}\n</tr>`);
+  for (let i = 0; i < projects.length; i += columns) {
+    const row = projects.slice(i, i + columns);
+    rows.push(`<tr>\n${row.map((p) => cell(p, columns === 2 && row.length === 1 && projects.length > 1)).join('\n')}\n</tr>`);
   }
   return `<table>\n${rows.join('\n')}\n</table>`;
 }
@@ -61,7 +59,6 @@ function main() {
   const template = fs.readFileSync(TEMPLATE, 'utf8');
   const status   = loadJson(path.join(ROOT, 'data/status.json'), {});
   const projects = loadJson(path.join(ROOT, 'data/projects.json'), []);
-
   const ctx = {
     status:   formatStatus(status),
     projects: formatProjects(projects),

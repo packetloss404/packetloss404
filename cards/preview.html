@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Featured projects preview</title>
+  <style>
+    body { margin: 0; min-height: 100vh; background: #0d1117; color: #c9d1d9; font: 16px system-ui, sans-serif; }
+    main { max-width: 1120px; margin: 0 auto; padding: 32px 24px; }
+    h1 { margin: 0 0 8px; font-size: 24px; }
+    p { margin: 0 0 24px; color: #8b949e; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+
+    .grid a { display: block; min-width: 0; }
+    .grid img { display: block; width: 100%; height: auto; }
+    .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
+    @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .grid a:last-child { grid-column: auto; width: 100%; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Featured projects</h1>
+    <p>Preview of the featured cards in the profile README.</p>
+    <div class="grid">
+      <a href="https://deployatmidnight.com/" aria-label="Midnight — Self-hosted Go deployment platform">
+        <img src="./midnight.svg" alt="Midnight — Self-hosted Go deployment platform">
+      </a>
+      <a href="https://usesugar.dev/" aria-label="Sugar — Private model gateway for coding agents">
+        <img src="./sugar.svg" alt="Sugar — Private model gateway for coding agents">
+      </a>
+      <a href="https://github.com/packetloss404/PacketBench" aria-label="PacketBench — Desktop workspace for coding agents">
+        <img src="./packetbench.svg" alt="PacketBench — Desktop workspace for coding agents">
+      </a>
+      <a href="https://github.com/packetloss404/packetcode" aria-label="packetcode — Terminal coding agent with approval-gated tools">
+        <img src="./packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools">
+      </a>
+    </div>
+  </main>
+</body>
+</html>
