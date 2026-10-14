@@ -65,11 +65,9 @@ function main() {
 
   const template = fs.readFileSync(TEMPLATE, 'utf8');
   const status   = loadJson(path.join(ROOT, 'data/status.json'), {});
-  const projects = loadJson(path.join(ROOT, 'data/projects.json'), []);
   const projectGroups = loadJson(path.join(ROOT, 'data/other-projects.json'), []);
   const ctx = {
     status:   formatStatus(status),
-    projects: formatProjects(projects),
     projectGroups: formatProjectGroups(projectGroups),
     year:     String(new Date().getFullYear()),
     updated:  new Date().toISOString().slice(0, 10),

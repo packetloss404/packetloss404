@@ -6,54 +6,25 @@
   <title>Project portfolio preview</title>
   <style>
     body { margin: 0; min-height: 100vh; background: #0d1117; color: #c9d1d9; font: 16px system-ui, sans-serif; }
-    main { max-width: 1120px; margin: 0 auto; padding: 32px 24px; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 24px; }
     h1 { margin: 0 0 8px; font-size: 24px; }
     p { margin: 0 0 24px; color: #8b949e; }
     .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-
     .grid a { display: block; min-width: 0; }
-    .grid picture { display: block; }
-    .grid img { display: block; width: 100%; height: auto; }
-    .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
+    picture { display: block; }
+    img { display: block; width: 100%; height: auto; }
+    a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
     h2 { margin: 40px 0 8px; font-size: 20px; }
     .group p { margin-bottom: 16px; }
     .more a { color: #79c0ff; }
-    @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-    @media (max-width: 520px) { main { padding: 24px 48px; } .grid { gap: 12px; } .grid a { padding: 10px; border: 1px solid #30363d; } .grid a:last-child { grid-column: auto; width: auto; justify-self: stretch; } }
+    @media (max-width: 520px) { main { padding: 24px 16px; } .grid { gap: 8px; } .grid a { padding: 6px; border: 1px solid #30363d; } }
   </style>
 </head>
 <body>
   <main>
     <h1>Projects</h1>
     <p>Preview of the project gallery in the profile README.</p>
-    <h2>Featured</h2>
-    <p>Deployment, model routing, and agent development.</p>
-    <div class="grid">
-      <a href="https://deployatmidnight.com/" aria-label="Midnight — Self-hosted Go deployment platform">
-        <picture>
-          <source media="(max-width: 600px)" srcset="./midnight-mobile.svg">
-          <img src="./midnight.svg" alt="Midnight — Self-hosted Go deployment platform">
-        </picture>
-      </a>
-      <a href="https://usesugar.dev/" aria-label="Sugar — Private model gateway for coding agents">
-        <picture>
-          <source media="(max-width: 600px)" srcset="./sugar-mobile.svg">
-          <img src="./sugar.svg" alt="Sugar — Private model gateway for coding agents">
-        </picture>
-      </a>
-      <a href="https://github.com/packetloss404/PacketBench" aria-label="PacketBench — Desktop workspace for coding agents">
-        <picture>
-          <source media="(max-width: 600px)" srcset="./packetbench-mobile.svg">
-          <img src="./packetbench.svg" alt="PacketBench — Desktop workspace for coding agents">
-        </picture>
-      </a>
-      <a href="https://github.com/packetloss404/packetcode" aria-label="packetcode — Terminal coding agent with approval-gated tools">
-        <picture>
-          <source media="(max-width: 600px)" srcset="./packetcode-mobile.svg">
-          <img src="./packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools">
-        </picture>
-      </a>
-    </div>
+    <p>Building <a href="https://deployatmidnight.com/">Midnight</a> for self-hosted deployments and <a href="https://usesugar.dev/">Sugar</a> for coding-agent model routing. Midnight's source is coming soon; Sugar's remains private.</p>
     <section class="group">
       <h2>Agents &amp; simulation</h2>
       <p>Operating coding agents and testing them in controlled worlds.</p>

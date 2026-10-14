@@ -22,20 +22,7 @@ A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, i
 
 ## projects
 
-### Featured
-
-Deployment, model routing, and agent development. Midnight's source is coming soon; Sugar's remains private. For now, their cards link to public product pages.
-
-<table>
-<tr>
-  <td width="50%" align="center"><a href="https://deployatmidnight.com/"><picture><source media="(max-width: 600px)" srcset="cards/midnight-mobile.svg"/><img src="cards/midnight.svg" alt="Midnight — Self-hosted Go deployment platform" width="100%"/></picture></a></td>
-  <td width="50%" align="center"><a href="https://usesugar.dev/"><picture><source media="(max-width: 600px)" srcset="cards/sugar-mobile.svg"/><img src="cards/sugar.svg" alt="Sugar — Private model gateway for coding agents" width="100%"/></picture></a></td>
-</tr>
-<tr>
-  <td width="50%" align="center"><a href="https://github.com/packetloss404/PacketBench"><picture><source media="(max-width: 600px)" srcset="cards/packetbench-mobile.svg"/><img src="cards/packetbench.svg" alt="PacketBench — Desktop workspace for coding agents" width="100%"/></picture></a></td>
-  <td width="50%" align="center"><a href="https://github.com/packetloss404/packetcode"><picture><source media="(max-width: 600px)" srcset="cards/packetcode-mobile.svg"/><img src="cards/packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools" width="100%"/></picture></a></td>
-</tr>
-</table>
+Building [Midnight](https://deployatmidnight.com/) for self-hosted deployments and [Sugar](https://usesugar.dev/) for coding-agent model routing. Midnight's source is coming soon; Sugar's remains private.
 
 ### Agents & simulation
 

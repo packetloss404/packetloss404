@@ -165,9 +165,7 @@ function escapeXml(s) {
   }[c]));
 }
 
-function renderPreview(projects, projectGroups) {
-  const columns = projects.length <= 5 ? 2 : 3;
-  const centerLast = columns === 2 && projects.length > 1 && projects.length % 2 === 1;
+function renderPreview(projectGroups) {
   const card = (p) =>
     `      <a href="${escapeXml(p.url)}" aria-label="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
         <picture>
@@ -175,7 +173,6 @@ function renderPreview(projects, projectGroups) {
           <img src="./${escapeXml(p.slug)}.svg" alt="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
         </picture>
       </a>`;
-  const cards = projects.map(card).join('\n');
   const groups = projectGroups.map((group) => `    <section class="group">
       <h2>${escapeXml(group.title)}</h2>
       <p>${escapeXml(group.description)}</p>
@@ -191,31 +188,25 @@ ${group.projects.map(card).join('\n')}
   <title>Project portfolio preview</title>
   <style>
     body { margin: 0; min-height: 100vh; background: #0d1117; color: #c9d1d9; font: 16px system-ui, sans-serif; }
-    main { max-width: 1120px; margin: 0 auto; padding: 32px 24px; }
+    main { max-width: 860px; margin: 0 auto; padding: 32px 24px; }
     h1 { margin: 0 0 8px; font-size: 24px; }
     p { margin: 0 0 24px; color: #8b949e; }
-    .grid { display: grid; grid-template-columns: repeat(${columns}, minmax(0, 1fr)); gap: 16px; }
-${centerLast ? '    .grid a:last-child { grid-column: 1 / -1; width: calc((100% - 16px) / 2); justify-self: center; }\n' : ''}
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
     .grid a { display: block; min-width: 0; }
-    .grid picture { display: block; }
-    .grid img { display: block; width: 100%; height: auto; }
-    .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
+    picture { display: block; }
+    img { display: block; width: 100%; height: auto; }
+    a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
     h2 { margin: 40px 0 8px; font-size: 20px; }
     .group p { margin-bottom: 16px; }
     .more a { color: #79c0ff; }
-    @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-    @media (max-width: 520px) { main { padding: 24px 48px; } .grid { gap: 12px; } .grid a { padding: 10px; border: 1px solid #30363d; } .grid a:last-child { grid-column: auto; width: auto; justify-self: stretch; } }
+    @media (max-width: 520px) { main { padding: 24px 16px; } .grid { gap: 8px; } .grid a { padding: 6px; border: 1px solid #30363d; } }
   </style>
 </head>
 <body>
   <main>
     <h1>Projects</h1>
     <p>Preview of the project gallery in the profile README.</p>
-    <h2>Featured</h2>
-    <p>Deployment, model routing, and agent development.</p>
-    <div class="grid">
-${cards}
-    </div>
+    <p>Building <a href="https://deployatmidnight.com/">Midnight</a> for self-hosted deployments and <a href="https://usesugar.dev/">Sugar</a> for coding-agent model routing. Midnight's source is coming soon; Sugar's remains private.</p>
 ${groups}
     <p class="more">Private-source cards open public project descriptions. <a href="https://www.packetloss404.com/">Explore the full portfolio</a>.</p>
   </main>
@@ -259,7 +250,7 @@ function main() {
   }
 
   const previewPath = path.join(ROOT, 'cards/preview.html');
-  fs.writeFileSync(previewPath, renderPreview(projects, projectGroups));
+  fs.writeFileSync(previewPath, renderPreview(projectGroups));
   console.log(`Wrote ${previewPath}`);
 }
 

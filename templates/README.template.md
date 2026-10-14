@@ -22,11 +22,7 @@ A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, i
 
 ## projects
 
-### Featured
-
-Deployment, model routing, and agent development. Midnight's source is coming soon; Sugar's remains private. For now, their cards link to public product pages.
-
-{{projects}}
+Building [Midnight](https://deployatmidnight.com/) for self-hosted deployments and [Sugar](https://usesugar.dev/) for coding-agent model routing. Midnight's source is coming soon; Sugar's remains private.
 
 {{projectGroups}}
 
