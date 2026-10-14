@@ -193,7 +193,7 @@ ${centerLast ? '    .grid a:last-child { grid-column: 1 / -1; width: calc((100% 
 ${cards}
     </div>
     <h2>More of the work</h2>
-    <p class="more">DocVault has public source. The other projects have private source and are described on the <a href="https://www.packetloss404.com/#private">workbench</a>.</p>
+    <p class="more">These systems span agent operations, enterprise workflows, and products. DocVault has public source; the others have private source and are described on the <a href="https://www.packetloss404.com/#private">workbench</a>. The <a href="https://www.packetloss404.com/">full portfolio</a> covers the rest.</p>
     <ul>
 ${others}
     </ul>
