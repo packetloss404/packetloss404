@@ -31,7 +31,7 @@ function formatProjects(projects) {
   const columns = projects.length <= 5 ? 2 : 3;
   const width = `${Math.floor(100 / columns)}%`;
   const cell = (p, centered = false) =>
-    `  <td ${centered ? 'colspan="2" width="100%"' : `width="${width}"`} align="center"><a href="${p.url}"><img src="cards/${p.slug}.svg" alt="${escapeHtml(p.title)} — ${escapeHtml(p.subtitle)}" width="${centered ? '50%' : '100%'}"/></a></td>`;
+    `  <td ${centered ? 'colspan="2" width="100%"' : `width="${width}"`} align="center"><a href="${p.url}"><picture><source media="(max-width: 600px)" srcset="cards/${p.slug}-mobile.svg"/><img src="cards/${p.slug}.svg" alt="${escapeHtml(p.title)} — ${escapeHtml(p.subtitle)}" width="${centered ? '50%' : '100%'}"/></picture></a></td>`;
   const rows = [];
   for (let i = 0; i < projects.length; i += columns) {
     const row = projects.slice(i, i + columns);

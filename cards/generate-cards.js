@@ -136,6 +136,20 @@ ${inner}
 ${textOverlay}</svg>`;
 }
 
+// GitHub keeps README tables in two columns on phones. Render a compact tile
+// with full-size text instead of shrinking the desktop card into unreadability.
+function renderMobileCard(project, theme) {
+  const accent = theme[project.accent] ? theme[project.accent][0] : theme.screenGlow[0];
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 82" width="120" height="82">
+  <rect width="120" height="82" rx="5" fill="${theme.background}"/>
+  <rect x="1" y="1" width="118" height="80" rx="4" fill="none" stroke="${accent}" stroke-opacity="0.75"/>
+  <rect x="1" y="1" width="3" height="80" fill="${accent}"/>
+  <text x="11" y="28" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="13" font-weight="700" fill="${theme.screenGlow[0]}">${escapeXml(project.title)}</text>
+  <text x="11" y="49" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="9.5" fill="#D0D5E2">${escapeXml(project.mobileSubtitle || project.subtitle)}</text>
+  <text x="11" y="69" font-family="'SFMono-Regular','Menlo','Consolas','Courier New',monospace" font-size="8.5" font-weight="700" fill="${accent}">${escapeXml(project.tags[0] || '')}</text>
+</svg>`;
+}
+
 function promptFromUrl(url) {
   try {
     const u = new URL(url);
@@ -156,7 +170,10 @@ function renderPreview(projects, projectGroups) {
   const centerLast = columns === 2 && projects.length > 1 && projects.length % 2 === 1;
   const card = (p) =>
     `      <a href="${escapeXml(p.url)}" aria-label="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
-        <img src="./${escapeXml(p.slug)}.svg" alt="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./${escapeXml(p.slug)}-mobile.svg">
+          <img src="./${escapeXml(p.slug)}.svg" alt="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
+        </picture>
       </a>`;
   const cards = projects.map(card).join('\n');
   const groups = projectGroups.map((group) => `    <section class="group">
@@ -180,13 +197,14 @@ ${group.projects.map(card).join('\n')}
     .grid { display: grid; grid-template-columns: repeat(${columns}, minmax(0, 1fr)); gap: 16px; }
 ${centerLast ? '    .grid a:last-child { grid-column: 1 / -1; width: calc((100% - 16px) / 2); justify-self: center; }\n' : ''}
     .grid a { display: block; min-width: 0; }
+    .grid picture { display: block; }
     .grid img { display: block; width: 100%; height: auto; }
     .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
     h2 { margin: 40px 0 8px; font-size: 20px; }
     .group p { margin-bottom: 16px; }
     .more a { color: #79c0ff; }
     @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-    @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .grid a:last-child { grid-column: auto; width: 100%; } }
+    @media (max-width: 520px) { main { padding: 24px 48px; } .grid { gap: 12px; } .grid a { padding: 10px; border: 1px solid #30363d; } .grid a:last-child { grid-column: auto; width: auto; justify-self: stretch; } }
   </style>
 </head>
 <body>
@@ -235,6 +253,9 @@ function main() {
     const out = path.join(ROOT, `cards/${p.slug}.svg`);
     fs.writeFileSync(out, svg);
     console.log(`Wrote ${out}`);
+    const mobileOut = path.join(ROOT, `cards/${p.slug}-mobile.svg`);
+    fs.writeFileSync(mobileOut, renderMobileCard(p, theme));
+    console.log(`Wrote ${mobileOut}`);
   }
 
   const previewPath = path.join(ROOT, 'cards/preview.html');

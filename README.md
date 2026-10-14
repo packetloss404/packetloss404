@@ -28,12 +28,12 @@ Deployment, model routing, and agent development. Midnight's source is coming so
 
 <table>
 <tr>
-  <td width="50%" align="center"><a href="https://deployatmidnight.com/"><img src="cards/midnight.svg" alt="Midnight — Self-hosted Go deployment platform" width="100%"/></a></td>
-  <td width="50%" align="center"><a href="https://usesugar.dev/"><img src="cards/sugar.svg" alt="Sugar — Private model gateway for coding agents" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://deployatmidnight.com/"><picture><source media="(max-width: 600px)" srcset="cards/midnight-mobile.svg"/><img src="cards/midnight.svg" alt="Midnight — Self-hosted Go deployment platform" width="100%"/></picture></a></td>
+  <td width="50%" align="center"><a href="https://usesugar.dev/"><picture><source media="(max-width: 600px)" srcset="cards/sugar-mobile.svg"/><img src="cards/sugar.svg" alt="Sugar — Private model gateway for coding agents" width="100%"/></picture></a></td>
 </tr>
 <tr>
-  <td width="50%" align="center"><a href="https://github.com/packetloss404/PacketBench"><img src="cards/packetbench.svg" alt="PacketBench — Desktop workspace for coding agents" width="100%"/></a></td>
-  <td width="50%" align="center"><a href="https://github.com/packetloss404/packetcode"><img src="cards/packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://github.com/packetloss404/PacketBench"><picture><source media="(max-width: 600px)" srcset="cards/packetbench-mobile.svg"/><img src="cards/packetbench.svg" alt="PacketBench — Desktop workspace for coding agents" width="100%"/></picture></a></td>
+  <td width="50%" align="center"><a href="https://github.com/packetloss404/packetcode"><picture><source media="(max-width: 600px)" srcset="cards/packetcode-mobile.svg"/><img src="cards/packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools" width="100%"/></picture></a></td>
 </tr>
 </table>
 
@@ -43,8 +43,8 @@ Operating coding agents and testing them in controlled worlds.
 
 <table>
 <tr>
-  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/syndicate.svg" alt="Syndicate — Control plane for coding agents" width="100%"/></a></td>
-  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/blackboxai.svg" alt="blackboxai — Synthetic worlds for agent evaluation" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><picture><source media="(max-width: 600px)" srcset="cards/syndicate-mobile.svg"/><img src="cards/syndicate.svg" alt="Syndicate — Control plane for coding agents" width="100%"/></picture></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><picture><source media="(max-width: 600px)" srcset="cards/blackboxai-mobile.svg"/><img src="cards/blackboxai.svg" alt="blackboxai — Synthetic worlds for agent evaluation" width="100%"/></picture></a></td>
 </tr>
 </table>
 
@@ -54,8 +54,8 @@ Policy-aware operations and document workflows.
 
 <table>
 <tr>
-  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/synapse.svg" alt="synapse — Enterprise endpoint operations" width="100%"/></a></td>
-  <td width="50%" align="center"><a href="https://github.com/packetloss404/docvault"><img src="cards/docvault.svg" alt="docvault — Enterprise document management" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><picture><source media="(max-width: 600px)" srcset="cards/synapse-mobile.svg"/><img src="cards/synapse.svg" alt="synapse — Enterprise endpoint operations" width="100%"/></picture></a></td>
+  <td width="50%" align="center"><a href="https://github.com/packetloss404/docvault"><picture><source media="(max-width: 600px)" srcset="cards/docvault-mobile.svg"/><img src="cards/docvault.svg" alt="docvault — Enterprise document management" width="100%"/></picture></a></td>
 </tr>
 </table>
 
@@ -65,12 +65,12 @@ Customer-facing software, creative operations, and an AI game world.
 
 <table>
 <tr>
-  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/demarc.svg" alt="Demarc — AI voice and SMS operations" width="100%"/></a></td>
-  <td width="50%" align="center"><a href="https://www.continuumfinance.io/"><img src="cards/continuum.svg" alt="Continuum — Personal finance workspace" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><picture><source media="(max-width: 600px)" srcset="cards/demarc-mobile.svg"/><img src="cards/demarc.svg" alt="Demarc — AI voice and SMS operations" width="100%"/></picture></a></td>
+  <td width="50%" align="center"><a href="https://www.continuumfinance.io/"><picture><source media="(max-width: 600px)" srcset="cards/continuum-mobile.svg"/><img src="cards/continuum.svg" alt="Continuum — Personal finance workspace" width="100%"/></picture></a></td>
 </tr>
 <tr>
-  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/lumaflow.svg" alt="lumaflow — Studio management platform" width="100%"/></a></td>
-  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/openworld.svg" alt="Open World — AI game world and control portal" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><picture><source media="(max-width: 600px)" srcset="cards/lumaflow-mobile.svg"/><img src="cards/lumaflow.svg" alt="lumaflow — Studio management platform" width="100%"/></picture></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><picture><source media="(max-width: 600px)" srcset="cards/openworld-mobile.svg"/><img src="cards/openworld.svg" alt="Open World — AI game world and control portal" width="100%"/></picture></a></td>
 </tr>
 </table>
 

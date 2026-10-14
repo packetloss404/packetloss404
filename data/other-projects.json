@@ -7,6 +7,7 @@
         "slug": "syndicate",
         "title": "Syndicate",
         "subtitle": "Control plane for coding agents",
+        "mobileSubtitle": "Coding agent ops",
         "tags": ["WORKTREES", "APPROVALS", "PRIVATE"],
         "url": "https://www.packetloss404.com/#private",
         "accent": "screenBlue"
@@ -15,6 +16,7 @@
         "slug": "blackboxai",
         "title": "blackboxai",
         "subtitle": "Synthetic worlds for agent evaluation",
+        "mobileSubtitle": "Agent test worlds",
         "tags": ["AGENTS", "SIMULATION", "PRIVATE"],
         "url": "https://www.packetloss404.com/#private",
         "accent": "screenPurple"
@@ -29,6 +31,7 @@
         "slug": "synapse",
         "title": "synapse",
         "subtitle": "Enterprise endpoint operations",
+        "mobileSubtitle": "Endpoint ops",
         "tags": ["ENDPOINTS", "POLICY", "PRIVATE"],
         "url": "https://www.packetloss404.com/#private",
         "accent": "screenGlow"
@@ -37,6 +40,7 @@
         "slug": "docvault",
         "title": "docvault",
         "subtitle": "Enterprise document management",
+        "mobileSubtitle": "Document platform",
         "tags": ["RAG", "E-SIGN", "PUBLIC"],
         "url": "https://github.com/packetloss404/docvault",
         "repo": "packetloss404/docvault",
@@ -52,6 +56,7 @@
         "slug": "demarc",
         "title": "Demarc",
         "subtitle": "AI voice and SMS operations",
+        "mobileSubtitle": "AI voice + SMS",
         "tags": ["VOICE", "SMS", "PRIVATE"],
         "url": "https://www.packetloss404.com/#private",
         "accent": "screenPurple"
@@ -60,6 +65,7 @@
         "slug": "continuum",
         "title": "Continuum",
         "subtitle": "Personal finance workspace",
+        "mobileSubtitle": "Finance workspace",
         "tags": ["FINANCE", "INSIGHTS", "PRIVATE"],
         "url": "https://www.continuumfinance.io/",
         "accent": "screenGlow"
@@ -68,6 +74,7 @@
         "slug": "lumaflow",
         "title": "lumaflow",
         "subtitle": "Studio management platform",
+        "mobileSubtitle": "Studio operations",
         "tags": ["BOOKINGS", "PAYMENTS", "PRIVATE"],
         "url": "https://www.packetloss404.com/#private",
         "accent": "screenBlue"
@@ -76,6 +83,7 @@
         "slug": "openworld",
         "title": "Open World",
         "subtitle": "AI game world and control portal",
+        "mobileSubtitle": "AI game world",
         "tags": ["GAME", "AI", "LOCAL MVP"],
         "url": "https://www.packetloss404.com/#private",
         "accent": "screenPurple"

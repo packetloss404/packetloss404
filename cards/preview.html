@@ -12,13 +12,14 @@
     .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 
     .grid a { display: block; min-width: 0; }
+    .grid picture { display: block; }
     .grid img { display: block; width: 100%; height: auto; }
     .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
     h2 { margin: 40px 0 8px; font-size: 20px; }
     .group p { margin-bottom: 16px; }
     .more a { color: #79c0ff; }
     @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-    @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .grid a:last-child { grid-column: auto; width: 100%; } }
+    @media (max-width: 520px) { main { padding: 24px 48px; } .grid { gap: 12px; } .grid a { padding: 10px; border: 1px solid #30363d; } .grid a:last-child { grid-column: auto; width: auto; justify-self: stretch; } }
   </style>
 </head>
 <body>
@@ -29,16 +30,28 @@
     <p>Deployment, model routing, and agent development.</p>
     <div class="grid">
       <a href="https://deployatmidnight.com/" aria-label="Midnight — Self-hosted Go deployment platform">
-        <img src="./midnight.svg" alt="Midnight — Self-hosted Go deployment platform">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./midnight-mobile.svg">
+          <img src="./midnight.svg" alt="Midnight — Self-hosted Go deployment platform">
+        </picture>
       </a>
       <a href="https://usesugar.dev/" aria-label="Sugar — Private model gateway for coding agents">
-        <img src="./sugar.svg" alt="Sugar — Private model gateway for coding agents">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./sugar-mobile.svg">
+          <img src="./sugar.svg" alt="Sugar — Private model gateway for coding agents">
+        </picture>
       </a>
       <a href="https://github.com/packetloss404/PacketBench" aria-label="PacketBench — Desktop workspace for coding agents">
-        <img src="./packetbench.svg" alt="PacketBench — Desktop workspace for coding agents">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./packetbench-mobile.svg">
+          <img src="./packetbench.svg" alt="PacketBench — Desktop workspace for coding agents">
+        </picture>
       </a>
       <a href="https://github.com/packetloss404/packetcode" aria-label="packetcode — Terminal coding agent with approval-gated tools">
-        <img src="./packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./packetcode-mobile.svg">
+          <img src="./packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools">
+        </picture>
       </a>
     </div>
     <section class="group">
@@ -46,10 +59,16 @@
       <p>Operating coding agents and testing them in controlled worlds.</p>
       <div class="grid">
       <a href="https://www.packetloss404.com/#private" aria-label="Syndicate — Control plane for coding agents">
-        <img src="./syndicate.svg" alt="Syndicate — Control plane for coding agents">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./syndicate-mobile.svg">
+          <img src="./syndicate.svg" alt="Syndicate — Control plane for coding agents">
+        </picture>
       </a>
       <a href="https://www.packetloss404.com/#private" aria-label="blackboxai — Synthetic worlds for agent evaluation">
-        <img src="./blackboxai.svg" alt="blackboxai — Synthetic worlds for agent evaluation">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./blackboxai-mobile.svg">
+          <img src="./blackboxai.svg" alt="blackboxai — Synthetic worlds for agent evaluation">
+        </picture>
       </a>
       </div>
     </section>
@@ -58,10 +77,16 @@
       <p>Policy-aware operations and document workflows.</p>
       <div class="grid">
       <a href="https://www.packetloss404.com/#private" aria-label="synapse — Enterprise endpoint operations">
-        <img src="./synapse.svg" alt="synapse — Enterprise endpoint operations">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./synapse-mobile.svg">
+          <img src="./synapse.svg" alt="synapse — Enterprise endpoint operations">
+        </picture>
       </a>
       <a href="https://github.com/packetloss404/docvault" aria-label="docvault — Enterprise document management">
-        <img src="./docvault.svg" alt="docvault — Enterprise document management">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./docvault-mobile.svg">
+          <img src="./docvault.svg" alt="docvault — Enterprise document management">
+        </picture>
       </a>
       </div>
     </section>
@@ -70,16 +95,28 @@
       <p>Customer-facing software, creative operations, and an AI game world.</p>
       <div class="grid">
       <a href="https://www.packetloss404.com/#private" aria-label="Demarc — AI voice and SMS operations">
-        <img src="./demarc.svg" alt="Demarc — AI voice and SMS operations">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./demarc-mobile.svg">
+          <img src="./demarc.svg" alt="Demarc — AI voice and SMS operations">
+        </picture>
       </a>
       <a href="https://www.continuumfinance.io/" aria-label="Continuum — Personal finance workspace">
-        <img src="./continuum.svg" alt="Continuum — Personal finance workspace">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./continuum-mobile.svg">
+          <img src="./continuum.svg" alt="Continuum — Personal finance workspace">
+        </picture>
       </a>
       <a href="https://www.packetloss404.com/#private" aria-label="lumaflow — Studio management platform">
-        <img src="./lumaflow.svg" alt="lumaflow — Studio management platform">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./lumaflow-mobile.svg">
+          <img src="./lumaflow.svg" alt="lumaflow — Studio management platform">
+        </picture>
       </a>
       <a href="https://www.packetloss404.com/#private" aria-label="Open World — AI game world and control portal">
-        <img src="./openworld.svg" alt="Open World — AI game world and control portal">
+        <picture>
+          <source media="(max-width: 600px)" srcset="./openworld-mobile.svg">
+          <img src="./openworld.svg" alt="Open World — AI game world and control portal">
+        </picture>
       </a>
       </div>
     </section>
