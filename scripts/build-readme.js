@@ -50,12 +50,11 @@ function formatStatus(s) {
   return out;
 }
 
-function formatOtherProjects(projects) {
-  if (!Array.isArray(projects)) return '';
-  return projects.map((p) => {
-    const title = p.url ? `[${p.title}](${p.url})` : p.title;
-    return `- **${title}** — ${p.description}`;
-  }).join('\n');
+function formatProjectGroups(groups) {
+  if (!Array.isArray(groups)) return '';
+  return groups.map((group) =>
+    `### ${group.title}\n\n${group.description}\n\n${formatProjects(group.projects)}`
+  ).join('\n\n');
 }
 
 function main() {
@@ -67,11 +66,11 @@ function main() {
   const template = fs.readFileSync(TEMPLATE, 'utf8');
   const status   = loadJson(path.join(ROOT, 'data/status.json'), {});
   const projects = loadJson(path.join(ROOT, 'data/projects.json'), []);
-  const otherProjects = loadJson(path.join(ROOT, 'data/other-projects.json'), []);
+  const projectGroups = loadJson(path.join(ROOT, 'data/other-projects.json'), []);
   const ctx = {
     status:   formatStatus(status),
     projects: formatProjects(projects),
-    otherProjects: formatOtherProjects(otherProjects),
+    projectGroups: formatProjectGroups(projectGroups),
     year:     String(new Date().getFullYear()),
     updated:  new Date().toISOString().slice(0, 10),
   };

@@ -20,17 +20,17 @@ A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, i
 
 `TypeScript` · `Rust` · `Python` · `Go` · `PowerShell` · LLM orchestration · MCP · agents · evals · simulation
 
-## featured
+## projects
+
+### Featured
 
 Deployment, model routing, and agent development. Midnight's source is coming soon; Sugar's remains private. For now, their cards link to public product pages.
 
 {{projects}}
 
-## more of the work
+{{projectGroups}}
 
-Beyond the featured four, these systems span agent operations, enterprise workflows, and products. DocVault has public source; the others have private source and are described on the [workbench](https://www.packetloss404.com/#private). The [full portfolio](https://www.packetloss404.com/) covers the rest.
-
-{{otherProjects}}
+<sub>Private-source cards open the public project descriptions. [Explore the full portfolio](https://www.packetloss404.com/).</sub>
 
 ## currently
 

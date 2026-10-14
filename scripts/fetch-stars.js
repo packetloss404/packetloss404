@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Fetch star + fork counts for each repo listed in data/projects.json,
+ * Fetch star + fork counts for public repositories in both project galleries,
  * writing the result to data/repo-stats.json. Called before card generation
  * so stars appear on each card.
  *
@@ -14,6 +14,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '..');
 const PROJECTS_PATH = path.join(ROOT, 'data/projects.json');
+const GROUPS_PATH = path.join(ROOT, 'data/other-projects.json');
 const OUT_PATH = path.join(ROOT, 'data/repo-stats.json');
 
 function loadJson(p, fallback) {
@@ -22,7 +23,11 @@ function loadJson(p, fallback) {
 }
 
 function main() {
-  const projects = loadJson(PROJECTS_PATH, []);
+  const groups = loadJson(GROUPS_PATH, []);
+  const projects = [
+    ...loadJson(PROJECTS_PATH, []),
+    ...groups.flatMap((group) => group.projects || []),
+  ];
   if (!Array.isArray(projects) || projects.length === 0) {
     console.error('no projects configured; skipping');
     return;

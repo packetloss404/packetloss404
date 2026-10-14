@@ -3,12 +3,18 @@
     "stars": 0,
     "forks": 0,
     "description": "Local-first desktop Agent Development Environment — seven coding-agent providers behind one event contract.",
-    "updated": "2026-10-14T19:05:45.419Z"
+    "updated": "2026-10-14T19:35:27.767Z"
   },
   "packetloss404/packetcode": {
     "stars": 0,
     "forks": 0,
     "description": "Keyboard-first multi-provider AI coding agent for the terminal. Single Go binary, approval-gated tool runtime.",
-    "updated": "2026-10-14T19:05:45.892Z"
+    "updated": "2026-10-14T19:35:28.325Z"
+  },
+  "packetloss404/docvault": {
+    "stars": 0,
+    "forks": 1,
+    "description": "Enterprise document management: plugin ingestion pipeline, RAG search, e-signatures, legal hold, RBAC.",
+    "updated": "2026-10-14T19:35:28.867Z"
   }
 }

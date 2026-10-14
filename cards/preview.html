@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Featured projects preview</title>
+  <title>Project portfolio preview</title>
   <style>
     body { margin: 0; min-height: 100vh; background: #0d1117; color: #c9d1d9; font: 16px system-ui, sans-serif; }
     main { max-width: 1120px; margin: 0 auto; padding: 32px 24px; }
@@ -15,16 +15,18 @@
     .grid img { display: block; width: 100%; height: auto; }
     .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
     h2 { margin: 40px 0 8px; font-size: 20px; }
-    ul { margin: 0; padding-left: 22px; line-height: 1.7; }
-    li a, .more a { color: #79c0ff; }
+    .group p { margin-bottom: 16px; }
+    .more a { color: #79c0ff; }
     @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .grid a:last-child { grid-column: auto; width: 100%; } }
   </style>
 </head>
 <body>
   <main>
-    <h1>Featured projects</h1>
-    <p>Preview of the featured cards in the profile README.</p>
+    <h1>Projects</h1>
+    <p>Preview of the project gallery in the profile README.</p>
+    <h2>Featured</h2>
+    <p>Deployment, model routing, and agent development.</p>
     <div class="grid">
       <a href="https://deployatmidnight.com/" aria-label="Midnight — Self-hosted Go deployment platform">
         <img src="./midnight.svg" alt="Midnight — Self-hosted Go deployment platform">
@@ -39,18 +41,49 @@
         <img src="./packetcode.svg" alt="packetcode — Terminal coding agent with approval-gated tools">
       </a>
     </div>
-    <h2>More of the work</h2>
-    <p class="more">These systems span agent operations, enterprise workflows, and products. DocVault has public source; the others have private source and are described on the <a href="https://www.packetloss404.com/#private">workbench</a>. The <a href="https://www.packetloss404.com/">full portfolio</a> covers the rest.</p>
-    <ul>
-      <li><strong><a href="https://github.com/packetloss404/docvault">docvault</a></strong> — Document management with ingestion, RAG search, e-signatures, and legal hold.</li>
-      <li><strong>Syndicate</strong> — A local-first control plane for coding agents with isolated worktrees, durable sessions, approvals, and execution evidence.</li>
-      <li><strong>synapse</strong> — Enterprise workspace and endpoint operations with policy-bounded remediation and XLA reporting.</li>
-      <li><strong>Demarc</strong> — An AI voice and SMS runtime with provider adapters, bidirectional streaming, and an operator dashboard.</li>
-      <li><strong>blackboxai</strong> — Structured, simulated environments for testing AI agents.</li>
-      <li><strong>Continuum</strong> — A personal finance workspace for bank accounts, brokerage portfolios, and AI insights.</li>
-      <li><strong>lumaflow</strong> — Studio operations for photographers, from bookings and contracts to payments and client galleries.</li>
-      <li><strong>Open World</strong> — An AI-powered game world with an offline Camp preview and World Control portal; currently a local MVP.</li>
-    </ul>
+    <section class="group">
+      <h2>Agents &amp; simulation</h2>
+      <p>Operating coding agents and testing them in controlled worlds.</p>
+      <div class="grid">
+      <a href="https://www.packetloss404.com/#private" aria-label="Syndicate — Control plane for coding agents">
+        <img src="./syndicate.svg" alt="Syndicate — Control plane for coding agents">
+      </a>
+      <a href="https://www.packetloss404.com/#private" aria-label="blackboxai — Synthetic worlds for agent evaluation">
+        <img src="./blackboxai.svg" alt="blackboxai — Synthetic worlds for agent evaluation">
+      </a>
+      </div>
+    </section>
+    <section class="group">
+      <h2>Enterprise systems</h2>
+      <p>Policy-aware operations and document workflows.</p>
+      <div class="grid">
+      <a href="https://www.packetloss404.com/#private" aria-label="synapse — Enterprise endpoint operations">
+        <img src="./synapse.svg" alt="synapse — Enterprise endpoint operations">
+      </a>
+      <a href="https://github.com/packetloss404/docvault" aria-label="docvault — Enterprise document management">
+        <img src="./docvault.svg" alt="docvault — Enterprise document management">
+      </a>
+      </div>
+    </section>
+    <section class="group">
+      <h2>Products &amp; worlds</h2>
+      <p>Customer-facing software, creative operations, and an AI game world.</p>
+      <div class="grid">
+      <a href="https://www.packetloss404.com/#private" aria-label="Demarc — AI voice and SMS operations">
+        <img src="./demarc.svg" alt="Demarc — AI voice and SMS operations">
+      </a>
+      <a href="https://www.packetloss404.com/#private" aria-label="Continuum — Personal finance workspace">
+        <img src="./continuum.svg" alt="Continuum — Personal finance workspace">
+      </a>
+      <a href="https://www.packetloss404.com/#private" aria-label="lumaflow — Studio management platform">
+        <img src="./lumaflow.svg" alt="lumaflow — Studio management platform">
+      </a>
+      <a href="https://www.packetloss404.com/#private" aria-label="Open World — AI game world and control portal">
+        <img src="./openworld.svg" alt="Open World — AI game world and control portal">
+      </a>
+      </div>
+    </section>
+    <p class="more">Private-source cards open public project descriptions. <a href="https://www.packetloss404.com/">Explore the full portfolio</a>.</p>
   </main>
 </body>
 </html>

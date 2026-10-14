@@ -1,35 +1,85 @@
 [
   {
-    "title": "docvault",
-    "description": "Document management with ingestion, RAG search, e-signatures, and legal hold.",
-    "url": "https://github.com/packetloss404/docvault"
+    "title": "Agents & simulation",
+    "description": "Operating coding agents and testing them in controlled worlds.",
+    "projects": [
+      {
+        "slug": "syndicate",
+        "title": "Syndicate",
+        "subtitle": "Control plane for coding agents",
+        "tags": ["WORKTREES", "APPROVALS", "PRIVATE"],
+        "url": "https://www.packetloss404.com/#private",
+        "accent": "screenBlue"
+      },
+      {
+        "slug": "blackboxai",
+        "title": "blackboxai",
+        "subtitle": "Synthetic worlds for agent evaluation",
+        "tags": ["AGENTS", "SIMULATION", "PRIVATE"],
+        "url": "https://www.packetloss404.com/#private",
+        "accent": "screenPurple"
+      }
+    ]
   },
   {
-    "title": "Syndicate",
-    "description": "A local-first control plane for coding agents with isolated worktrees, durable sessions, approvals, and execution evidence."
+    "title": "Enterprise systems",
+    "description": "Policy-aware operations and document workflows.",
+    "projects": [
+      {
+        "slug": "synapse",
+        "title": "synapse",
+        "subtitle": "Enterprise endpoint operations",
+        "tags": ["ENDPOINTS", "POLICY", "PRIVATE"],
+        "url": "https://www.packetloss404.com/#private",
+        "accent": "screenGlow"
+      },
+      {
+        "slug": "docvault",
+        "title": "docvault",
+        "subtitle": "Enterprise document management",
+        "tags": ["RAG", "E-SIGN", "PUBLIC"],
+        "url": "https://github.com/packetloss404/docvault",
+        "repo": "packetloss404/docvault",
+        "accent": "screenBlue"
+      }
+    ]
   },
   {
-    "title": "synapse",
-    "description": "Enterprise workspace and endpoint operations with policy-bounded remediation and XLA reporting."
-  },
-  {
-    "title": "Demarc",
-    "description": "An AI voice and SMS runtime with provider adapters, bidirectional streaming, and an operator dashboard."
-  },
-  {
-    "title": "blackboxai",
-    "description": "Structured, simulated environments for testing AI agents."
-  },
-  {
-    "title": "Continuum",
-    "description": "A personal finance workspace for bank accounts, brokerage portfolios, and AI insights."
-  },
-  {
-    "title": "lumaflow",
-    "description": "Studio operations for photographers, from bookings and contracts to payments and client galleries."
-  },
-  {
-    "title": "Open World",
-    "description": "An AI-powered game world with an offline Camp preview and World Control portal; currently a local MVP."
+    "title": "Products & worlds",
+    "description": "Customer-facing software, creative operations, and an AI game world.",
+    "projects": [
+      {
+        "slug": "demarc",
+        "title": "Demarc",
+        "subtitle": "AI voice and SMS operations",
+        "tags": ["VOICE", "SMS", "PRIVATE"],
+        "url": "https://www.packetloss404.com/#private",
+        "accent": "screenPurple"
+      },
+      {
+        "slug": "continuum",
+        "title": "Continuum",
+        "subtitle": "Personal finance workspace",
+        "tags": ["FINANCE", "INSIGHTS", "PRIVATE"],
+        "url": "https://www.packetloss404.com/#private",
+        "accent": "screenGlow"
+      },
+      {
+        "slug": "lumaflow",
+        "title": "lumaflow",
+        "subtitle": "Studio management platform",
+        "tags": ["BOOKINGS", "PAYMENTS", "PRIVATE"],
+        "url": "https://www.packetloss404.com/#private",
+        "accent": "screenBlue"
+      },
+      {
+        "slug": "openworld",
+        "title": "Open World",
+        "subtitle": "AI game world and control portal",
+        "tags": ["GAME", "AI", "LOCAL MVP"],
+        "url": "https://www.packetloss404.com/#private",
+        "accent": "screenPurple"
+      }
+    ]
   }
 ]

@@ -20,7 +20,9 @@ A career in enterprise infrastructure underneath it — VMware/Omnissa, Azure, i
 
 `TypeScript` · `Rust` · `Python` · `Go` · `PowerShell` · LLM orchestration · MCP · agents · evals · simulation
 
-## featured
+## projects
+
+### Featured
 
 Deployment, model routing, and agent development. Midnight's source is coming soon; Sugar's remains private. For now, their cards link to public product pages.
 
@@ -35,18 +37,44 @@ Deployment, model routing, and agent development. Midnight's source is coming so
 </tr>
 </table>
 
-## more of the work
+### Agents & simulation
 
-Beyond the featured four, these systems span agent operations, enterprise workflows, and products. DocVault has public source; the others have private source and are described on the [workbench](https://www.packetloss404.com/#private). The [full portfolio](https://www.packetloss404.com/) covers the rest.
+Operating coding agents and testing them in controlled worlds.
 
-- **[docvault](https://github.com/packetloss404/docvault)** — Document management with ingestion, RAG search, e-signatures, and legal hold.
-- **Syndicate** — A local-first control plane for coding agents with isolated worktrees, durable sessions, approvals, and execution evidence.
-- **synapse** — Enterprise workspace and endpoint operations with policy-bounded remediation and XLA reporting.
-- **Demarc** — An AI voice and SMS runtime with provider adapters, bidirectional streaming, and an operator dashboard.
-- **blackboxai** — Structured, simulated environments for testing AI agents.
-- **Continuum** — A personal finance workspace for bank accounts, brokerage portfolios, and AI insights.
-- **lumaflow** — Studio operations for photographers, from bookings and contracts to payments and client galleries.
-- **Open World** — An AI-powered game world with an offline Camp preview and World Control portal; currently a local MVP.
+<table>
+<tr>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/syndicate.svg" alt="Syndicate — Control plane for coding agents" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/blackboxai.svg" alt="blackboxai — Synthetic worlds for agent evaluation" width="100%"/></a></td>
+</tr>
+</table>
+
+### Enterprise systems
+
+Policy-aware operations and document workflows.
+
+<table>
+<tr>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/synapse.svg" alt="synapse — Enterprise endpoint operations" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://github.com/packetloss404/docvault"><img src="cards/docvault.svg" alt="docvault — Enterprise document management" width="100%"/></a></td>
+</tr>
+</table>
+
+### Products & worlds
+
+Customer-facing software, creative operations, and an AI game world.
+
+<table>
+<tr>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/demarc.svg" alt="Demarc — AI voice and SMS operations" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/continuum.svg" alt="Continuum — Personal finance workspace" width="100%"/></a></td>
+</tr>
+<tr>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/lumaflow.svg" alt="lumaflow — Studio management platform" width="100%"/></a></td>
+  <td width="50%" align="center"><a href="https://www.packetloss404.com/#private"><img src="cards/openworld.svg" alt="Open World — AI game world and control portal" width="100%"/></a></td>
+</tr>
+</table>
+
+<sub>Private-source cards open the public project descriptions. [Explore the full portfolio](https://www.packetloss404.com/).</sub>
 
 ## currently
 

@@ -2,7 +2,8 @@
 /**
  * Generate project showcase SVG cards matching the banner's particle aesthetic.
  *
- * Reads card definitions from data/projects.json, optionally enriches each
+ * Reads card definitions from data/projects.json and data/other-projects.json,
+ * optionally enriches each
  * with a positive star count from data/repo-stats.json,
  * and writes one SVG per project plus cards/preview.html.
  *
@@ -150,24 +151,27 @@ function escapeXml(s) {
   }[c]));
 }
 
-function renderPreview(projects, otherProjects) {
+function renderPreview(projects, projectGroups) {
   const columns = projects.length <= 5 ? 2 : 3;
   const centerLast = columns === 2 && projects.length > 1 && projects.length % 2 === 1;
-  const cards = projects.map((p) =>
+  const card = (p) =>
     `      <a href="${escapeXml(p.url)}" aria-label="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
         <img src="./${escapeXml(p.slug)}.svg" alt="${escapeXml(p.title)} — ${escapeXml(p.subtitle)}">
-      </a>`
-  ).join('\n');
-  const others = otherProjects.map((p) => {
-    const title = p.url ? `<a href="${escapeXml(p.url)}">${escapeXml(p.title)}</a>` : escapeXml(p.title);
-    return `      <li><strong>${title}</strong> — ${escapeXml(p.description)}</li>`;
-  }).join('\n');
+      </a>`;
+  const cards = projects.map(card).join('\n');
+  const groups = projectGroups.map((group) => `    <section class="group">
+      <h2>${escapeXml(group.title)}</h2>
+      <p>${escapeXml(group.description)}</p>
+      <div class="grid">
+${group.projects.map(card).join('\n')}
+      </div>
+    </section>`).join('\n');
   return `<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Featured projects preview</title>
+  <title>Project portfolio preview</title>
   <style>
     body { margin: 0; min-height: 100vh; background: #0d1117; color: #c9d1d9; font: 16px system-ui, sans-serif; }
     main { max-width: 1120px; margin: 0 auto; padding: 32px 24px; }
@@ -179,24 +183,23 @@ ${centerLast ? '    .grid a:last-child { grid-column: 1 / -1; width: calc((100% 
     .grid img { display: block; width: 100%; height: auto; }
     .grid a:focus-visible { outline: 2px solid #58a6ff; outline-offset: 4px; }
     h2 { margin: 40px 0 8px; font-size: 20px; }
-    ul { margin: 0; padding-left: 22px; line-height: 1.7; }
-    li a, .more a { color: #79c0ff; }
+    .group p { margin-bottom: 16px; }
+    .more a { color: #79c0ff; }
     @media (max-width: 760px) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } .grid a:last-child { grid-column: auto; width: 100%; } }
   </style>
 </head>
 <body>
   <main>
-    <h1>Featured projects</h1>
-    <p>Preview of the featured cards in the profile README.</p>
+    <h1>Projects</h1>
+    <p>Preview of the project gallery in the profile README.</p>
+    <h2>Featured</h2>
+    <p>Deployment, model routing, and agent development.</p>
     <div class="grid">
 ${cards}
     </div>
-    <h2>More of the work</h2>
-    <p class="more">These systems span agent operations, enterprise workflows, and products. DocVault has public source; the others have private source and are described on the <a href="https://www.packetloss404.com/#private">workbench</a>. The <a href="https://www.packetloss404.com/">full portfolio</a> covers the rest.</p>
-    <ul>
-${others}
-    </ul>
+${groups}
+    <p class="more">Private-source cards open public project descriptions. <a href="https://www.packetloss404.com/">Explore the full portfolio</a>.</p>
   </main>
 </body>
 </html>
@@ -217,11 +220,12 @@ function main() {
   }
 
   const projects = loadProjects();
-  const otherProjects = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/other-projects.json'), 'utf8'));
+  const projectGroups = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/other-projects.json'), 'utf8'));
   const stats = loadStats();
 
-  for (let i = 0; i < projects.length; i++) {
-    const p = { ...projects[i] };
+  const allProjects = [...projects, ...projectGroups.flatMap((group) => group.projects)];
+  for (let i = 0; i < allProjects.length; i++) {
+    const p = { ...allProjects[i] };
     if (p.repo && stats[p.repo] && typeof stats[p.repo].stars === 'number') {
       p.stars = stats[p.repo].stars;
     }
@@ -234,7 +238,7 @@ function main() {
   }
 
   const previewPath = path.join(ROOT, 'cards/preview.html');
-  fs.writeFileSync(previewPath, renderPreview(projects, otherProjects));
+  fs.writeFileSync(previewPath, renderPreview(projects, projectGroups));
   console.log(`Wrote ${previewPath}`);
 }
 
